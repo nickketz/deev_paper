@@ -284,44 +284,6 @@
     \field{year}{2015}
   \endentry
 
-  \entry{BortoneOlsenScanziani14}{article}{}
-    \name{author}{3}{}{%
-      {{hash=BDS}{%
-         family={Bortone},
-         family_i={B\bibinitperiod},
-         given={Dante\bibnamedelima S},
-         given_i={D\bibinitperiod\bibinitdelim S\bibinitperiod},
-      }}%
-      {{hash=OSR}{%
-         family={Olsen},
-         family_i={O\bibinitperiod},
-         given={Shawn\bibnamedelima R},
-         given_i={S\bibinitperiod\bibinitdelim R\bibinitperiod},
-      }}%
-      {{hash=SM}{%
-         family={Scanziani},
-         family_i={S\bibinitperiod},
-         given={Massimo},
-         given_i={M\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{BDSOSRSM1}
-    \strng{fullhash}{BDSOSRSM1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{B}
-    \field{sortinithash}{B}
-    \field{title}{Translaminar Inhibitory Cells Recruited by Layer 6
-  Corticothalamic Neurons Suppress Visual Cortex.}
-    \field{volume}{82}
-    \verb{file}
-    \verb /Users/naketz/Zotero/storage/H3ZPC65T/BortoneOlsenScanziani14.pdf
-    \endverb
-    \field{journaltitle}{Neuron}
-    \field{month}{04}
-    \field{year}{2014}
-  \endentry
-
   \entry{Brainard97}{article}{}
     \name{author}{1}{}{%
       {{hash=BDH}{%
@@ -1329,77 +1291,6 @@
     \field{year}{1995}
   \endentry
 
-  \entry{MontijnKlinkVanWezel12}{article}{}
-    \name{author}{3}{}{%
-      {{hash=MJS}{%
-         family={Montijn},
-         family_i={M\bibinitperiod},
-         given={Jorrit\bibnamedelima Steven},
-         given_i={J\bibinitperiod\bibinitdelim S\bibinitperiod},
-      }}%
-      {{hash=KPC}{%
-         family={Klink},
-         family_i={K\bibinitperiod},
-         given={P.\bibnamedelima Christaan},
-         given_i={P\bibinitperiod\bibinitdelim C\bibinitperiod},
-      }}%
-      {{hash=VWRJA}{%
-         family={Van\bibnamedelima Wezel},
-         family_i={V\bibinitperiod\bibinitdelim W\bibinitperiod},
-         given={Richard J.\bibnamedelima A.},
-         given_i={R\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim
-  A\bibinitperiod},
-      }}%
-    }
-    \keyw{neuronal oscillations,divisive normalization,hierarchical
-  normalization and
-  oscillation,phase-locking,communication-through-coherence,computational
-  model,Attention,visual cortex}
-    \strng{namehash}{MJSKPCVWRJA1}
-    \strng{fullhash}{MJSKPCVWRJA1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{M}
-    \field{sortinithash}{M}
-    \field{abstract}{%
-    Divisive normalization models of covert attention commonly use spike rate
-  modulations as indicators of the effect of top-down attention. In addition,
-  an increasing number of studies have shown that top-down attention increases
-  the synchronization of neuronal oscillations as well, particularly in
-  gamma-band frequencies (25\textendash{}100 Hz). Although modulations of spike
-  rate and synchronous oscillations are not mutually exclusive as mechanisms of
-  attention, there has thus far been little effort to integrate these concepts
-  into a single framework of attention. Here, we aim to provide such a unified
-  framework by expanding the normalization model of attention with a
-  multi-level hierarchical structure and a time dimension; allowing the
-  simulation of a recently reported backward progression of attentional effects
-  along the visual cortical hierarchy. A simple cascade of normalization models
-  simulating different cortical areas is shown to cause signal degradation and
-  a loss of stimulus discriminability over time. To negate this degradation and
-  ensure stable neuronal stimulus representations, we incorporate a kind of
-  oscillatory phase entrainment into our model that has previously been
-  proposed as the ``communication-through-coherence'' (CTC) hypothesis. Our
-  analysis shows that divisive normalization and oscillation models can
-  complement each other in a unified account of the neural mechanisms of
-  selective visual attention. The resulting hierarchical normalization and
-  oscillation (HNO) model reproduces several additional spatial and temporal
-  aspects of attentional modulation and predicts a latency effect on neuronal
-  responses as a result of cued attention.%
-    }
-    \verb{doi}
-    \verb 10.3389/fncir.2012.00022
-    \endverb
-    \field{pages}{22}
-    \field{title}{Divisive Normalization and Neuronal Oscillations in a Single
-  Hierarchical Framework of Selective Visual Attention}
-    \field{volume}{6}
-    \verb{file}
-    \verb /Users/naketz/Zotero/storage/6IGGS88M/MontijnKlinkVanWezel12.pdf
-    \endverb
-    \field{journaltitle}{Frontiers in Neural Circuits}
-    \field{year}{2012}
-  \endentry
-
   \entry{NormanOReilly03}{article}{}
     \name{author}{2}{}{%
       {{hash=NKA}{%
@@ -1468,75 +1359,6 @@
     \field{year}{2010}
   \endentry
 
-  \entry{OReillyWyatteRohrlich14}{article}{}
-    \name{author}{3}{}{%
-      {{hash=ORC}{%
-         family={O'Reilly},
-         family_i={O\bibinitperiod},
-         given={Randall\bibnamedelima C.},
-         given_i={R\bibinitperiod\bibinitdelim C\bibinitperiod},
-      }}%
-      {{hash=WD}{%
-         family={Wyatte},
-         family_i={W\bibinitperiod},
-         given={Dean},
-         given_i={D\bibinitperiod},
-      }}%
-      {{hash=RJ}{%
-         family={Rohrlich},
-         family_i={R\bibinitperiod},
-         given={John},
-         given_i={J\bibinitperiod},
-      }}%
-    }
-    \keyw{Quantitative Biology - Neurons and Cognition}
-    \strng{namehash}{ORCWDRJ1}
-    \strng{fullhash}{ORCWDRJ1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{O}
-    \field{sortinithash}{O}
-    \field{abstract}{%
-    We present a comprehensive, novel framework for understanding how the
-  neocortex, including the thalamocortical loops through the deep layers, can
-  support a temporal context representation in the service of predictive
-  learning. Many have argued that predictive learning provides a compelling,
-  powerful source of learning signals to drive the development of human
-  intelligence: if we constantly predict what will happen next, and learn based
-  on the discrepancies from our predictions (error-driven learning), then we
-  can learn to improve our predictions by developing internal representations
-  that capture the regularities of the environment (e.g., physical laws
-  governing the time-evolution of object motions). Our version of this idea
-  builds upon existing work with simple recurrent networks (SRN's), which have
-  a discretely-updated temporal context representations that are a direct copy
-  of the prior internal state representation. We argue that this discretization
-  of temporal context updating has a number of important computational and
-  functional advantages, and further show how the strong alpha-frequency (10hz,
-  100ms cycle time) oscillations in the posterior neocortex could reflect this
-  temporal context updating. We examine a wide range of data from biology to
-  behavior through the lens of this LeabraTI model, and find that it provides a
-  unified account of a number of otherwise disconnected findings, all of which
-  converge to support this new model of neocortical learning and processing. We
-  describe an implemented model showing how predictive learning of tumbling
-  object trajectories can facilitate object recognition with cluttered
-  backgrounds.%
-    }
-    \verb{eprint}
-    \verb 1407.3432
-    \endverb
-    \field{title}{Learning {{Through Time}} in the {{Thalamocortical Loops}}}
-    \verb{file}
-    \verb /Users/naketz/Zotero/storage/6J4X3U3P/OReillyWyatteRohrlich14.pdf;/Us
-    \verb ers/naketz/Zotero/storage/WWIKG8F6/1407.html
-    \endverb
-    \field{journaltitle}{arXiv:1407.3432 [q-bio]}
-    \field{eprinttype}{arxiv}
-    \field{eprintclass}{q-bio}
-    \field{month}{07}
-    \field{year}{2014}
-    \warn{\item Can't use 'eprinttype' + 'archiveprefix'}
-  \endentry
-
   \entry{OReillyBhattacharyyaHowardEtAl14}{article}{}
     \name{author}{4}{}{%
       {{hash=ORC}{%
@@ -1577,51 +1399,6 @@
     \field{journaltitle}{Cognitive Science}
     \field{month}{12}
     \field{year}{2014}
-  \endentry
-
-  \entry{OlsenBortoneAdesnikEtAl12}{article}{}
-    \name{author}{4}{}{%
-      {{hash=OS}{%
-         family={Olsen},
-         family_i={O\bibinitperiod},
-         given={Shawn},
-         given_i={S\bibinitperiod},
-      }}%
-      {{hash=BD}{%
-         family={Bortone},
-         family_i={B\bibinitperiod},
-         given={Dante},
-         given_i={D\bibinitperiod},
-      }}%
-      {{hash=AH}{%
-         family={Adesnik},
-         family_i={A\bibinitperiod},
-         given={Hillel},
-         given_i={H\bibinitperiod},
-      }}%
-      {{hash=SM}{%
-         family={Scanziani},
-         family_i={S\bibinitperiod},
-         given={Massimo},
-         given_i={M\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{OS+1}
-    \strng{fullhash}{OSBDAHSM1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{O}
-    \field{sortinithash}{O}
-    \field{number}{7387}
-    \field{pages}{47\bibrangedash 52}
-    \field{title}{Gain Control by Layer Six in Cortical Circuits of Vision}
-    \field{volume}{483}
-    \verb{file}
-    \verb /Users/naketz/Zotero/storage/NS9SN9DP/OlsenBortoneAdesnikEtAl12.pdf
-    \endverb
-    \field{journaltitle}{Nature}
-    \field{month}{02}
-    \field{year}{2012}
   \endentry
 
   \entry{OostenveldFriesMarisEtAl11}{article}{}
@@ -1804,39 +1581,6 @@
     \field{journaltitle}{The Journal of neuroscience}
     \field{month}{02}
     \field{year}{2005}
-  \endentry
-
-  \entry{ReynoldsHeeger09}{article}{}
-    \name{author}{2}{}{%
-      {{hash=RJH}{%
-         family={Reynolds},
-         family_i={R\bibinitperiod},
-         given={John\bibnamedelima H.},
-         given_i={J\bibinitperiod\bibinitdelim H\bibinitperiod},
-      }}%
-      {{hash=HDJ}{%
-         family={Heeger},
-         family_i={H\bibinitperiod},
-         given={David\bibnamedelima J.},
-         given_i={D\bibinitperiod\bibinitdelim J\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{RJHHDJ1}
-    \strng{fullhash}{RJHHDJ1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{R}
-    \field{sortinithash}{R}
-    \field{number}{2}
-    \field{pages}{168\bibrangedash 185}
-    \field{title}{The Normalization Model of Attention.}
-    \field{volume}{61}
-    \verb{file}
-    \verb /Users/naketz/Zotero/storage/4WH3IABI/ReynoldsHeeger09.pdf
-    \endverb
-    \field{journaltitle}{Neuron}
-    \field{month}{01}
-    \field{year}{2009}
   \endentry
 
   \entry{SaalmannKastner11}{article}{}
