@@ -1,0 +1,386 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.7 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \sortlist[entry]{apa/global/}
+    \entry{BortoneOlsenScanziani14}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,hash=8e905c08b833a716d4c4c38de25b95c8}{%
+           family={Bortone},
+           family_i={B\bibinitperiod},
+           given={Dante\bibnamedelima S},
+           given_i={D\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{uniquename=0,hash=4228825eefa5731dcd6a763090d58bfb}{%
+           family={Olsen},
+           family_i={O\bibinitperiod},
+           given={Shawn\bibnamedelima R},
+           given_i={S\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{uniquename=0,hash=d18343afd48f4062261a397354542d58}{%
+           family={Scanziani},
+           family_i={S\bibinitperiod},
+           given={Massimo},
+           given_i={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{9983eb90748ea7507eec0e502693b179}
+      \strng{fullhash}{86642708911e0563ea73ad930e94784f}
+      \field{sortinit}{B}
+      \field{sortinithash}{4ecbea03efd0532989d3836d1a048c32}
+      \field{labelyear}{2014}
+      \field{labelmonth}{04}
+      \field{datelabelsource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Neuron}
+      \field{month}{04}
+      \field{title}{Translaminar Inhibitory Cells Recruited by Layer 6 Corticothalamic Neurons Suppress Visual Cortex.}
+      \field{volume}{82}
+      \field{year}{2014}
+      \verb{file}
+      \verb /Users/naketz/Zotero/storage/H3ZPC65T/BortoneOlsenScanziani14.pdf
+      \endverb
+    \endentry
+    \entry{HornerBisbyBushEtAl15}{article}{}
+      \name{author}{5}{}{%
+        {{uniquename=0,hash=6ed2096b733923a7674a45f935338512}{%
+           family={Horner},
+           family_i={H\bibinitperiod},
+           given={Aidan\bibnamedelima J.},
+           given_i={A\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{uniquename=0,hash=4f3e0ecfc78b824dac6baf353fee699d}{%
+           family={Bisby},
+           family_i={B\bibinitperiod},
+           given={James\bibnamedelima A.},
+           given_i={J\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{uniquename=0,hash=7a0342c324be949bf7ddf1531f8830b6}{%
+           family={Bush},
+           family_i={B\bibinitperiod},
+           given={Daniel},
+           given_i={D\bibinitperiod}}}%
+        {{uniquename=0,hash=aa29f2bfcb87f0ee4ec6f77badf7baa8}{%
+           family={Lin},
+           family_i={L\bibinitperiod},
+           given={Wen-Jing},
+           given_i={W\bibinithyphendelim J\bibinitperiod}}}%
+        {{uniquename=0,hash=a9c45b0d2c0c43965950d9b84b7d978a}{%
+           family={Burgess},
+           family_i={B\bibinitperiod},
+           given={Neil},
+           given_i={N\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {eng}%
+      }
+      \strng{namehash}{74b6bb9762e73edfd4f84f58f7776df3}
+      \strng{fullhash}{2c5caa14a24359e0818906208a8941f8}
+      \field{sortinit}{H}
+      \field{sortinithash}{82012198d5dfa657b8c4a168793268a6}
+      \field{labelyear}{2015}
+      \field{datelabelsource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Recollection is thought to be the hallmark of episodic memory. Here we provide evidence that the hippocampus binds together the diverse elements forming an event, allowing holistic recollection via pattern completion of all elements. Participants learn complex 'events' from multiple overlapping pairs of elements, and are tested on all pairwise associations. At encoding, element 'types' (locations, people and objects/animals) produce activation in distinct neocortical regions, while hippocampal activity predicts memory performance for all within-event pairs. When retrieving a pairwise association, neocortical activity corresponding to all event elements is reinstated, including those incidental to the task. Participant's degree of incidental reinstatement correlates with their hippocampal activity. Our results suggest that event elements, represented in distinct neocortical regions, are bound into coherent 'event engrams' in the hippocampus that enable episodic recollection-the re-experiencing or holistic retrieval of all aspects of an event-via a process of hippocampal pattern completion and neocortical reinstatement.}
+      \field{issn}{2041-1723}
+      \field{journaltitle}{Nature Communications}
+      \field{title}{Evidence for Holistic Episodic Recollection via Hippocampal Pattern Completion}
+      \field{volume}{6}
+      \field{year}{2015}
+      \field{pages}{7462}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1038/ncomms8462
+      \endverb
+      \verb{file}
+      \verb /Users/naketz/Zotero/storage/C4CHDMMI/HornerBisbyBushEtAl15.pdf
+      \endverb
+    \endentry
+    \entry{KetzJensenOReilly15}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=1,hash=5f8b0369f5ec1f64642b83e98a981e38}{%
+           family={Ketz},
+           family_i={K\bibinitperiod},
+           given={Nicholas\bibnamedelima A},
+           given_i={N\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{uniquename=0,hash=02c18dff9e41427516fb47ea1e213c66}{%
+           family={Jensen},
+           family_i={J\bibinitperiod},
+           given={Ole},
+           given_i={O\bibinitperiod}}}%
+        {{uniquename=0,hash=a6447655d7793945cf1146a23c3dd56a}{%
+           family={O'Reilly},
+           family_i={O\bibinitperiod},
+           given={Randall\bibnamedelima C},
+           given_i={R\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \strng{namehash}{e6984e34d7e6cf1fe5d22aef11deee2b}
+      \strng{fullhash}{ad49502f9d47725000d6367f5aea9000}
+      \field{sortinit}{K}
+      \field{sortinithash}{a7d5b3aec5a0890aae7baf85a209abfc}
+      \field{labelyear}{2015}
+      \field{labelmonth}{01}
+      \field{datelabelsource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Trends in neurosciences}
+      \field{month}{01}
+      \field{title}{Thalamic Pathways Underlying Prefrontal Cortex-Medial Temporal Lobe Oscillatory Interactions.}
+      \field{volume}{38}
+      \field{year}{2015}
+      \field{pages}{3\bibrangedash 12}
+      \range{pages}{10}
+    \endentry
+    \entry{KetzMorkondaOReilly13}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=1,hash=d23169881777a057eaa73140fb5e195c}{%
+           family={Ketz},
+           family_i={K\bibinitperiod},
+           given={Nicholas},
+           given_i={N\bibinitperiod}}}%
+        {{uniquename=0,hash=ead499d937961cf848db319278d7c6d2}{%
+           family={Morkonda},
+           family_i={M\bibinitperiod},
+           given={Srinimisha\bibnamedelima G},
+           given_i={S\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{uniquename=0,hash=a6447655d7793945cf1146a23c3dd56a}{%
+           family={O'Reilly},
+           family_i={O\bibinitperiod},
+           given={Randall\bibnamedelima C},
+           given_i={R\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \strng{namehash}{d991d06ff87330f6943226935de21ee6}
+      \strng{fullhash}{afe82cf3560790dcb9362f8e547f3c72}
+      \field{sortinit}{K}
+      \field{sortinithash}{a7d5b3aec5a0890aae7baf85a209abfc}
+      \field{labelyear}{2013}
+      \field{labelmonth}{06}
+      \field{datelabelsource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{PLoS Computational Biology}
+      \field{month}{06}
+      \field{title}{Theta Coordinated Error-Driven Learning in the Hippocampus.}
+      \field{volume}{9}
+      \field{year}{2013}
+      \field{pages}{e1003067}
+      \range{pages}{-1}
+      \verb{file}
+      \verb /Users/naketz/Zotero/storage/FAGDQTQZ/KetzMorkondaOReilly13.pdf
+      \endverb
+    \endentry
+    \entry{MontijnKlinkVanWezel12}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,hash=d106df76ce68c3a125940a699d4939f6}{%
+           family={Montijn},
+           family_i={M\bibinitperiod},
+           given={Jorrit\bibnamedelima Steven},
+           given_i={J\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{uniquename=0,hash=f48b161b7a8092ad4f6764abe03d2623}{%
+           family={Klink},
+           family_i={K\bibinitperiod},
+           given={P.\bibnamedelimi Christaan},
+           given_i={P\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{uniquename=0,hash=f2cbd2bbaf24cc106c607dc04cdfe290}{%
+           family={Van\bibnamedelima Wezel},
+           family_i={V\bibinitperiod\bibinitdelim W\bibinitperiod},
+           given={Richard\bibnamedelimb J.\bibnamedelimi A.},
+           given_i={R\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{c2af4b911be7cd26927ec2fcc3e6cd88}
+      \strng{fullhash}{8e0799a97bfcfec01b388b5d0e220baf}
+      \field{sortinit}{M}
+      \field{sortinithash}{2684bec41e9697b92699b46491061da2}
+      \field{labelyear}{2012}
+      \field{datelabelsource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Divisive normalization models of covert attention commonly use spike rate modulations as indicators of the effect of top-down attention. In addition, an increasing number of studies have shown that top-down attention increases the synchronization of neuronal oscillations as well, particularly in gamma-band frequencies (25–{}100 Hz). Although modulations of spike rate and synchronous oscillations are not mutually exclusive as mechanisms of attention, there has thus far been little effort to integrate these concepts into a single framework of attention. Here, we aim to provide such a unified framework by expanding the normalization model of attention with a multi-level hierarchical structure and a time dimension; allowing the simulation of a recently reported backward progression of attentional effects along the visual cortical hierarchy. A simple cascade of normalization models simulating different cortical areas is shown to cause signal degradation and a loss of stimulus discriminability over time. To negate this degradation and ensure stable neuronal stimulus representations, we incorporate a kind of oscillatory phase entrainment into our model that has previously been proposed as the ``communication-through-coherence'' (CTC) hypothesis. Our analysis shows that divisive normalization and oscillation models can complement each other in a unified account of the neural mechanisms of selective visual attention. The resulting hierarchical normalization and oscillation (HNO) model reproduces several additional spatial and temporal aspects of attentional modulation and predicts a latency effect on neuronal responses as a result of cued attention.}
+      \field{journaltitle}{Frontiers in Neural Circuits}
+      \field{title}{Divisive Normalization and Neuronal Oscillations in a Single Hierarchical Framework of Selective Visual Attention}
+      \field{volume}{6}
+      \field{year}{2012}
+      \field{pages}{22}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3389/fncir.2012.00022
+      \endverb
+      \verb{file}
+      \verb /Users/naketz/Zotero/storage/6IGGS88M/MontijnKlinkVanWezel12.pdf
+      \endverb
+      \keyw{neuronal oscillations,divisive normalization,hierarchical normalization and oscillation,phase-locking,communication-through-coherence,computational model,Attention,visual cortex}
+    \endentry
+    \entry{OlsenBortoneAdesnikEtAl12}{article}{}
+      \name{author}{4}{}{%
+        {{uniquename=0,hash=f81b5ccc83ee55dbcd3890bc9eb8ba04}{%
+           family={Olsen},
+           family_i={O\bibinitperiod},
+           given={Shawn},
+           given_i={S\bibinitperiod}}}%
+        {{uniquename=0,hash=40d48bcb11d9a27f7b171a3abfba2ee3}{%
+           family={Bortone},
+           family_i={B\bibinitperiod},
+           given={Dante},
+           given_i={D\bibinitperiod}}}%
+        {{uniquename=0,hash=5622ddedcf7d279dd48ebbc056112be4}{%
+           family={Adesnik},
+           family_i={A\bibinitperiod},
+           given={Hillel},
+           given_i={H\bibinitperiod}}}%
+        {{uniquename=0,hash=d18343afd48f4062261a397354542d58}{%
+           family={Scanziani},
+           family_i={S\bibinitperiod},
+           given={Massimo},
+           given_i={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{bf1b5b03a0d2d352411c771da7da434b}
+      \strng{fullhash}{54034f683bcde27327d34fc8c059a098}
+      \field{sortinit}{O}
+      \field{sortinithash}{7803d2715d5e795e70382b084ab8d00e}
+      \field{labelyear}{2012}
+      \field{labelmonth}{02}
+      \field{datelabelsource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature}
+      \field{month}{02}
+      \field{number}{7387}
+      \field{title}{Gain Control by Layer Six in Cortical Circuits of Vision}
+      \field{volume}{483}
+      \field{year}{2012}
+      \field{pages}{47\bibrangedash 52}
+      \range{pages}{6}
+      \verb{file}
+      \verb /Users/naketz/Zotero/storage/NS9SN9DP/OlsenBortoneAdesnikEtAl12.pdf
+      \endverb
+    \endentry
+    \entry{OReillyWyatteRohrlich14}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,hash=91fa3c824cb9bda379093c0277f9bc96}{%
+           family={O'Reilly},
+           family_i={O\bibinitperiod},
+           given={Randall\bibnamedelima C.},
+           given_i={R\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{uniquename=0,hash=5610c650f8743dd404c270965b09b80a}{%
+           family={Wyatte},
+           family_i={W\bibinitperiod},
+           given={Dean},
+           given_i={D\bibinitperiod}}}%
+        {{uniquename=0,hash=029bcf6d09b4b8c69a29cdd7d3b20afc}{%
+           family={Rohrlich},
+           family_i={R\bibinitperiod},
+           given={John},
+           given_i={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{d098799655695476167308e0aa355211}
+      \strng{fullhash}{abd47f0ed8d7104fd1b02ca314af988c}
+      \field{sortinit}{O}
+      \field{sortinithash}{7803d2715d5e795e70382b084ab8d00e}
+      \field{labelyear}{2014}
+      \field{labelmonth}{07}
+      \field{datelabelsource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We present a comprehensive, novel framework for understanding how the neocortex, including the thalamocortical loops through the deep layers, can support a temporal context representation in the service of predictive learning. Many have argued that predictive learning provides a compelling, powerful source of learning signals to drive the development of human intelligence: if we constantly predict what will happen next, and learn based on the discrepancies from our predictions (error-driven learning), then we can learn to improve our predictions by developing internal representations that capture the regularities of the environment (e.g., physical laws governing the time-evolution of object motions). Our version of this idea builds upon existing work with simple recurrent networks (SRN's), which have a discretely-updated temporal context representations that are a direct copy of the prior internal state representation. We argue that this discretization of temporal context updating has a number of important computational and functional advantages, and further show how the strong alpha-frequency (10hz, 100ms cycle time) oscillations in the posterior neocortex could reflect this temporal context updating. We examine a wide range of data from biology to behavior through the lens of this LeabraTI model, and find that it provides a unified account of a number of otherwise disconnected findings, all of which converge to support this new model of neocortical learning and processing. We describe an implemented model showing how predictive learning of tumbling object trajectories can facilitate object recognition with cluttered backgrounds.}
+      \field{eprintclass}{q-bio}
+      \field{eprinttype}{arxiv}
+      \field{journaltitle}{arXiv:1407.3432 [q-bio]}
+      \field{month}{07}
+      \field{title}{Learning {{Through Time}} in the {{Thalamocortical Loops}}}
+      \field{year}{2014}
+      \verb{eprint}
+      \verb 1407.3432
+      \endverb
+      \verb{file}
+      \verb /Users/naketz/Zotero/storage/6J4X3U3P/OReillyWyatteRohrlich14.pdf;/Users/naketz/Zotero/storage/WWIKG8F6/1407.html
+      \endverb
+      \keyw{Quantitative Biology - Neurons and Cognition}
+    \endentry
+    \entry{ReynoldsHeeger09}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=a2fdfc3e55e9dbcfe6816cc598c46c4e}{%
+           family={Reynolds},
+           family_i={R\bibinitperiod},
+           given={John\bibnamedelima H.},
+           given_i={J\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{uniquename=0,hash=2f6cc01a0ec715a965aa2b30e5b811e9}{%
+           family={Heeger},
+           family_i={H\bibinitperiod},
+           given={David\bibnamedelima J.},
+           given_i={D\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{f81d6f080f7e401bc3274759e97d4c7a}
+      \strng{fullhash}{f81d6f080f7e401bc3274759e97d4c7a}
+      \field{sortinit}{R}
+      \field{sortinithash}{c7387613477035a752d935acfc3e3ea2}
+      \field{labelyear}{2009}
+      \field{labelmonth}{01}
+      \field{datelabelsource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Neuron}
+      \field{month}{01}
+      \field{number}{2}
+      \field{title}{The Normalization Model of Attention.}
+      \field{volume}{61}
+      \field{year}{2009}
+      \field{pages}{168\bibrangedash 185}
+      \range{pages}{18}
+      \verb{file}
+      \verb /Users/naketz/Zotero/storage/4WH3IABI/ReynoldsHeeger09.pdf
+      \endverb
+    \endentry
+    \entry{ShermanGuillery06}{book}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=739f21f5bbb70d4d81540bbc97b97282}{%
+           family={Sherman},
+           family_i={S\bibinitperiod},
+           given={S.Murray},
+           given_i={S\bibinitperiod}}}%
+        {{uniquename=0,hash=3245a1f3b0dcb97e6772e925db65aef7}{%
+           family={Guillery},
+           family_i={G\bibinitperiod},
+           given={R.W.},
+           given_i={R\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Cambridge, MA}%
+      }
+      \list{publisher}{1}{%
+        {MIT Press}%
+      }
+      \strng{namehash}{c77226ace2b3a6d036b27735454465b0}
+      \strng{fullhash}{c77226ace2b3a6d036b27735454465b0}
+      \field{sortinit}{S}
+      \field{sortinithash}{fd1e7c5ab79596b13dbbb67f8d70fb5a}
+      \field{labelyear}{2006}
+      \field{datelabelsource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Exploring the {{Thalamus}} and {{Its Role}} in {{Cortical Function}}}
+      \field{year}{2006}
+    \endentry
+  \endsortlist
+\endrefsection
+\endinput
+

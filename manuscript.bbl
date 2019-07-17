@@ -3,8 +3,8 @@
 % Do not modify the above lines!
 %
 % This is an auxiliary file used by the 'biblatex' package.
-% This file may safely be deleted. It will be recreated as
-% required.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
 %
 \begingroup
 \makeatletter
@@ -16,1856 +16,1655 @@
   {}
 \endgroup
 
-\sortlist[entry]{nty/global/}
-  \entry{AggletonDumontWarburton11}{article}{}
-    \name{author}{3}{}{%
-      {{hash=AJP}{%
-         family={Aggleton},
-         family_i={A\bibinitperiod},
-         given={John\bibnamedelima P},
-         given_i={J\bibinitperiod\bibinitdelim P\bibinitperiod},
-      }}%
-      {{hash=DJR}{%
-         family={Dumont},
-         family_i={D\bibinitperiod},
-         given={Julie\bibnamedelima R},
-         given_i={J\bibinitperiod\bibinitdelim R\bibinitperiod},
-      }}%
-      {{hash=WEC}{%
-         family={Warburton},
-         family_i={W\bibinitperiod},
-         given={Elizabeth\bibnamedelima Clea},
-         given_i={E\bibinitperiod\bibinitdelim C\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{AJPDJRWEC1}
-    \strng{fullhash}{AJPDJRWEC1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{A}
-    \field{sortinithash}{A}
-    \field{pages}{384\bibrangedash 400}
-    \field{title}{Unraveling the Contributions of the Diencephalon to
-  Recognition Memory: A Review.}
-    \field{volume}{18}
-    \field{journaltitle}{Learning \& memory}
-    \field{month}{06}
-    \field{year}{2011}
-  \endentry
 
-  \entry{AisaMingusOReilly08}{article}{}
-    \name{author}{3}{}{%
-      {{hash=AB}{%
-         family={Aisa},
-         family_i={A\bibinitperiod},
-         given={Brad},
-         given_i={B\bibinitperiod},
-      }}%
-      {{hash=MB}{%
-         family={Mingus},
-         family_i={M\bibinitperiod},
-         given={Brian},
-         given_i={B\bibinitperiod},
-      }}%
-      {{hash=OR}{%
-         family={O'Reilly},
-         family_i={O\bibinitperiod},
-         given={Randy},
-         given_i={R\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{ABMBOR1}
-    \strng{fullhash}{ABMBOR1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{A}
-    \field{sortinithash}{A}
-    \field{number}{8}
-    \field{pages}{1146\bibrangedash 1152}
-    \field{title}{The Emergent Neural Modeling System.}
-    \field{volume}{21}
-    \verb{file}
-    \verb /Users/naketz/Zotero/storage/C95WHBN9/AisaMingusOReilly08.pdf
-    \endverb
-    \field{journaltitle}{Neural Networks}
-    \field{month}{10}
-    \field{year}{2008}
-  \endentry
-
-  \entry{BarbasHenionDermon91}{article}{}
-    \name{author}{3}{}{%
-      {{hash=BH}{%
-         family={Barbas},
-         family_i={B\bibinitperiod},
-         given={H.},
-         given_i={H\bibinitperiod},
-      }}%
-      {{hash=HTH}{%
-         family={Henion},
-         family_i={H\bibinitperiod},
-         given={T.\bibnamedelima H.},
-         given_i={T\bibinitperiod\bibinitdelim H\bibinitperiod},
-      }}%
-      {{hash=DCR}{%
-         family={Dermon},
-         family_i={D\bibinitperiod},
-         given={C.\bibnamedelima R.},
-         given_i={C\bibinitperiod\bibinitdelim R\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{BHHTHDCR1}
-    \strng{fullhash}{BHHTHDCR1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{B}
-    \field{sortinithash}{B}
-    \field{pages}{65\bibrangedash 94}
-    \field{title}{Diverse Thalamic Projections to the Prefrontal Cortex in the
-  Rhesus Monkey.}
-    \field{volume}{313}
-    \verb{file}
-    \verb /Users/naketz/Zotero/storage/W4AQZQR9/BarbasHenionDermon91.pdf
-    \endverb
-    \field{journaltitle}{The Journal of Comparative Neurology}
-    \field{month}{11}
-    \field{year}{1991}
-  \endentry
-
-  \entry{BatesMachlerBolkerEtAl14}{article}{}
-    \name{author}{4}{}{%
-      {{hash=BD}{%
-         family={Bates},
-         family_i={B\bibinitperiod},
-         given={Douglas},
-         given_i={D\bibinitperiod},
-      }}%
-      {{hash=MM}{%
-         family={M\"achler},
-         family_i={M\bibinitperiod},
-         given={Martin},
-         given_i={M\bibinitperiod},
-      }}%
-      {{hash=BB}{%
-         family={Bolker},
-         family_i={B\bibinitperiod},
-         given={Ben},
-         given_i={B\bibinitperiod},
-      }}%
-      {{hash=WS}{%
-         family={Walker},
-         family_i={W\bibinitperiod},
-         given={Steve},
-         given_i={S\bibinitperiod},
-      }}%
-    }
-    \keyw{Statistics - Computation}
-    \strng{namehash}{BD+1}
-    \strng{fullhash}{BDMMBBWS1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{B}
-    \field{sortinithash}{B}
-    \field{abstract}{%
-    Maximum likelihood or restricted maximum likelihood (REML) estimates of the
-  parameters in linear mixed-effects models can be determined using the lmer
-  function in the lme4 package for R. As for most model-fitting functions in R,
-  the model is described in an lmer call by a formula, in this case including
-  both fixed- and random-effects terms. The formula and data together determine
-  a numerical representation of the model from which the profiled deviance or
-  the profiled REML criterion can be evaluated as a function of some of the
-  model parameters. The appropriate criterion is optimized, using one of the
-  constrained optimization functions in R, to provide the parameter estimates.
-  We describe the structure of the model, the steps in evaluating the profiled
-  deviance or REML criterion, and the structure of classes or types that
-  represents such a model. Sufficient detail is included to allow
-  specialization of these structures by users who wish to write functions to
-  fit specialized linear mixed models, such as models incorporating pedigrees
-  or smoothing splines, that are not easily expressible in the formula language
-  used by lmer.%
-    }
-    \verb{eprint}
-    \verb 1406.5823
-    \endverb
-    \field{title}{Fitting {{Linear Mixed}}-{{Effects Models}} Using Lme4}
-    \verb{file}
-    \verb /Users/naketz/Zotero/storage/D34RWU9P/BatesMachlerBolkerEtAl14.pdf;/U
-    \verb sers/naketz/Zotero/storage/5D4NWEHE/1406.html
-    \endverb
-    \field{journaltitle}{arXiv:1406.5823 [stat]}
-    \field{eprinttype}{arxiv}
-    \field{eprintclass}{stat}
-    \field{month}{06}
-    \field{year}{2014}
-    \warn{\item Can't use 'eprinttype' + 'archiveprefix'}
-  \endentry
-
-  \entry{BeckerKnockRitterEtAl15}{article}{}
-    \name{author}{4}{}{%
-      {{hash=BR}{%
-         family={Becker},
-         family_i={B\bibinitperiod},
-         given={Robert},
-         given_i={R\bibinitperiod},
-      }}%
-      {{hash=KS}{%
-         family={Knock},
-         family_i={K\bibinitperiod},
-         given={Stuart},
-         given_i={S\bibinitperiod},
-      }}%
-      {{hash=RP}{%
-         family={Ritter},
-         family_i={R\bibinitperiod},
-         given={Petra},
-         given_i={P\bibinitperiod},
-      }}%
-      {{hash=JV}{%
-         family={Jirsa},
-         family_i={J\bibinitperiod},
-         given={Viktor},
-         given_i={V\bibinitperiod},
-      }}%
-    }
-    \list{language}{1}{%
-      {en}%
-    }
-    \keyw{Cerebrospinal fluid,Functional magnetic resonance
-  imaging,Hemodynamics,Neural networks,Neurons,Single neuron function,Thalamic
-  nuclei,Thalamus}
-    \strng{namehash}{BR+1}
-    \strng{fullhash}{BRKSRPJV1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{B}
-    \field{sortinithash}{B}
-    \field{abstract}{%
-    Oscillations are ubiquitous phenomena in the animal and human brain. Among
-  them, the alpha rhythm in human EEG is one of the most prominent examples.
-  However, its precise mechanisms of generation are still poorly understood. It
-  was mainly this lack of knowledge that motivated a number of simultaneous
-  electroencephalography (EEG) \textendash{} functional magnetic resonance
-  imaging (fMRI) studies. This approach revealed how oscillatory neuronal
-  signatures such as the alpha rhythm are paralleled by changes of the blood
-  oxygenation level dependent (BOLD) signal. Several such studies revealed a
-  negative correlation between the alpha rhythm and the hemodynamic BOLD signal
-  in visual cortex and a positive correlation in the thalamus. In this study we
-  explore the potential generative mechanisms that lead to those observations.
-  We use a bursting capable Stefanescu-Jirsa 3D (SJ3D) neural-mass model that
-  reproduces a wide repertoire of prominent features of local
-  neuronal-population dynamics. We construct a thalamo-cortical network of
-  coupled SJ3D nodes considering excitatory and inhibitory directed
-  connections. The model suggests that an inverse correlation between cortical
-  multi-unit activity, i.e. the firing of neuronal populations, and narrow band
-  local field potential oscillations in the alpha band underlies the
-  empirically observed negative correlation between alpha-rhythm power and fMRI
-  signal in visual cortex. Furthermore the model suggests that the interplay
-  between tonic and bursting mode in thalamus and cortex is critical for this
-  relation. This demonstrates how biophysically meaningful modelling can
-  generate precise and testable hypotheses about the underpinnings of
-  large-scale neuroimaging signals.%
-    }
-    \verb{doi}
-    \verb 10.1371/journal.pcbi.1004352
-    \endverb
-    \field{issn}{1553-7358}
-    \field{number}{9}
-    \field{pages}{e1004352}
-    \field{title}{Relating {{Alpha Power}} and {{Phase}} to {{Population
-  Firing}} and {{Hemodynamic Activity Using}} a {{Thalamo}}-Cortical {{Neural
-  Mass Model}}}
-    \field{volume}{11}
-    \verb{file}
-    \verb /Users/naketz/Zotero/storage/XUC4QFDF/Becker et al. - 2015 - Relating
-    \verb  Alpha Power and Phase to Population Firin.pdf;/Users/naketz/Zotero/s
-    \verb torage/LH324UJT/article.html
-    \endverb
-    \field{journaltitle}{PLOS Computational Biology}
-    \field{month}{09}
-    \field{year}{2015}
-  \endentry
-
-  \entry{Brainard97}{article}{}
-    \name{author}{1}{}{%
-      {{hash=BDH}{%
-         family={Brainard},
-         family_i={B\bibinitperiod},
-         given={D.\bibnamedelima H.},
-         given_i={D\bibinitperiod\bibinitdelim H\bibinitperiod},
-      }}%
-    }
-    \list{language}{1}{%
-      {eng}%
-    }
-    \keyw{Computer Terminals,Data
-  Display,Humans,Microcomputers,Psychophysics,Research,Software,User-Computer
-  Interface}
-    \strng{namehash}{BDH1}
-    \strng{fullhash}{BDH1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{B}
-    \field{sortinithash}{B}
-    \field{abstract}{%
-    The Psychophysics Toolbox is a software package that supports visual
-  psychophysics. Its routines provide an interface between a high-level
-  interpreted language (MATLAB on the Macintosh) and the video display
-  hardware. A set of example programs is included with the Toolbox
-  distribution.%
-    }
-    \field{issn}{0169-1015}
-    \field{number}{4}
-    \field{pages}{433\bibrangedash 436}
-    \field{title}{The {{Psychophysics Toolbox}}}
-    \field{volume}{10}
-    \field{journaltitle}{Spatial Vision}
-    \field{year}{1997}
-  \endentry
-
-  \entry{Buzsaki02}{article}{}
-    \name{author}{1}{}{%
-      {{hash=BG}{%
-         family={Buzsaki},
-         family_i={B\bibinitperiod},
-         given={G.},
-         given_i={G\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{BG1}
-    \strng{fullhash}{BG1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{B}
-    \field{sortinithash}{B}
-    \field{number}{3}
-    \field{pages}{325\bibrangedash 340}
-    \field{title}{Theta Oscillations in the Hippocampus.}
-    \field{volume}{33}
-    \verb{file}
-    \verb /Users/naketz/Zotero/storage/XSK3RB3U/Buzsaki02.pdf
-    \endverb
-    \field{journaltitle}{Neuron}
-    \field{year}{2002}
-  \endentry
-
-  \entry{ChaumonBishopBusch15}{article}{}
-    \name{author}{3}{}{%
-      {{hash=CM}{%
-         family={Chaumon},
-         family_i={C\bibinitperiod},
-         given={Maximilien},
-         given_i={M\bibinitperiod},
-      }}%
-      {{hash=BDVM}{%
-         family={Bishop},
-         family_i={B\bibinitperiod},
-         given={Dorothy V.\bibnamedelima M.},
-         given_i={D\bibinitperiod\bibinitdelim V\bibinitperiod\bibinitdelim
-  M\bibinitperiod},
-      }}%
-      {{hash=BNA}{%
-         family={Busch},
-         family_i={B\bibinitperiod},
-         given={Niko\bibnamedelima A.},
-         given_i={N\bibinitperiod\bibinitdelim A\bibinitperiod},
-      }}%
-    }
-    \list{language}{1}{%
-      {eng}%
-    }
-    \keyw{Muscle; Skeletal,Eye Movements,User-Computer Interface,Pattern
-  Recognition; Automated,Artifact,Algorithms,Humans,Signal Processing;
-  Computer-Assisted,electroencephalography,EEG,ICA,Artifacts,Data
-  Interpretation; Statistical,EEGLAB plugin,Pre-processing,brain}
-    \strng{namehash}{CMBDVMBNA1}
-    \strng{fullhash}{CMBDVMBNA1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{C}
-    \field{sortinithash}{C}
-    \field{abstract}{%
-    BACKGROUND: Electroencephalographic data are easily contaminated by signals
-  of non-neural origin. Independent component analysis (ICA) can help correct
-  EEG data for such artifacts. Artifact independent components (ICs) can be
-  identified by experts via visual inspection. But artifact features are
-  sometimes ambiguous or difficult to notice, and even experts may disagree
-  about how to categorise a particular component. It is therefore important to
-  inform users on artifact properties, and give them the opportunity to
-  intervene. NEW METHOD: Here we first describe artifacts captured by ICA. We
-  review current methods to automatically select artifactual components for
-  rejection, and introduce the SASICA software, implementing several novel
-  selection algorithms as well as two previously described automated methods
-  (ADJUST, Mognon et al. Psychophysiology 2011;48(2):229; and FASTER, Nolan et
-  al. J Neurosci Methods 2010;48(1):152). RESULTS: We evaluate these algorithms
-  by comparing selections suggested by SASICA and other methods to manual
-  rejections by experts. The results show that these methods can inform
-  observers to improve rejections. However, no automated method can accurately
-  isolate artifacts without supervision. The comprehensive and interactive
-  plots produced by SASICA therefore constitute a helpful guide for human users
-  for making final decisions. CONCLUSIONS: Rejecting ICs before EEG data
-  analysis unavoidably requires some level of supervision. SASICA offers
-  observers detailed information to guide selection of artifact ICs. Because it
-  uses quantitative parameters and thresholds, it improves objectivity and
-  reproducibility in reporting pre-processing procedures. SASICA is also a
-  didactic tool that allows users to quickly understand what signal features
-  captured by ICs make them likely to reflect artifacts.%
-    }
-    \verb{doi}
-    \verb 10.1016/j.jneumeth.2015.02.025
-    \endverb
-    \field{issn}{1872-678X}
-    \field{pages}{47\bibrangedash 63}
-    \field{title}{A Practical Guide to the Selection of Independent Components
-  of the Electroencephalogram for Artifact Correction}
-    \field{volume}{250}
-    \field{journaltitle}{Journal of Neuroscience Methods}
-    \field{month}{07}
-    \field{year}{2015}
-  \endentry
-
-  \entry{FuentemillaBarnesDuzelEtAl14}{article}{}
-    \name{author}{4}{}{%
-      {{hash=FL}{%
-         family={Fuentemilla},
-         family_i={F\bibinitperiod},
-         given={L},
-         given_i={L},
-      }}%
-      {{hash=BGR}{%
-         family={Barnes},
-         family_i={B\bibinitperiod},
-         given={G\bibnamedelima R},
-         given_i={G\bibinitperiod\bibinitdelim R\bibinitperiod},
-      }}%
-      {{hash=DE}{%
-         family={D\"uzel},
-         family_i={D\bibinitperiod},
-         given={E},
-         given_i={E},
-      }}%
-      {{hash=LB}{%
-         family={Levine},
-         family_i={L\bibinitperiod},
-         given={B},
-         given_i={B},
-      }}%
-    }
-    \strng{namehash}{FL+1}
-    \strng{fullhash}{FLBGRDELB1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{F}
-    \field{sortinithash}{F}
-    \field{number}{2}
-    \field{pages}{730\bibrangedash 737}
-    \field{title}{Theta Oscillations Orchestrate Medial Temporal Lobe and
-  Neocortex in Remembering Autobiographical Memories.}
-    \field{volume}{85}
-    \field{journaltitle}{NeuroImage}
-    \field{month}{08}
-    \field{year}{2014}
-  \endentry
-
-  \entry{Gabrieli98}{article}{}
-    \name{author}{1}{}{%
-      {{hash=GJD}{%
-         family={Gabrieli},
-         family_i={G\bibinitperiod},
-         given={J.\bibnamedelima D.E.},
-         given_i={J\bibinitperiod\bibinitdelim D\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{GJD1}
-    \strng{fullhash}{GJD1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{G}
-    \field{sortinithash}{G}
-    \field{pages}{87\bibrangedash 115}
-    \field{title}{Cognitive Neuroscience of Human Memory}
-    \field{volume}{49}
-    \field{journaltitle}{Annual Review of Psychology}
-    \field{month}{01}
-    \field{year}{1998}
-  \endentry
-
-  \entry{GriffithsMichelmannRouxEtAl18}{article}{}
-    \name{author}{10}{}{%
-      {{hash=GBJ}{%
-         family={Griffiths},
-         family_i={G\bibinitperiod},
-         given={Benjamin\bibnamedelima James},
-         given_i={B\bibinitperiod\bibinitdelim J\bibinitperiod},
-      }}%
-      {{hash=MS}{%
-         family={Michelmann},
-         family_i={M\bibinitperiod},
-         given={Sebastian},
-         given_i={S\bibinitperiod},
-      }}%
-      {{hash=RF}{%
-         family={Roux},
-         family_i={R\bibinitperiod},
-         given={Frederic},
-         given_i={F\bibinitperiod},
-      }}%
-      {{hash=CR}{%
-         family={Chelvarajah},
-         family_i={C\bibinitperiod},
-         given={Ramesh},
-         given_i={R\bibinitperiod},
-      }}%
-      {{hash=RDT}{%
-         family={Rollings},
-         family_i={R\bibinitperiod},
-         given={David\bibnamedelima T.},
-         given_i={D\bibinitperiod\bibinitdelim T\bibinitperiod},
-      }}%
-      {{hash=SV}{%
-         family={Sawlani},
-         family_i={S\bibinitperiod},
-         given={Vijay},
-         given_i={V\bibinitperiod},
-      }}%
-      {{hash=HH}{%
-         family={Hamer},
-         family_i={H\bibinitperiod},
-         given={Hajo},
-         given_i={H\bibinitperiod},
-      }}%
-      {{hash=GS}{%
-         family={Gollwitzer},
-         family_i={G\bibinitperiod},
-         given={Stephanie},
-         given_i={S\bibinitperiod},
-      }}%
-      {{hash=KG}{%
-         family={Kreiselmeyer},
-         family_i={K\bibinitperiod},
-         given={Gernot},
-         given_i={G\bibinitperiod},
-      }}%
-      {{hash=SB}{%
-         family={Staresina},
-         family_i={S\bibinitperiod},
-         given={Bernhard},
-         given_i={B\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{GBJ+1}
-    \strng{fullhash}{GBJMSRFCRRDTSVHHGSKGSB1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{G}
-    \field{sortinithash}{G}
-    \field{pages}{305698}
-    \field{title}{Hippocampal Synchrony and Neocortical Desynchrony Cooperate
-  to Encode and Retrieve Episodic Memories}
-    \verb{file}
-    \verb /Users/naketz/Zotero/storage/NG7DJGIU/Griffiths et al. - 2018 - Hippo
-    \verb campal synchrony and neocortical desynchrony .pdf;/Users/naketz/Zoter
-    \verb o/storage/W49TYAIT/305698v2.html
-    \endverb
-    \field{journaltitle}{bioRxiv}
-    \field{year}{2018}
-  \endentry
-
-  \entry{HanslmayrStaresinaBowman16}{article}{}
-    \name{author}{3}{}{%
-      {{hash=HS}{%
-         family={Hanslmayr},
-         family_i={H\bibinitperiod},
-         given={Simon},
-         given_i={S\bibinitperiod},
-      }}%
-      {{hash=SBP}{%
-         family={Staresina},
-         family_i={S\bibinitperiod},
-         given={Bernhard\bibnamedelima P.},
-         given_i={B\bibinitperiod\bibinitdelim P\bibinitperiod},
-      }}%
-      {{hash=BH}{%
-         family={Bowman},
-         family_i={B\bibinitperiod},
-         given={Howard},
-         given_i={H\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{HSSBPBH1}
-    \strng{fullhash}{HSSBPBH1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{shorttitle}
-    \field{sortinit}{H}
-    \field{sortinithash}{H}
-    \field{number}{1}
-    \field{pages}{16\bibrangedash 25}
-    \field{shorttitle}{Oscillations and Episodic Memory}
-    \field{title}{Oscillations and Episodic Memory: Addressing the
-  Synchronization/Desynchronization Conundrum}
-    \field{volume}{39}
-    \verb{file}
-    \verb /Users/naketz/Zotero/storage/HT6CFSQC/S0166223615002593.html
-    \endverb
-    \field{journaltitle}{Trends in neurosciences}
-    \field{year}{2016}
-  \endentry
-
-  \entry{HanslmayrStaudiglFellner12}{article}{}
-    \name{author}{3}{}{%
-      {{hash=HS}{%
-         family={Hanslmayr},
-         family_i={H\bibinitperiod},
-         given={Simon},
-         given_i={S\bibinitperiod},
-      }}%
-      {{hash=ST}{%
-         family={Staudigl},
-         family_i={S\bibinitperiod},
-         given={Tobias},
-         given_i={T\bibinitperiod},
-      }}%
-      {{hash=FMC}{%
-         family={Fellner},
-         family_i={F\bibinitperiod},
-         given={Marie-Christin},
-         given_i={M\bibinitperiod-C\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{HSSTFMC1}
-    \strng{fullhash}{HSSTFMC1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{H}
-    \field{sortinithash}{H}
-    \field{title}{Oscillatory Power Decreases and Long-Term Memory: The
-  Information via Desynchronization Hypothesis.}
-    \field{volume}{6}
-    \field{journaltitle}{Frontiers in human neuroscience}
-    \field{year}{2012}
-  \endentry
-
-  \entry{HindriksvanPutten13}{article}{}
-    \name{author}{2}{}{%
-      {{hash=HR}{%
-         family={Hindriks},
-         family_i={H\bibinitperiod},
-         given={Rikkert},
-         given_i={R\bibinitperiod},
-      }}%
-      {{hash=vMJ}{%
-         family={{van Putten}},
-         family_i={v\bibinitperiod},
-         given={Michel\bibnamedelima J},
-         given_i={M\bibinitperiod\bibinitdelim J\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{HRvMJ1}
-    \strng{fullhash}{HRvMJ1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{H}
-    \field{sortinithash}{H}
-    \field{pages}{150\bibrangedash 63}
-    \field{title}{Thalamo-Cortical Mechanisms Underlying Changes in Amplitude
-  and Frequency of Human Alpha Oscillations.}
-    \field{volume}{70}
-    \field{journaltitle}{NeuroImage}
-    \field{month}{04}
-    \field{year}{2013}
-  \endentry
-
-  \entry{HornerBurgess14}{article}{}
-    \name{author}{2}{}{%
-      {{hash=HAJ}{%
-         family={Horner},
-         family_i={H\bibinitperiod},
-         given={Aidan\bibnamedelima J.},
-         given_i={A\bibinitperiod\bibinitdelim J\bibinitperiod},
-      }}%
-      {{hash=BN}{%
-         family={Burgess},
-         family_i={B\bibinitperiod},
-         given={Neil},
-         given_i={N\bibinitperiod},
-      }}%
-    }
-    \list{language}{1}{%
-      {eng}%
-    }
-    \keyw{Association,Cues,Humans,Mental Recall,Memory; Episodic,Pattern
-  Recognition; Visual}
-    \strng{namehash}{HAJBN1}
-    \strng{fullhash}{HAJBN1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{H}
-    \field{sortinithash}{H}
-    \field{abstract}{%
-    Personally experienced events include multiple elements, such as locations,
-  people, and objects. These events are thought to be stored in episodic memory
-  as coherent representations [1] that allow the retrieval of all elements from
-  a partial cue ("pattern completion" [2-6]). However, direct evidence for
-  coherent multielement representations is lacking. Their presence would
-  predict that retrieval of one element from an event should be dependent on
-  retrieval of the other elements from that event. If we remember where we
-  were, we should be more likely to remember who we met and what object they
-  gave us. Here we provide evidence for this type of dependency in remembering
-  three-element events. Dependency was seen when all three elements were
-  encoded simultaneously, or when the three overlapping pairwise associations
-  comprising an event were learned on separate trials. However, dependency was
-  only seen in the separated encoding condition when all possible within-event
-  associations were encoded. These results suggest that episodic memories are
-  stored as coherent representations in which associations between all
-  within-event elements allow retrieval via pattern completion. They also show
-  that related experiences encountered at different times can be flexibly
-  integrated into these coherent representations.%
-    }
-    \verb{doi}
-    \verb 10.1016/j.cub.2014.03.012
-    \endverb
-    \field{issn}{1879-0445}
-    \field{number}{9}
-    \field{pages}{988\bibrangedash 992}
-    \field{title}{Pattern Completion in Multielement Event Engrams}
-    \field{volume}{24}
-    \verb{file}
-    \verb /Users/naketz/Zotero/storage/IHKSR9DG/HornerBurgess14.pdf
-    \endverb
-    \field{journaltitle}{Current biology: CB}
-    \field{month}{05}
-    \field{year}{2014}
-  \endentry
-
-  \entry{HornerBurgess13}{article}{}
-    \name{author}{2}{}{%
-      {{hash=HAJ}{%
-         family={Horner},
-         family_i={H\bibinitperiod},
-         given={Aidan\bibnamedelima J.},
-         given_i={A\bibinitperiod\bibinitdelim J\bibinitperiod},
-      }}%
-      {{hash=BN}{%
-         family={Burgess},
-         family_i={B\bibinitperiod},
-         given={Neil},
-         given_i={N\bibinitperiod},
-      }}%
-    }
-    \list{language}{1}{%
-      {eng}%
-    }
-    \keyw{Association,Adult,Cues,Male,Humans,Female,Hippocampus,Mental
-  Recall,memory}
-    \strng{namehash}{HAJBN1}
-    \strng{fullhash}{HAJBN1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{H}
-    \field{sortinithash}{H}
-    \field{abstract}{%
-    The hippocampus is thought to be an associative memory "convergence zone,"
-  binding together the multimodal elements of an experienced event into a
-  single engram. This predicts a degree of dependency between the retrieval of
-  the different elements comprising an event. We present data from a series of
-  studies designed to address this prediction. Participants vividly imagined a
-  series of person-location-object events, and memory for these events was
-  assessed across multiple trials of cued retrieval. Consistent with the
-  prediction, a significant level of dependency was found between the retrieval
-  of different elements from the same event. Furthermore, the level of
-  dependency was sensitive both to retrieval task, with higher dependency
-  during cued recall than cued recognition, and to subjective confidence. We
-  propose a simple model, in which events are stored as multiple pairwise
-  associations between individual event elements, and dependency is captured by
-  a common factor that varies across events. This factor may relate to
-  between-events modulation of the strength of encoding, or to a process of
-  within-event "pattern completion" at retrieval. The model predicts the
-  quantitative pattern of dependency in the data when changes in the level of
-  guessing with retrieval task and confidence are taken into account. Thus, we
-  find direct behavioral support for the idea that memory for complex
-  multimodal events depends on the pairwise associations of their constituent
-  elements and that retrieval of the various elements corresponding to the same
-  event reflects a common factor that varies from event to event.%
-    }
-    \verb{doi}
-    \verb 10.1037/a0033626
-    \endverb
-    \field{issn}{1939-2222}
-    \field{number}{4}
-    \field{pages}{1370\bibrangedash 1383}
-    \field{title}{The Associative Structure of Memory for Multi-Element Events}
-    \field{volume}{142}
-    \verb{file}
-    \verb /Users/naketz/Zotero/storage/DRVHQEH7/HornerBurgess13.pdf
-    \endverb
-    \field{journaltitle}{Journal of Experimental Psychology. General}
-    \field{month}{11}
-    \field{year}{2013}
-  \endentry
-
-  \entry{HornerBisbyBushEtAl15}{article}{}
-    \name{author}{5}{}{%
-      {{hash=HAJ}{%
-         family={Horner},
-         family_i={H\bibinitperiod},
-         given={Aidan\bibnamedelima J.},
-         given_i={A\bibinitperiod\bibinitdelim J\bibinitperiod},
-      }}%
-      {{hash=BJA}{%
-         family={Bisby},
-         family_i={B\bibinitperiod},
-         given={James\bibnamedelima A.},
-         given_i={J\bibinitperiod\bibinitdelim A\bibinitperiod},
-      }}%
-      {{hash=BD}{%
-         family={Bush},
-         family_i={B\bibinitperiod},
-         given={Daniel},
-         given_i={D\bibinitperiod},
-      }}%
-      {{hash=LWJ}{%
-         family={Lin},
-         family_i={L\bibinitperiod},
-         given={Wen-Jing},
-         given_i={W\bibinitperiod-J\bibinitperiod},
-      }}%
-      {{hash=BN}{%
-         family={Burgess},
-         family_i={B\bibinitperiod},
-         given={Neil},
-         given_i={N\bibinitperiod},
-      }}%
-    }
-    \list{language}{1}{%
-      {eng}%
-    }
-    \strng{namehash}{HAJ+1}
-    \strng{fullhash}{HAJBJABDLWJBN1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{H}
-    \field{sortinithash}{H}
-    \field{abstract}{%
-    Recollection is thought to be the hallmark of episodic memory. Here we
-  provide evidence that the hippocampus binds together the diverse elements
-  forming an event, allowing holistic recollection via pattern completion of
-  all elements. Participants learn complex 'events' from multiple overlapping
-  pairs of elements, and are tested on all pairwise associations. At encoding,
-  element 'types' (locations, people and objects/animals) produce activation in
-  distinct neocortical regions, while hippocampal activity predicts memory
-  performance for all within-event pairs. When retrieving a pairwise
-  association, neocortical activity corresponding to all event elements is
-  reinstated, including those incidental to the task. Participant's degree of
-  incidental reinstatement correlates with their hippocampal activity. Our
-  results suggest that event elements, represented in distinct neocortical
-  regions, are bound into coherent 'event engrams' in the hippocampus that
-  enable episodic recollection-the re-experiencing or holistic retrieval of all
-  aspects of an event-via a process of hippocampal pattern completion and
-  neocortical reinstatement.%
-    }
-    \verb{doi}
-    \verb 10.1038/ncomms8462
-    \endverb
-    \field{issn}{2041-1723}
-    \field{pages}{7462}
-    \field{title}{Evidence for Holistic Episodic Recollection via Hippocampal
-  Pattern Completion}
-    \field{volume}{6}
-    \verb{file}
-    \verb /Users/naketz/Zotero/storage/C4CHDMMI/HornerBisbyBushEtAl15.pdf
-    \endverb
-    \field{journaltitle}{Nature Communications}
-    \field{year}{2015}
-  \endentry
-
-  \entry{JonesWilson05}{article}{}
-    \name{author}{2}{}{%
-      {{hash=JMW}{%
-         family={Jones},
-         family_i={J\bibinitperiod},
-         given={Matthew\bibnamedelima W},
-         given_i={M\bibinitperiod\bibinitdelim W\bibinitperiod},
-      }}%
-      {{hash=WMA}{%
-         family={Wilson},
-         family_i={W\bibinitperiod},
-         given={Matthew\bibnamedelima A},
-         given_i={M\bibinitperiod\bibinitdelim A\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{JMWWMA1}
-    \strng{fullhash}{JMWWMA1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{J}
-    \field{sortinithash}{J}
-    \field{title}{Theta Rhythms Coordinate Hippocampal-Prefrontal Interactions
-  in a Spatial Memory Task.}
-    \field{volume}{3}
-    \field{journaltitle}{PLoS biology}
-    \field{month}{12}
-    \field{year}{2005}
-  \endentry
-
-  \entry{JutrasFriesBuffalo13}{article}{}
-    \name{author}{3}{}{%
-      {{hash=JMJ}{%
-         family={Jutras},
-         family_i={J\bibinitperiod},
-         given={Michael\bibnamedelima J},
-         given_i={M\bibinitperiod\bibinitdelim J\bibinitperiod},
-      }}%
-      {{hash=FP}{%
-         family={Fries},
-         family_i={F\bibinitperiod},
-         given={Pascal},
-         given_i={P\bibinitperiod},
-      }}%
-      {{hash=BEA}{%
-         family={Buffalo},
-         family_i={B\bibinitperiod},
-         given={Elizabeth\bibnamedelima A},
-         given_i={E\bibinitperiod\bibinitdelim A\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{JMJFPBEA1}
-    \strng{fullhash}{JMJFPBEA1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{J}
-    \field{sortinithash}{J}
-    \field{pages}{13144\bibrangedash 9}
-    \field{title}{Oscillatory Activity in the Monkey Hippocampus during Visual
-  Exploration and Memory Formation.}
-    \field{volume}{110}
-    \verb{file}
-    \verb /Users/naketz/Zotero/storage/777HP79N/JutrasFriesBuffalo13.pdf
-    \endverb
-    \field{journaltitle}{Proceedings of the National Academy of Sciences of the
-  United States of America}
-    \field{month}{08}
-    \field{year}{2013}
-  \endentry
-
-  \entry{KetzJensenOReilly15}{article}{}
-    \name{author}{3}{}{%
-      {{hash=KNA}{%
-         family={Ketz},
-         family_i={K\bibinitperiod},
-         given={Nicholas\bibnamedelima A},
-         given_i={N\bibinitperiod\bibinitdelim A\bibinitperiod},
-      }}%
-      {{hash=JO}{%
-         family={Jensen},
-         family_i={J\bibinitperiod},
-         given={Ole},
-         given_i={O\bibinitperiod},
-      }}%
-      {{hash=ORC}{%
-         family={O'Reilly},
-         family_i={O\bibinitperiod},
-         given={Randall\bibnamedelima C},
-         given_i={R\bibinitperiod\bibinitdelim C\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{KNAJOORC1}
-    \strng{fullhash}{KNAJOORC1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{K}
-    \field{sortinithash}{K}
-    \field{pages}{3\bibrangedash 12}
-    \field{title}{Thalamic Pathways Underlying Prefrontal Cortex-Medial
-  Temporal Lobe Oscillatory Interactions.}
-    \field{volume}{38}
-    \field{journaltitle}{Trends in neurosciences}
-    \field{month}{01}
-    \field{year}{2015}
-  \endentry
-
-  \entry{KetzMorkondaOReilly13}{article}{}
-    \name{author}{3}{}{%
-      {{hash=KN}{%
-         family={Ketz},
-         family_i={K\bibinitperiod},
-         given={Nicholas},
-         given_i={N\bibinitperiod},
-      }}%
-      {{hash=MSG}{%
-         family={Morkonda},
-         family_i={M\bibinitperiod},
-         given={Srinimisha\bibnamedelima G},
-         given_i={S\bibinitperiod\bibinitdelim G\bibinitperiod},
-      }}%
-      {{hash=ORC}{%
-         family={O'Reilly},
-         family_i={O\bibinitperiod},
-         given={Randall\bibnamedelima C},
-         given_i={R\bibinitperiod\bibinitdelim C\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{KNMSGORC1}
-    \strng{fullhash}{KNMSGORC1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{K}
-    \field{sortinithash}{K}
-    \field{pages}{e1003067}
-    \field{title}{Theta Coordinated Error-Driven Learning in the Hippocampus.}
-    \field{volume}{9}
-    \verb{file}
-    \verb /Users/naketz/Zotero/storage/FAGDQTQZ/KetzMorkondaOReilly13.pdf
-    \endverb
-    \field{journaltitle}{PLoS Computational Biology}
-    \field{month}{06}
-    \field{year}{2013}
-  \endentry
-
-  \entry{KievitKuypers77}{article}{}
-    \name{author}{2}{}{%
-      {{hash=KJ}{%
-         family={Kievit},
-         family_i={K\bibinitperiod},
-         given={J},
-         given_i={J},
-      }}%
-      {{hash=KHG}{%
-         family={Kuypers},
-         family_i={K\bibinitperiod},
-         given={H\bibnamedelima G},
-         given_i={H\bibinitperiod\bibinitdelim G\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{KJKHG1}
-    \strng{fullhash}{KJKHG1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{K}
-    \field{sortinithash}{K}
-    \field{pages}{299\bibrangedash 322}
-    \field{title}{Organization of the Thalamo-Cortical Connexions to the
-  Frontal Lobe in the Rhesus Monkey.}
-    \field{volume}{29}
-    \field{journaltitle}{Experimental brain research}
-    \field{month}{09}
-    \field{year}{1977}
-  \endentry
-
-  \entry{Klimesch12}{article}{}
-    \name{author}{1}{}{%
-      {{hash=KW}{%
-         family={Klimesch},
-         family_i={K\bibinitperiod},
-         given={Wolfgang},
-         given_i={W\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{KW1}
-    \strng{fullhash}{KW1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{K}
-    \field{sortinithash}{K}
-    \field{pages}{606\bibrangedash 17}
-    \field{title}{Alpha-Band Oscillations, Attention, and Controlled Access to
-  Stored Information.}
-    \field{volume}{16}
-    \field{journaltitle}{Trends in cognitive sciences}
-    \field{month}{12}
-    \field{year}{2012}
-  \endentry
-
-  \entry{KriegeskorteMurBandettini08}{article}{}
-    \name{author}{3}{}{%
-      {{hash=KN}{%
-         family={Kriegeskorte},
-         family_i={K\bibinitperiod},
-         given={Nikolaus},
-         given_i={N\bibinitperiod},
-      }}%
-      {{hash=MM}{%
-         family={Mur},
-         family_i={M\bibinitperiod},
-         given={Marieke},
-         given_i={M\bibinitperiod},
-      }}%
-      {{hash=BP}{%
-         family={Bandettini},
-         family_i={B\bibinitperiod},
-         given={Peter},
-         given_i={P\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{KNMMBP1}
-    \strng{fullhash}{KNMMBP1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{K}
-    \field{sortinithash}{K}
-    \field{number}{4}
-    \field{title}{Representational Similarity Analysis \textendash{} Connecting
-  the Branches of Systems Neuroscience.}
-    \field{volume}{2}
-    \field{journaltitle}{Frontiers in Systems Neuroscience}
-    \field{year}{2008}
-  \endentry
-
-  \entry{LeeWhittingtonKopell13}{article}{}
-    \name{author}{3}{}{%
-      {{hash=LJH}{%
-         family={Lee},
-         family_i={L\bibinitperiod},
-         given={Jung\bibnamedelima H.},
-         given_i={J\bibinitperiod\bibinitdelim H\bibinitperiod},
-      }}%
-      {{hash=WMA}{%
-         family={Whittington},
-         family_i={W\bibinitperiod},
-         given={Miles\bibnamedelima A.},
-         given_i={M\bibinitperiod\bibinitdelim A\bibinitperiod},
-      }}%
-      {{hash=KNJ}{%
-         family={Kopell},
-         family_i={K\bibinitperiod},
-         given={Nancy\bibnamedelima J.},
-         given_i={N\bibinitperiod\bibinitdelim J\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{LJHWMAKNJ1}
-    \strng{fullhash}{LJHWMAKNJ1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{L}
-    \field{sortinithash}{L}
-    \field{title}{Top-down Beta Rhythms Support Selective Attention via
-  Interlaminar Interaction: A Model}
-    \field{volume}{9}
-    \verb{file}
-    \verb /Users/naketz/Zotero/storage/X4HMRI6G/LeeWhittingtonKopell13.pdf
-    \endverb
-    \field{journaltitle}{PLoS Computational Biology}
-    \field{year}{2013}
-  \endentry
-
-  \entry{LerescheLightowlerSolteszEtAl91}{article}{}
-    \name{author}{5}{}{%
-      {{hash=LN}{%
-         family={Leresche},
-         family_i={L\bibinitperiod},
-         given={N},
-         given_i={N},
-      }}%
-      {{hash=LS}{%
-         family={Lightowler},
-         family_i={L\bibinitperiod},
-         given={S},
-         given_i={S},
-      }}%
-      {{hash=SI}{%
-         family={Soltesz},
-         family_i={S\bibinitperiod},
-         given={I},
-         given_i={I},
-      }}%
-      {{hash=JD}{%
-         family={{Jassik-Gerschenfeld}},
-         family_i={J\bibinitperiod},
-         given={D},
-         given_i={D},
-      }}%
-      {{hash=CV}{%
-         family={Crunelli},
-         family_i={C\bibinitperiod},
-         given={V},
-         given_i={V},
-      }}%
-    }
-    \strng{namehash}{LN+1}
-    \strng{fullhash}{LNLSSIJDCV1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{L}
-    \field{sortinithash}{L}
-    \field{pages}{155\bibrangedash 74}
-    \field{title}{Low-Frequency Oscillatory Activities Intrinsic to Rat and Cat
-  Thalamocortical Cells.}
-    \field{volume}{441}
-    \field{journaltitle}{The Journal of physiology}
-    \field{month}{09}
-    \field{year}{1991}
-  \endentry
-
-  \entry{LopesdaSilva91}{article}{}
-    \name{author}{1}{}{%
-      {{hash=LF}{%
-         family={{Lopes da Silva}},
-         family_i={L\bibinitperiod},
-         given={F},
-         given_i={F},
-      }}%
-    }
-    \strng{namehash}{LF1}
-    \strng{fullhash}{LF1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{L}
-    \field{sortinithash}{L}
-    \field{number}{2}
-    \field{pages}{81\bibrangedash 93}
-    \field{title}{Neural Mechanisms Underlying Brain Waves: {{From}} Neural
-  Membranes to Networks.}
-    \field{volume}{79}
-    \field{journaltitle}{Electroencephalography and Clinical Neurophysiology}
-    \field{month}{08}
-    \field{year}{1991}
-  \endentry
-
-  \entry{MarisOostenveld07}{article}{}
-    \name{author}{2}{}{%
-      {{hash=ME}{%
-         family={Maris},
-         family_i={M\bibinitperiod},
-         given={Eric},
-         given_i={E\bibinitperiod},
-      }}%
-      {{hash=OR}{%
-         family={Oostenveld},
-         family_i={O\bibinitperiod},
-         given={Robert},
-         given_i={R\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{MEOR1}
-    \strng{fullhash}{MEOR1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{M}
-    \field{sortinithash}{M}
-    \field{number}{1}
-    \field{pages}{177\bibrangedash 90}
-    \field{title}{Nonparametric Statistical Testing of {{EEG}}- and
-  {{MEG}}-Data.}
-    \field{volume}{164}
-    \field{journaltitle}{Journal of Neuroscience Methods}
-    \field{month}{08}
-    \field{year}{2007}
-  \endentry
-
-  \entry{McClellandMcNaughtonOReilly95}{article}{}
-    \name{author}{3}{}{%
-      {{hash=MJL}{%
-         family={McClelland},
-         family_i={M\bibinitperiod},
-         given={J.\bibnamedelima L.},
-         given_i={J\bibinitperiod\bibinitdelim L\bibinitperiod},
-      }}%
-      {{hash=MBL}{%
-         family={McNaughton},
-         family_i={M\bibinitperiod},
-         given={B.\bibnamedelima L.},
-         given_i={B\bibinitperiod\bibinitdelim L\bibinitperiod},
-      }}%
-      {{hash=ORC}{%
-         family={O'Reilly},
-         family_i={O\bibinitperiod},
-         given={R.\bibnamedelima C.},
-         given_i={R\bibinitperiod\bibinitdelim C\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{MJLMBLORC1}
-    \strng{fullhash}{MJLMBLORC1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{M}
-    \field{sortinithash}{M}
-    \field{number}{3}
-    \field{pages}{419\bibrangedash 457}
-    \field{title}{Why {{There Are Complementary Learning Systems}} in the
-  {{Hippocampus}} and {{Neocortex}}: {{Insights}} from the {{Successes}} and
-  {{Failures}} of {{Connectionist Models}} of {{Learning}} and {{Memory}}.}
-    \field{volume}{102}
-    \verb{file}
-    \verb /Users/naketz/Zotero/storage/RL8LYBXP/McClellandMcNaughtonOReilly95.p
-    \verb df
-    \endverb
-    \field{journaltitle}{Psychological Review}
-    \field{month}{08}
-    \field{year}{1995}
-  \endentry
-
-  \entry{NormanOReilly03}{article}{}
-    \name{author}{2}{}{%
-      {{hash=NKA}{%
-         family={Norman},
-         family_i={N\bibinitperiod},
-         given={Kenneth\bibnamedelima A.},
-         given_i={K\bibinitperiod\bibinitdelim A\bibinitperiod},
-      }}%
-      {{hash=ORC}{%
-         family={O'Reilly},
-         family_i={O\bibinitperiod},
-         given={Randall\bibnamedelima C.},
-         given_i={R\bibinitperiod\bibinitdelim C\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{NKAORC1}
-    \strng{fullhash}{NKAORC1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{N}
-    \field{sortinithash}{N}
-    \field{number}{4}
-    \field{pages}{611\bibrangedash 646}
-    \field{title}{Modeling Hippocampal and Neocortical Contributions to
-  Recognition Memory: A Complementary-Learning-Systems Approach.}
-    \field{volume}{110}
-    \verb{file}
-    \verb /Users/naketz/Zotero/storage/ZTX8AWF8/NormanOReilly03.pdf
-    \endverb
-    \field{journaltitle}{Psychological Review}
-    \field{month}{11}
-    \field{year}{2003}
-  \endentry
-
-  \entry{NyhusCurran10}{article}{}
-    \name{author}{2}{}{%
-      {{hash=NE}{%
-         family={Nyhus},
-         family_i={N\bibinitperiod},
-         given={Erika},
-         given_i={E\bibinitperiod},
-      }}%
-      {{hash=CT}{%
-         family={Curran},
-         family_i={C\bibinitperiod},
-         given={Tim},
-         given_i={T\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{NECT1}
-    \strng{fullhash}{NECT1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{N}
-    \field{sortinithash}{N}
-    \field{number}{7}
-    \field{pages}{1023\bibrangedash 1035}
-    \field{title}{Functional Role of Gamma and Theta Oscillations in Episodic
-  Memory.}
-    \field{volume}{34}
-    \verb{file}
-    \verb /Users/naketz/Zotero/storage/4W768SXX/NyhusCurran10.pdf
-    \endverb
-    \field{journaltitle}{Neuroscience and biobehavioral reviews}
-    \field{month}{06}
-    \field{year}{2010}
-  \endentry
-
-  \entry{OReillyBhattacharyyaHowardEtAl14}{article}{}
-    \name{author}{4}{}{%
-      {{hash=ORC}{%
-         family={O'Reilly},
-         family_i={O\bibinitperiod},
-         given={Randall\bibnamedelima C.},
-         given_i={R\bibinitperiod\bibinitdelim C\bibinitperiod},
-      }}%
-      {{hash=BR}{%
-         family={Bhattacharyya},
-         family_i={B\bibinitperiod},
-         given={Rajan},
-         given_i={R\bibinitperiod},
-      }}%
-      {{hash=HMD}{%
-         family={Howard},
-         family_i={H\bibinitperiod},
-         given={Michael\bibnamedelima D.},
-         given_i={M\bibinitperiod\bibinitdelim D\bibinitperiod},
-      }}%
-      {{hash=KN}{%
-         family={Ketz},
-         family_i={K\bibinitperiod},
-         given={Nicholas},
-         given_i={N\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{ORC+1}
-    \strng{fullhash}{ORCBRHMDKN1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{O}
-    \field{sortinithash}{O}
-    \field{number}{6}
-    \field{pages}{1229\bibrangedash 1248}
-    \field{title}{Complementary {{Learning Systems}}.}
-    \field{volume}{38}
-    \field{journaltitle}{Cognitive Science}
-    \field{month}{12}
-    \field{year}{2014}
-  \endentry
-
-  \entry{OostenveldFriesMarisEtAl11}{article}{}
-    \name{author}{4}{}{%
-      {{hash=OR}{%
-         family={Oostenveld},
-         family_i={O\bibinitperiod},
-         given={Robert},
-         given_i={R\bibinitperiod},
-      }}%
-      {{hash=FP}{%
-         family={Fries},
-         family_i={F\bibinitperiod},
-         given={Pascal},
-         given_i={P\bibinitperiod},
-      }}%
-      {{hash=ME}{%
-         family={Maris},
-         family_i={M\bibinitperiod},
-         given={Eric},
-         given_i={E\bibinitperiod},
-      }}%
-      {{hash=SJM}{%
-         family={Schoffelen},
-         family_i={S\bibinitperiod},
-         given={Jan-Mathijs},
-         given_i={J\bibinitperiod-M\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{OR+1}
-    \strng{fullhash}{ORFPMESJM1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{O}
-    \field{sortinithash}{O}
-    \field{title}{{{FieldTrip}}: {{Open}} Source Software for Advanced Analysis
-  of {{MEG}}, {{EEG}}, and Invasive Electrophysiological Data.}
-    \field{volume}{2011}
-    \field{journaltitle}{Computational Intelligence and Neuroscience}
-    \field{year}{2011}
-  \endentry
-
-  \entry{ParishHanslmayrBowman18}{article}{}
-    \name{author}{3}{}{%
-      {{hash=PG}{%
-         family={Parish},
-         family_i={P\bibinitperiod},
-         given={George},
-         given_i={G\bibinitperiod},
-      }}%
-      {{hash=HS}{%
-         family={Hanslmayr},
-         family_i={H\bibinitperiod},
-         given={Simon},
-         given_i={S\bibinitperiod},
-      }}%
-      {{hash=BH}{%
-         family={Bowman},
-         family_i={B\bibinitperiod},
-         given={Howard},
-         given_i={H\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{PGHSBH1}
-    \strng{fullhash}{PGHSBH1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{shorttitle}
-    \field{sortinit}{P}
-    \field{sortinithash}{P}
-    \field{number}{14}
-    \field{pages}{3428\bibrangedash 3440}
-    \field{shorttitle}{The {{Sync}}/{{deSync}} Model}
-    \field{title}{The {{Sync}}/{{deSync}} Model: How a Synchronized Hippocampus
-  and a Desynchronized Neocortex Code Memories}
-    \field{volume}{38}
-    \verb{file}
-    \verb /Users/naketz/Zotero/storage/VNYMQXW7/Parish et al. - 2018 - The Sync
-    \verb deSync model how a synchronized hippocam.pdf;/Users/naketz/Zotero/sto
-    \verb rage/GAU5A3H6/3428.html
-    \endverb
-    \field{journaltitle}{Journal of Neuroscience}
-    \field{year}{2018}
-  \endentry
-
-  \entry{ParkLeeKangEtAl14}{article}{}
-    \name{author}{8}{}{%
-      {{hash=PH}{%
-         family={Park},
-         family_i={P\bibinitperiod},
-         given={Hyojin},
-         given_i={H\bibinitperiod},
-      }}%
-      {{hash=LDS}{%
-         family={Lee},
-         family_i={L\bibinitperiod},
-         given={Dong\bibnamedelima Soo},
-         given_i={D\bibinitperiod\bibinitdelim S\bibinitperiod},
-      }}%
-      {{hash=KE}{%
-         family={Kang},
-         family_i={K\bibinitperiod},
-         given={Eunjoo},
-         given_i={E\bibinitperiod},
-      }}%
-      {{hash=KH}{%
-         family={Kang},
-         family_i={K\bibinitperiod},
-         given={Hyejin},
-         given_i={H\bibinitperiod},
-      }}%
-      {{hash=HJ}{%
-         family={Hahm},
-         family_i={H\bibinitperiod},
-         given={Jarang},
-         given_i={J\bibinitperiod},
-      }}%
-      {{hash=KJS}{%
-         family={Kim},
-         family_i={K\bibinitperiod},
-         given={June\bibnamedelima Sic},
-         given_i={J\bibinitperiod\bibinitdelim S\bibinitperiod},
-      }}%
-      {{hash=CCK}{%
-         family={Chung},
-         family_i={C\bibinitperiod},
-         given={Chun\bibnamedelima Kee},
-         given_i={C\bibinitperiod\bibinitdelim K\bibinitperiod},
-      }}%
-      {{hash=JO}{%
-         family={Jensen},
-         family_i={J\bibinitperiod},
-         given={Ole},
-         given_i={O\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{PH+1}
-    \strng{fullhash}{PHLDSKEKHHJKJSCCKJO1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{P}
-    \field{sortinithash}{P}
-    \field{title}{Blocking of Irrelevant Memories by Posterior Alpha Activity
-  Boosts Memory Encoding.}
-    \field{journaltitle}{Human brain mapping}
-    \field{month}{02}
-    \field{year}{2014}
-  \endentry
-
-  \entry{PrinceDaselaarCabeza05}{article}{}
-    \name{author}{3}{}{%
-      {{hash=PSE}{%
-         family={Prince},
-         family_i={P\bibinitperiod},
-         given={Steven\bibnamedelima E},
-         given_i={S\bibinitperiod\bibinitdelim E\bibinitperiod},
-      }}%
-      {{hash=DSM}{%
-         family={Daselaar},
-         family_i={D\bibinitperiod},
-         given={Sander\bibnamedelima M},
-         given_i={S\bibinitperiod\bibinitdelim M\bibinitperiod},
-      }}%
-      {{hash=CR}{%
-         family={Cabeza},
-         family_i={C\bibinitperiod},
-         given={Roberto},
-         given_i={R\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{PSEDSMCR1}
-    \strng{fullhash}{PSEDSMCR1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{P}
-    \field{sortinithash}{P}
-    \field{pages}{1203\bibrangedash 1210}
-    \field{title}{Neural Correlates of Relational Memory: Successful Encoding
-  and Retrieval of Semantic and Perceptual Associations.}
-    \field{volume}{25}
-    \field{journaltitle}{The Journal of neuroscience}
-    \field{month}{02}
-    \field{year}{2005}
-  \endentry
-
-  \entry{SaalmannKastner11}{article}{}
-    \name{author}{2}{}{%
-      {{hash=SYB}{%
-         family={Saalmann},
-         family_i={S\bibinitperiod},
-         given={Yuri\bibnamedelima B.},
-         given_i={Y\bibinitperiod\bibinitdelim B\bibinitperiod},
-      }}%
-      {{hash=KS}{%
-         family={Kastner},
-         family_i={K\bibinitperiod},
-         given={Sabine},
-         given_i={S\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{SYBKS1}
-    \strng{fullhash}{SYBKS1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{S}
-    \field{sortinithash}{S}
-    \field{number}{2}
-    \field{pages}{209\bibrangedash 223}
-    \field{title}{Cognitive and Perceptual Functions of the Visual Thalamus.}
-    \field{volume}{71}
-    \verb{file}
-    \verb /Users/naketz/Zotero/storage/IIPRHSAA/SaalmannKastner11.pdf
-    \endverb
-    \field{journaltitle}{Neuron}
-    \field{month}{07}
-    \field{year}{2011}
-  \endentry
-
-  \entry{ShermanGuillery06}{book}{}
-    \name{author}{2}{}{%
-      {{hash=SS}{%
-         family={Sherman},
-         family_i={S\bibinitperiod},
-         given={S.Murray},
-         given_i={S\bibinitperiod},
-      }}%
-      {{hash=GR}{%
-         family={Guillery},
-         family_i={G\bibinitperiod},
-         given={R.W.},
-         given_i={R\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {{MIT Press}}%
-    }
-    \strng{namehash}{SSGR1}
-    \strng{fullhash}{SSGR1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{S}
-    \field{sortinithash}{S}
-    \field{title}{Exploring the {{Thalamus}} and {{Its Role}} in {{Cortical
-  Function}}}
-    \list{location}{1}{%
-      {Cambridge, MA}%
-    }
-    \field{year}{2006}
-  \endentry
-
-  \entry{StaresinaMichelmannBonnefondEtAl16}{article}{}
-    \name{author}{6}{}{%
-      {{hash=SBP}{%
-         family={Staresina},
-         family_i={S\bibinitperiod},
-         given={Bernhard\bibnamedelima P.},
-         given_i={B\bibinitperiod\bibinitdelim P\bibinitperiod},
-      }}%
-      {{hash=MS}{%
-         family={Michelmann},
-         family_i={M\bibinitperiod},
-         given={Sebastian},
-         given_i={S\bibinitperiod},
-      }}%
-      {{hash=BM}{%
-         family={Bonnefond},
-         family_i={B\bibinitperiod},
-         given={Mathilde},
-         given_i={M\bibinitperiod},
-      }}%
-      {{hash=JO}{%
-         family={Jensen},
-         family_i={J\bibinitperiod},
-         given={Ole},
-         given_i={O\bibinitperiod},
-      }}%
-      {{hash=AN}{%
-         family={Axmacher},
-         family_i={A\bibinitperiod},
-         given={Nikolai},
-         given_i={N\bibinitperiod},
-      }}%
-      {{hash=FJ}{%
-         family={Fell},
-         family_i={F\bibinitperiod},
-         given={Juergen},
-         given_i={J\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{SBP+1}
-    \strng{fullhash}{SBPMSBMJOANFJ1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{S}
-    \field{sortinithash}{S}
-    \field{pages}{e17397}
-    \field{title}{Hippocampal Pattern Completion Is Linked to Gamma Power
-  Increases and Alpha Power Decreases during Recollection}
-    \field{volume}{5}
-    \verb{file}
-    \verb /Users/naketz/Zotero/storage/GGUZA7C3/Staresina et al. - 2016 - Hippo
-    \verb campal pattern completion is linked to gamma .pdf
-    \endverb
-    \field{journaltitle}{Elife}
-    \field{year}{2016}
-  \endentry
-
-  \entry{VanderWerfJollesWitterEtAl03}{article}{}
-    \name{author}{4}{}{%
-      {{hash=VYD}{%
-         family={{Van der Werf}},
-         family_i={V\bibinitperiod},
-         given={Ysbrand\bibnamedelima D},
-         given_i={Y\bibinitperiod\bibinitdelim D\bibinitperiod},
-      }}%
-      {{hash=JJ}{%
-         family={Jolles},
-         family_i={J\bibinitperiod},
-         given={Jelle},
-         given_i={J\bibinitperiod},
-      }}%
-      {{hash=WMP}{%
-         family={Witter},
-         family_i={W\bibinitperiod},
-         given={Menno\bibnamedelima P.},
-         given_i={M\bibinitperiod\bibinitdelim P\bibinitperiod},
-      }}%
-      {{hash=UHBM}{%
-         family={Uylings},
-         family_i={U\bibinitperiod},
-         given={Harry B.\bibnamedelima M.},
-         given_i={H\bibinitperiod\bibinitdelim B\bibinitperiod\bibinitdelim
-  M\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{VYD+1}
-    \strng{fullhash}{VYDJJWMPUHBM1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{V}
-    \field{sortinithash}{V}
-    \field{pages}{1047\bibrangedash 1062}
-    \field{title}{Contributions of Thalamic Nuclei to Declarative Memory
-  Functioning.}
-    \field{volume}{39}
-    \field{journaltitle}{Cortex}
-    \field{month}{10}
-    \field{year}{2003}
-  \endentry
-
-  \entry{VijayanKopell12}{article}{}
-    \name{author}{2}{}{%
-      {{hash=VS}{%
-         family={Vijayan},
-         family_i={V\bibinitperiod},
-         given={Sujith},
-         given_i={S\bibinitperiod},
-      }}%
-      {{hash=KNJ}{%
-         family={Kopell},
-         family_i={K\bibinitperiod},
-         given={Nancy\bibnamedelima J.},
-         given_i={N\bibinitperiod\bibinitdelim J\bibinitperiod},
-      }}%
-    }
-    \list{language}{1}{%
-      {en}%
-    }
-    \strng{namehash}{VSKNJ1}
-    \strng{fullhash}{VSKNJ1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{V}
-    \field{sortinithash}{V}
-    \field{abstract}{%
-    We describe a unique conductance-based model of awake thalamic alpha and
-  some of its implications for function. The full model includes a model for a
-  specialized class of high-threshold thalamocortical cells (HTC cells), which
-  burst at the alpha frequency at depolarized membrane potentials
-  ({$\sim{}-$}56 mV). Our model generates alpha activity when the actions of
-  either muscarinic acetylcholine receptor (mAChR) or metabotropic glutamate
-  receptor 1 (mGluR1) agonists on thalamic reticular (RE), thalamocortical
-  (TC), and HTC cells are mimicked. In our model of mGluR1-induced alpha, TC
-  cells are equally likely to fire during any phase of alpha, consistent with
-  in vitro experiments. By contrast, in our model of mAChR-induced alpha, TC
-  cells tend to fire either at the peak or the trough of alpha, depending on
-  conditions. Our modeling suggests that low levels of mGluR1 activation on a
-  background of mAChR agonists may be able to initiate alpha activity that
-  biases TC cells to fire at certain phases of alpha, offering a pathway for
-  cortical control. If we introduce a strong stimulus by increasing the
-  frequency of excitatory postsynaptic potentials (EPSPs) to TC cells, an
-  increase in alpha power is needed to mimic the level of phasing of TC cells
-  observed in vivo. This increased alpha power reduces the probability that TC
-  cells spike near the trough of alpha. We suggest that mAChR-induced alpha may
-  contribute to grouping TC activity into discrete perceptual units for
-  processing, whereas mGluR1-induced alpha may serve the purpose of blocking
-  unwanted stimuli from reaching the cortex.%
-    }
-    \verb{doi}
-    \verb 10.1073/pnas.1215385109
-    \endverb
-    \field{issn}{0027-8424, 1091-6490}
-    \field{number}{45}
-    \field{pages}{18553\bibrangedash 18558}
-    \field{title}{Thalamic Model of Awake Alpha Oscillations and Implications
-  for Stimulus Processing}
-    \field{volume}{109}
-    \verb{file}
-    \verb /Users/naketz/Zotero/storage/6GI6D4RN/VijayanKopell12.pdf;/Users/nake
-    \verb tz/Zotero/storage/CRAG5AB2/18553.html
-    \endverb
-    \field{journaltitle}{Proceedings of the National Academy of Sciences}
-    \field{month}{06}
-    \field{year}{2012}
-  \endentry
-
-  \entry{Witter10}{incollection}{}
-    \name{author}{1}{}{%
-      {{hash=WMP}{%
-         family={Witter},
-         family_i={W\bibinitperiod},
-         given={Menno\bibnamedelima P.},
-         given_i={M\bibinitperiod\bibinitdelim P\bibinitperiod},
-      }}%
-    }
-    \name{editor}{4}{}{%
-      {{hash=CV}{%
-         family={Cutsuridis},
-         family_i={C\bibinitperiod},
-         given={Vassilis},
-         given_i={V\bibinitperiod},
-      }}%
-      {{hash=GB}{%
-         family={Graham},
-         family_i={G\bibinitperiod},
-         given={Bruce},
-         given_i={B\bibinitperiod},
-      }}%
-      {{hash=CS}{%
-         family={Cobb},
-         family_i={C\bibinitperiod},
-         given={Stuart},
-         given_i={S\bibinitperiod},
-      }}%
-      {{hash=VI}{%
-         family={Vida},
-         family_i={V\bibinitperiod},
-         given={Imre},
-         given_i={I\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {{Medical-Technical Research Centre, Norwegian University of Science and
-  Technology Kavli Institute for Systems Neuroscience and Centre for the
-  Biology of Memory Trondheim Norway}}%
-    }
-    \strng{namehash}{WMP1}
-    \strng{fullhash}{WMP1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{W}
-    \field{sortinithash}{W}
-    \field{booktitle}{Connectivity of the {{Hippocampus}}}
-    \field{pages}{5\bibrangedash 26}
-    \field{series}{Springer {{Series}} in {{Computational Neuroscience}}}
-    \field{title}{Hippocampal {{Microcircuits}}}
-    \field{volume}{5}
-    \field{year}{2010}
-  \endentry
-\endsortlist
+\refsection{0}
+  \sortlist[entry]{apa/global/}
+    \entry{AggletonDumontWarburton11}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,hash=32420a332393fea2536898668e01e074}{%
+           family={Aggleton},
+           family_i={A\bibinitperiod},
+           given={John\bibnamedelima P},
+           given_i={J\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{uniquename=0,hash=da53e9fa4ff7bb337b9cd321e1a28091}{%
+           family={Dumont},
+           family_i={D\bibinitperiod},
+           given={Julie\bibnamedelima R},
+           given_i={J\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{uniquename=0,hash=84f32437698cd2aa2f99e56d135210d2}{%
+           family={Warburton},
+           family_i={W\bibinitperiod},
+           given={Elizabeth\bibnamedelima Clea},
+           given_i={E\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \strng{namehash}{15b12bcd8337bf369f295d174ebdc5d0}
+      \strng{fullhash}{58225bc9232b27570dc485a38ad49c1e}
+      \field{sortinit}{A}
+      \field{sortinithash}{b685c7856330eaee22789815b49de9bb}
+      \field{labelyear}{2011}
+      \field{labelmonth}{06}
+      \field{datelabelsource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Learning \& memory}
+      \field{month}{06}
+      \field{title}{Unraveling the Contributions of the Diencephalon to Recognition Memory: A Review.}
+      \field{volume}{18}
+      \field{year}{2011}
+      \field{pages}{384\bibrangedash 400}
+      \range{pages}{17}
+    \endentry
+    \entry{AisaMingusOReilly08}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,hash=e6f8ce93bb572d17b604dc42b55c3e29}{%
+           family={Aisa},
+           family_i={A\bibinitperiod},
+           given={Brad},
+           given_i={B\bibinitperiod}}}%
+        {{uniquename=0,hash=2f77872131f2aefb8a75a58a1356e1df}{%
+           family={Mingus},
+           family_i={M\bibinitperiod},
+           given={Brian},
+           given_i={B\bibinitperiod}}}%
+        {{uniquename=0,hash=74f47c69c0ebe04797ab66ab7b824253}{%
+           family={O'Reilly},
+           family_i={O\bibinitperiod},
+           given={Randy},
+           given_i={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{c8b5e798c66c5a724ff2acd5eb59ea1f}
+      \strng{fullhash}{1803f08cff40903ff74ddad07ffe15f2}
+      \field{sortinit}{A}
+      \field{sortinithash}{b685c7856330eaee22789815b49de9bb}
+      \field{labelyear}{2008}
+      \field{labelmonth}{10}
+      \field{datelabelsource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Neural Networks}
+      \field{month}{10}
+      \field{number}{8}
+      \field{title}{The Emergent Neural Modeling System.}
+      \field{volume}{21}
+      \field{year}{2008}
+      \field{pages}{1146\bibrangedash 1152}
+      \range{pages}{7}
+      \verb{file}
+      \verb /Users/naketz/Zotero/storage/C95WHBN9/AisaMingusOReilly08.pdf
+      \endverb
+    \endentry
+    \entry{BarbasHenionDermon91}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,hash=7da91ab74e08e58c19dd883c9672613e}{%
+           family={Barbas},
+           family_i={B\bibinitperiod},
+           given={H.},
+           given_i={H\bibinitperiod}}}%
+        {{uniquename=0,hash=f153219a962c3f645c7232d54f78cef7}{%
+           family={Henion},
+           family_i={H\bibinitperiod},
+           given={T.\bibnamedelimi H.},
+           given_i={T\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{uniquename=0,hash=9055e0e76c989e2c0cba67b2782cfa72}{%
+           family={Dermon},
+           family_i={D\bibinitperiod},
+           given={C.\bibnamedelimi R.},
+           given_i={C\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \strng{namehash}{10d85e7326e47b61ebec74b3505b598e}
+      \strng{fullhash}{3837638b50051af73cc311f024556b3c}
+      \field{sortinit}{B}
+      \field{sortinithash}{4ecbea03efd0532989d3836d1a048c32}
+      \field{labelyear}{1991}
+      \field{labelmonth}{11}
+      \field{datelabelsource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Journal of Comparative Neurology}
+      \field{month}{11}
+      \field{title}{Diverse Thalamic Projections to the Prefrontal Cortex in the Rhesus Monkey.}
+      \field{volume}{313}
+      \field{year}{1991}
+      \field{pages}{65\bibrangedash 94}
+      \range{pages}{30}
+      \verb{file}
+      \verb /Users/naketz/Zotero/storage/W4AQZQR9/BarbasHenionDermon91.pdf
+      \endverb
+    \endentry
+    \entry{BatesMachlerBolkerEtAl14}{article}{}
+      \name{author}{4}{}{%
+        {{uniquename=0,hash=291c4bc67cf41a2019405a2328a9b75e}{%
+           family={Bates},
+           family_i={B\bibinitperiod},
+           given={Douglas},
+           given_i={D\bibinitperiod}}}%
+        {{uniquename=0,hash=9cd1e56848b277b4f48a6e0b817ba5ab}{%
+           family={Mächler},
+           family_i={M\bibinitperiod},
+           given={Martin},
+           given_i={M\bibinitperiod}}}%
+        {{uniquename=0,hash=d6b13be971f13ee03cc83cded41b6d7e}{%
+           family={Bolker},
+           family_i={B\bibinitperiod},
+           given={Ben},
+           given_i={B\bibinitperiod}}}%
+        {{uniquename=0,hash=3face7d9e1128ebfefc56b5f54f28451}{%
+           family={Walker},
+           family_i={W\bibinitperiod},
+           given={Steve},
+           given_i={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{d09b320744f09c093eb8b0d7f6bbdda0}
+      \strng{fullhash}{e1419b3c7f22b8a469bd183c172e98b4}
+      \field{sortinit}{B}
+      \field{sortinithash}{4ecbea03efd0532989d3836d1a048c32}
+      \field{labelyear}{2014}
+      \field{labelmonth}{06}
+      \field{datelabelsource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Maximum likelihood or restricted maximum likelihood (REML) estimates of the parameters in linear mixed-effects models can be determined using the lmer function in the lme4 package for R. As for most model-fitting functions in R, the model is described in an lmer call by a formula, in this case including both fixed- and random-effects terms. The formula and data together determine a numerical representation of the model from which the profiled deviance or the profiled REML criterion can be evaluated as a function of some of the model parameters. The appropriate criterion is optimized, using one of the constrained optimization functions in R, to provide the parameter estimates. We describe the structure of the model, the steps in evaluating the profiled deviance or REML criterion, and the structure of classes or types that represents such a model. Sufficient detail is included to allow specialization of these structures by users who wish to write functions to fit specialized linear mixed models, such as models incorporating pedigrees or smoothing splines, that are not easily expressible in the formula language used by lmer.}
+      \field{eprintclass}{stat}
+      \field{eprinttype}{arxiv}
+      \field{journaltitle}{arXiv:1406.5823 [stat]}
+      \field{month}{06}
+      \field{title}{Fitting {{Linear Mixed}}-{{Effects Models}} Using Lme4}
+      \field{year}{2014}
+      \verb{eprint}
+      \verb 1406.5823
+      \endverb
+      \verb{file}
+      \verb /Users/naketz/Zotero/storage/D34RWU9P/BatesMachlerBolkerEtAl14.pdf;/Users/naketz/Zotero/storage/5D4NWEHE/1406.html
+      \endverb
+      \keyw{Statistics - Computation}
+    \endentry
+    \entry{BeckerKnockRitterEtAl15}{article}{}
+      \name{author}{4}{}{%
+        {{uniquename=0,hash=d09293afd9b01bebe6215e6caf42fc7b}{%
+           family={Becker},
+           family_i={B\bibinitperiod},
+           given={Robert},
+           given_i={R\bibinitperiod}}}%
+        {{uniquename=0,hash=759b89c513ca4eabf6fa9d4f57e34890}{%
+           family={Knock},
+           family_i={K\bibinitperiod},
+           given={Stuart},
+           given_i={S\bibinitperiod}}}%
+        {{uniquename=0,hash=67d8573fab0c4ba0fbad9914246377f0}{%
+           family={Ritter},
+           family_i={R\bibinitperiod},
+           given={Petra},
+           given_i={P\bibinitperiod}}}%
+        {{uniquename=0,hash=09de2ba4e022dfb985f026ee3462522e}{%
+           family={Jirsa},
+           family_i={J\bibinitperiod},
+           given={Viktor},
+           given_i={V\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{b68e3174888a6e72f606b8dfe6e3c191}
+      \strng{fullhash}{eaa7bcfd89fc7ce805f7116b8609c94c}
+      \field{sortinit}{B}
+      \field{sortinithash}{4ecbea03efd0532989d3836d1a048c32}
+      \field{labelyear}{2015}
+      \field{labelmonth}{09}
+      \field{datelabelsource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Oscillations are ubiquitous phenomena in the animal and human brain. Among them, the alpha rhythm in human EEG is one of the most prominent examples. However, its precise mechanisms of generation are still poorly understood. It was mainly this lack of knowledge that motivated a number of simultaneous electroencephalography (EEG) –{} functional magnetic resonance imaging (fMRI) studies. This approach revealed how oscillatory neuronal signatures such as the alpha rhythm are paralleled by changes of the blood oxygenation level dependent (BOLD) signal. Several such studies revealed a negative correlation between the alpha rhythm and the hemodynamic BOLD signal in visual cortex and a positive correlation in the thalamus. In this study we explore the potential generative mechanisms that lead to those observations. We use a bursting capable Stefanescu-Jirsa 3D (SJ3D) neural-mass model that reproduces a wide repertoire of prominent features of local neuronal-population dynamics. We construct a thalamo-cortical network of coupled SJ3D nodes considering excitatory and inhibitory directed connections. The model suggests that an inverse correlation between cortical multi-unit activity, i.e. the firing of neuronal populations, and narrow band local field potential oscillations in the alpha band underlies the empirically observed negative correlation between alpha-rhythm power and fMRI signal in visual cortex. Furthermore the model suggests that the interplay between tonic and bursting mode in thalamus and cortex is critical for this relation. This demonstrates how biophysically meaningful modelling can generate precise and testable hypotheses about the underpinnings of large-scale neuroimaging signals.}
+      \field{issn}{1553-7358}
+      \field{journaltitle}{PLOS Computational Biology}
+      \field{month}{09}
+      \field{number}{9}
+      \field{title}{Relating {{Alpha Power}} and {{Phase}} to {{Population Firing}} and {{Hemodynamic Activity Using}} a {{Thalamo}}-Cortical {{Neural Mass Model}}}
+      \field{volume}{11}
+      \field{year}{2015}
+      \field{pages}{e1004352}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1371/journal.pcbi.1004352
+      \endverb
+      \verb{file}
+      \verb /Users/naketz/Zotero/storage/XUC4QFDF/Becker et al. - 2015 - Relating Alpha Power and Phase to Population Firin.pdf;/Users/naketz/Zotero/storage/LH324UJT/article.html
+      \endverb
+      \keyw{Cerebrospinal fluid,Functional magnetic resonance imaging,Hemodynamics,Neural networks,Neurons,Single neuron function,Thalamic nuclei,Thalamus}
+    \endentry
+    \entry{Brainard97}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=9139ed6ff956b92b2c8b815541a945fd}{%
+           family={Brainard},
+           family_i={B\bibinitperiod},
+           given={D.\bibnamedelimi H.},
+           given_i={D\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {eng}%
+      }
+      \strng{namehash}{9139ed6ff956b92b2c8b815541a945fd}
+      \strng{fullhash}{9139ed6ff956b92b2c8b815541a945fd}
+      \field{sortinit}{B}
+      \field{sortinithash}{4ecbea03efd0532989d3836d1a048c32}
+      \field{labelyear}{1997}
+      \field{datelabelsource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The Psychophysics Toolbox is a software package that supports visual psychophysics. Its routines provide an interface between a high-level interpreted language (MATLAB on the Macintosh) and the video display hardware. A set of example programs is included with the Toolbox distribution.}
+      \field{issn}{0169-1015}
+      \field{journaltitle}{Spatial Vision}
+      \field{number}{4}
+      \field{title}{The {{Psychophysics Toolbox}}}
+      \field{volume}{10}
+      \field{year}{1997}
+      \field{pages}{433\bibrangedash 436}
+      \range{pages}{4}
+      \keyw{Computer Terminals,Data Display,Humans,Microcomputers,Psychophysics,Research,Software,User-Computer Interface}
+    \endentry
+    \entry{Buzsaki02}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=a276dd1cde785cd460563c298dde258d}{%
+           family={Buzsaki},
+           family_i={B\bibinitperiod},
+           given={G.},
+           given_i={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{a276dd1cde785cd460563c298dde258d}
+      \strng{fullhash}{a276dd1cde785cd460563c298dde258d}
+      \field{sortinit}{B}
+      \field{sortinithash}{4ecbea03efd0532989d3836d1a048c32}
+      \field{labelyear}{2002}
+      \field{datelabelsource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Neuron}
+      \field{number}{3}
+      \field{title}{Theta Oscillations in the Hippocampus.}
+      \field{volume}{33}
+      \field{year}{2002}
+      \field{pages}{325\bibrangedash 340}
+      \range{pages}{16}
+      \verb{file}
+      \verb /Users/naketz/Zotero/storage/XSK3RB3U/Buzsaki02.pdf
+      \endverb
+    \endentry
+    \entry{ChaumonBishopBusch15}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,hash=44cfa54faf003b71ccc02a61022efe08}{%
+           family={Chaumon},
+           family_i={C\bibinitperiod},
+           given={Maximilien},
+           given_i={M\bibinitperiod}}}%
+        {{uniquename=0,hash=0c95d70eefee0c23f952b79eff9e2347}{%
+           family={Bishop},
+           family_i={B\bibinitperiod},
+           given={Dorothy\bibnamedelimb V.\bibnamedelimi M.},
+           given_i={D\bibinitperiod\bibinitdelim V\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{uniquename=0,hash=86365a07e241eb9c37707d26726a4db5}{%
+           family={Busch},
+           family_i={B\bibinitperiod},
+           given={Niko\bibnamedelima A.},
+           given_i={N\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {eng}%
+      }
+      \strng{namehash}{d7cccb148f1157cd3679a34eef05e1f0}
+      \strng{fullhash}{33e45cdc34db2457cf33188b6188cc63}
+      \field{sortinit}{C}
+      \field{sortinithash}{59f25d509f3381b07695554a9f35ecb2}
+      \field{labelyear}{2015}
+      \field{labelmonth}{07}
+      \field{datelabelsource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{BACKGROUND: Electroencephalographic data are easily contaminated by signals of non-neural origin. Independent component analysis (ICA) can help correct EEG data for such artifacts. Artifact independent components (ICs) can be identified by experts via visual inspection. But artifact features are sometimes ambiguous or difficult to notice, and even experts may disagree about how to categorise a particular component. It is therefore important to inform users on artifact properties, and give them the opportunity to intervene. NEW METHOD: Here we first describe artifacts captured by ICA. We review current methods to automatically select artifactual components for rejection, and introduce the SASICA software, implementing several novel selection algorithms as well as two previously described automated methods (ADJUST, Mognon et al. Psychophysiology 2011;48(2):229; and FASTER, Nolan et al. J Neurosci Methods 2010;48(1):152). RESULTS: We evaluate these algorithms by comparing selections suggested by SASICA and other methods to manual rejections by experts. The results show that these methods can inform observers to improve rejections. However, no automated method can accurately isolate artifacts without supervision. The comprehensive and interactive plots produced by SASICA therefore constitute a helpful guide for human users for making final decisions. CONCLUSIONS: Rejecting ICs before EEG data analysis unavoidably requires some level of supervision. SASICA offers observers detailed information to guide selection of artifact ICs. Because it uses quantitative parameters and thresholds, it improves objectivity and reproducibility in reporting pre-processing procedures. SASICA is also a didactic tool that allows users to quickly understand what signal features captured by ICs make them likely to reflect artifacts.}
+      \field{issn}{1872-678X}
+      \field{journaltitle}{Journal of Neuroscience Methods}
+      \field{month}{07}
+      \field{title}{A Practical Guide to the Selection of Independent Components of the Electroencephalogram for Artifact Correction}
+      \field{volume}{250}
+      \field{year}{2015}
+      \field{pages}{47\bibrangedash 63}
+      \range{pages}{17}
+      \verb{doi}
+      \verb 10.1016/j.jneumeth.2015.02.025
+      \endverb
+      \keyw{Muscle; Skeletal,Eye Movements,User-Computer Interface,Pattern Recognition; Automated,Artifact,Algorithms,Humans,Signal Processing; Computer-Assisted,electroencephalography,EEG,ICA,Artifacts,Data Interpretation; Statistical,EEGLAB plugin,Pre-processing,brain}
+    \endentry
+    \entry{FuentemillaBarnesDuzelEtAl14}{article}{}
+      \name{author}{4}{}{%
+        {{uniquename=0,hash=03ac484e611ecd722a0db61df0740a0a}{%
+           family={Fuentemilla},
+           family_i={F\bibinitperiod},
+           given={L},
+           given_i={L\bibinitperiod}}}%
+        {{uniquename=0,hash=7806c564d005a4551f138c578ca68936}{%
+           family={Barnes},
+           family_i={B\bibinitperiod},
+           given={G\bibnamedelima R},
+           given_i={G\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{uniquename=0,hash=4345eb0f46c73b1d52166cef4e7702cf}{%
+           family={Düzel},
+           family_i={D\bibinitperiod},
+           given={E},
+           given_i={E\bibinitperiod}}}%
+        {{uniquename=0,hash=17c4384a8c0ba4095ff6ccbcf0277716}{%
+           family={Levine},
+           family_i={L\bibinitperiod},
+           given={B},
+           given_i={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{7d71947ac33c9446b50fa8099621957d}
+      \strng{fullhash}{353e30d2d2183ec8d08ccf5956568fd6}
+      \field{sortinit}{F}
+      \field{sortinithash}{c6a7d9913bbd7b20ea954441c0460b78}
+      \field{labelyear}{2014}
+      \field{labelmonth}{08}
+      \field{datelabelsource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{NeuroImage}
+      \field{month}{08}
+      \field{number}{2}
+      \field{title}{Theta Oscillations Orchestrate Medial Temporal Lobe and Neocortex in Remembering Autobiographical Memories.}
+      \field{volume}{85}
+      \field{year}{2014}
+      \field{pages}{730\bibrangedash 737}
+      \range{pages}{8}
+    \endentry
+    \entry{Gabrieli98}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=de94741300a44f7d3397047d19145e26}{%
+           family={Gabrieli},
+           family_i={G\bibinitperiod},
+           given={J.\bibnamedelimi D.E.},
+           given_i={J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \strng{namehash}{de94741300a44f7d3397047d19145e26}
+      \strng{fullhash}{de94741300a44f7d3397047d19145e26}
+      \field{sortinit}{G}
+      \field{sortinithash}{1c854ef9177a91bf894e66485bdbd3ed}
+      \field{labelyear}{1998}
+      \field{labelmonth}{01}
+      \field{datelabelsource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Annual Review of Psychology}
+      \field{month}{01}
+      \field{title}{Cognitive Neuroscience of Human Memory}
+      \field{volume}{49}
+      \field{year}{1998}
+      \field{pages}{87\bibrangedash 115}
+      \range{pages}{29}
+    \endentry
+    \entry{GriffithsMichelmannRouxEtAl18}{article}{}
+      \name{author}{10}{}{%
+        {{uniquename=0,hash=81a1c13682cae0e9e2a3afaafcc26008}{%
+           family={Griffiths},
+           family_i={G\bibinitperiod},
+           given={Benjamin\bibnamedelima James},
+           given_i={B\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{uniquename=0,hash=e9695c39090dab8b129a91815a69d1bd}{%
+           family={Michelmann},
+           family_i={M\bibinitperiod},
+           given={Sebastian},
+           given_i={S\bibinitperiod}}}%
+        {{uniquename=0,hash=d4c967f2586f67ff14a72f73e1eacaca}{%
+           family={Roux},
+           family_i={R\bibinitperiod},
+           given={Frederic},
+           given_i={F\bibinitperiod}}}%
+        {{uniquename=0,hash=4d3c45adad29f17cb18425d9e3d95b3f}{%
+           family={Chelvarajah},
+           family_i={C\bibinitperiod},
+           given={Ramesh},
+           given_i={R\bibinitperiod}}}%
+        {{uniquename=0,hash=3146a3c2c2b529bbebb546cab31f94bc}{%
+           family={Rollings},
+           family_i={R\bibinitperiod},
+           given={David\bibnamedelima T.},
+           given_i={D\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{uniquename=0,hash=91828af1d83032a65640bd9139b3a5d6}{%
+           family={Sawlani},
+           family_i={S\bibinitperiod},
+           given={Vijay},
+           given_i={V\bibinitperiod}}}%
+        {{uniquename=0,hash=af8ea78e897b8e285184cda75117adfa}{%
+           family={Hamer},
+           family_i={H\bibinitperiod},
+           given={Hajo},
+           given_i={H\bibinitperiod}}}%
+        {{uniquename=0,hash=0e6435366fee001569fe40d5dc117aa9}{%
+           family={Gollwitzer},
+           family_i={G\bibinitperiod},
+           given={Stephanie},
+           given_i={S\bibinitperiod}}}%
+        {{uniquename=0,hash=35cc92245ece09042901d330e6958416}{%
+           family={Kreiselmeyer},
+           family_i={K\bibinitperiod},
+           given={Gernot},
+           given_i={G\bibinitperiod}}}%
+        {{uniquename=0,hash=07a3f1b966b36eb7638a0f225e8e7337}{%
+           family={Staresina},
+           family_i={S\bibinitperiod},
+           given={Bernhard},
+           given_i={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{276f85360e71553dbe90bc22087b747c}
+      \strng{fullhash}{ac7e8c2189d3e5181f5e4b6f4596eaf3}
+      \field{sortinit}{G}
+      \field{sortinithash}{1c854ef9177a91bf894e66485bdbd3ed}
+      \field{labelyear}{2018}
+      \field{datelabelsource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{bioRxiv}
+      \field{title}{Hippocampal Synchrony and Neocortical Desynchrony Cooperate to Encode and Retrieve Episodic Memories}
+      \field{year}{2018}
+      \field{pages}{305698}
+      \range{pages}{1}
+      \verb{file}
+      \verb /Users/naketz/Zotero/storage/NG7DJGIU/Griffiths et al. - 2018 - Hippocampal synchrony and neocortical desynchrony .pdf;/Users/naketz/Zotero/storage/W49TYAIT/305698v2.html
+      \endverb
+    \endentry
+    \entry{HanslmayrStaresinaBowman16}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,hash=cd3d6d4f319afa12301ab1537ae2d5e9}{%
+           family={Hanslmayr},
+           family_i={H\bibinitperiod},
+           given={Simon},
+           given_i={S\bibinitperiod}}}%
+        {{uniquename=0,hash=a72fcba65e31718230b312c6b3e2782f}{%
+           family={Staresina},
+           family_i={S\bibinitperiod},
+           given={Bernhard\bibnamedelima P.},
+           given_i={B\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{uniquename=0,hash=906dbd4c811afa1403515435beaefda9}{%
+           family={Bowman},
+           family_i={B\bibinitperiod},
+           given={Howard},
+           given_i={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{6daf8b1b3f3dbce8d9d3618acbab4c20}
+      \strng{fullhash}{013beed9ddeacc33e5fa3c4819f08223}
+      \field{sortinit}{H}
+      \field{sortinithash}{82012198d5dfa657b8c4a168793268a6}
+      \field{labelyear}{2016}
+      \field{datelabelsource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{journaltitle}{Trends in neurosciences}
+      \field{number}{1}
+      \field{shorttitle}{Oscillations and Episodic Memory}
+      \field{title}{Oscillations and Episodic Memory: Addressing the Synchronization/Desynchronization Conundrum}
+      \field{volume}{39}
+      \field{year}{2016}
+      \field{pages}{16\bibrangedash 25}
+      \range{pages}{10}
+      \verb{file}
+      \verb /Users/naketz/Zotero/storage/HT6CFSQC/S0166223615002593.html
+      \endverb
+    \endentry
+    \entry{HanslmayrStaudiglFellner12}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,hash=cd3d6d4f319afa12301ab1537ae2d5e9}{%
+           family={Hanslmayr},
+           family_i={H\bibinitperiod},
+           given={Simon},
+           given_i={S\bibinitperiod}}}%
+        {{uniquename=0,hash=57e0c6b888bf1e721958f61d32906679}{%
+           family={Staudigl},
+           family_i={S\bibinitperiod},
+           given={Tobias},
+           given_i={T\bibinitperiod}}}%
+        {{uniquename=0,hash=162bf644f14739b1ab5f93c3cbf8a91c}{%
+           family={Fellner},
+           family_i={F\bibinitperiod},
+           given={Marie-Christin},
+           given_i={M\bibinithyphendelim C\bibinitperiod}}}%
+      }
+      \strng{namehash}{6daf8b1b3f3dbce8d9d3618acbab4c20}
+      \strng{fullhash}{13695f0be8a346f80946af0337a73614}
+      \field{sortinit}{H}
+      \field{sortinithash}{82012198d5dfa657b8c4a168793268a6}
+      \field{labelyear}{2012}
+      \field{datelabelsource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Frontiers in human neuroscience}
+      \field{title}{Oscillatory Power Decreases and Long-Term Memory: The Information via Desynchronization Hypothesis.}
+      \field{volume}{6}
+      \field{year}{2012}
+    \endentry
+    \entry{HindriksvanPutten13}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=38a9ccc016f72a72a5944f9ba299cc6f}{%
+           family={Hindriks},
+           family_i={H\bibinitperiod},
+           given={Rikkert},
+           given_i={R\bibinitperiod}}}%
+        {{uniquename=0,hash=a327c44ae176093ab0977b0a6090ab2e}{%
+           family={{van Putten}},
+           family_i={v\bibinitperiod},
+           given={Michel\bibnamedelima J},
+           given_i={M\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{abc1f25a359e68f8650739830e89dde0}
+      \strng{fullhash}{abc1f25a359e68f8650739830e89dde0}
+      \field{sortinit}{H}
+      \field{sortinithash}{82012198d5dfa657b8c4a168793268a6}
+      \field{labelyear}{2013}
+      \field{labelmonth}{04}
+      \field{datelabelsource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{NeuroImage}
+      \field{month}{04}
+      \field{title}{Thalamo-Cortical Mechanisms Underlying Changes in Amplitude and Frequency of Human Alpha Oscillations.}
+      \field{volume}{70}
+      \field{year}{2013}
+      \field{pages}{150\bibrangedash 63}
+      \range{pages}{14}
+    \endentry
+    \entry{HornerBisbyBushEtAl15}{article}{}
+      \name{author}{5}{}{%
+        {{uniquename=0,hash=6ed2096b733923a7674a45f935338512}{%
+           family={Horner},
+           family_i={H\bibinitperiod},
+           given={Aidan\bibnamedelima J.},
+           given_i={A\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{uniquename=0,hash=4f3e0ecfc78b824dac6baf353fee699d}{%
+           family={Bisby},
+           family_i={B\bibinitperiod},
+           given={James\bibnamedelima A.},
+           given_i={J\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{uniquename=0,hash=7a0342c324be949bf7ddf1531f8830b6}{%
+           family={Bush},
+           family_i={B\bibinitperiod},
+           given={Daniel},
+           given_i={D\bibinitperiod}}}%
+        {{uniquename=0,hash=aa29f2bfcb87f0ee4ec6f77badf7baa8}{%
+           family={Lin},
+           family_i={L\bibinitperiod},
+           given={Wen-Jing},
+           given_i={W\bibinithyphendelim J\bibinitperiod}}}%
+        {{uniquename=0,hash=a9c45b0d2c0c43965950d9b84b7d978a}{%
+           family={Burgess},
+           family_i={B\bibinitperiod},
+           given={Neil},
+           given_i={N\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {eng}%
+      }
+      \strng{namehash}{74b6bb9762e73edfd4f84f58f7776df3}
+      \strng{fullhash}{2c5caa14a24359e0818906208a8941f8}
+      \field{sortinit}{H}
+      \field{sortinithash}{82012198d5dfa657b8c4a168793268a6}
+      \field{labelyear}{2015}
+      \field{datelabelsource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Recollection is thought to be the hallmark of episodic memory. Here we provide evidence that the hippocampus binds together the diverse elements forming an event, allowing holistic recollection via pattern completion of all elements. Participants learn complex 'events' from multiple overlapping pairs of elements, and are tested on all pairwise associations. At encoding, element 'types' (locations, people and objects/animals) produce activation in distinct neocortical regions, while hippocampal activity predicts memory performance for all within-event pairs. When retrieving a pairwise association, neocortical activity corresponding to all event elements is reinstated, including those incidental to the task. Participant's degree of incidental reinstatement correlates with their hippocampal activity. Our results suggest that event elements, represented in distinct neocortical regions, are bound into coherent 'event engrams' in the hippocampus that enable episodic recollection-the re-experiencing or holistic retrieval of all aspects of an event-via a process of hippocampal pattern completion and neocortical reinstatement.}
+      \field{issn}{2041-1723}
+      \field{journaltitle}{Nature Communications}
+      \field{title}{Evidence for Holistic Episodic Recollection via Hippocampal Pattern Completion}
+      \field{volume}{6}
+      \field{year}{2015}
+      \field{pages}{7462}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1038/ncomms8462
+      \endverb
+      \verb{file}
+      \verb /Users/naketz/Zotero/storage/C4CHDMMI/HornerBisbyBushEtAl15.pdf
+      \endverb
+    \endentry
+    \entry{HornerBurgess13}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=6ed2096b733923a7674a45f935338512}{%
+           family={Horner},
+           family_i={H\bibinitperiod},
+           given={Aidan\bibnamedelima J.},
+           given_i={A\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{uniquename=0,hash=a9c45b0d2c0c43965950d9b84b7d978a}{%
+           family={Burgess},
+           family_i={B\bibinitperiod},
+           given={Neil},
+           given_i={N\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {eng}%
+      }
+      \strng{namehash}{203d9ede19796095f5fbafce6c0fa45c}
+      \strng{fullhash}{203d9ede19796095f5fbafce6c0fa45c}
+      \field{sortinit}{H}
+      \field{sortinithash}{82012198d5dfa657b8c4a168793268a6}
+      \field{labelyear}{2013}
+      \field{labelmonth}{11}
+      \field{datelabelsource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The hippocampus is thought to be an associative memory "convergence zone," binding together the multimodal elements of an experienced event into a single engram. This predicts a degree of dependency between the retrieval of the different elements comprising an event. We present data from a series of studies designed to address this prediction. Participants vividly imagined a series of person-location-object events, and memory for these events was assessed across multiple trials of cued retrieval. Consistent with the prediction, a significant level of dependency was found between the retrieval of different elements from the same event. Furthermore, the level of dependency was sensitive both to retrieval task, with higher dependency during cued recall than cued recognition, and to subjective confidence. We propose a simple model, in which events are stored as multiple pairwise associations between individual event elements, and dependency is captured by a common factor that varies across events. This factor may relate to between-events modulation of the strength of encoding, or to a process of within-event "pattern completion" at retrieval. The model predicts the quantitative pattern of dependency in the data when changes in the level of guessing with retrieval task and confidence are taken into account. Thus, we find direct behavioral support for the idea that memory for complex multimodal events depends on the pairwise associations of their constituent elements and that retrieval of the various elements corresponding to the same event reflects a common factor that varies from event to event.}
+      \field{issn}{1939-2222}
+      \field{journaltitle}{Journal of Experimental Psychology. General}
+      \field{month}{11}
+      \field{number}{4}
+      \field{title}{The Associative Structure of Memory for Multi-Element Events}
+      \field{volume}{142}
+      \field{year}{2013}
+      \field{pages}{1370\bibrangedash 1383}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1037/a0033626
+      \endverb
+      \verb{file}
+      \verb /Users/naketz/Zotero/storage/DRVHQEH7/HornerBurgess13.pdf
+      \endverb
+      \keyw{Association,Adult,Cues,Male,Humans,Female,Hippocampus,Mental Recall,memory}
+    \endentry
+    \entry{HornerBurgess14}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=6ed2096b733923a7674a45f935338512}{%
+           family={Horner},
+           family_i={H\bibinitperiod},
+           given={Aidan\bibnamedelima J.},
+           given_i={A\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{uniquename=0,hash=a9c45b0d2c0c43965950d9b84b7d978a}{%
+           family={Burgess},
+           family_i={B\bibinitperiod},
+           given={Neil},
+           given_i={N\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {eng}%
+      }
+      \strng{namehash}{203d9ede19796095f5fbafce6c0fa45c}
+      \strng{fullhash}{203d9ede19796095f5fbafce6c0fa45c}
+      \field{sortinit}{H}
+      \field{sortinithash}{82012198d5dfa657b8c4a168793268a6}
+      \field{labelyear}{2014}
+      \field{labelmonth}{05}
+      \field{datelabelsource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Personally experienced events include multiple elements, such as locations, people, and objects. These events are thought to be stored in episodic memory as coherent representations [1] that allow the retrieval of all elements from a partial cue ("pattern completion" [2-6]). However, direct evidence for coherent multielement representations is lacking. Their presence would predict that retrieval of one element from an event should be dependent on retrieval of the other elements from that event. If we remember where we were, we should be more likely to remember who we met and what object they gave us. Here we provide evidence for this type of dependency in remembering three-element events. Dependency was seen when all three elements were encoded simultaneously, or when the three overlapping pairwise associations comprising an event were learned on separate trials. However, dependency was only seen in the separated encoding condition when all possible within-event associations were encoded. These results suggest that episodic memories are stored as coherent representations in which associations between all within-event elements allow retrieval via pattern completion. They also show that related experiences encountered at different times can be flexibly integrated into these coherent representations.}
+      \field{issn}{1879-0445}
+      \field{journaltitle}{Current biology: CB}
+      \field{month}{05}
+      \field{number}{9}
+      \field{title}{Pattern Completion in Multielement Event Engrams}
+      \field{volume}{24}
+      \field{year}{2014}
+      \field{pages}{988\bibrangedash 992}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1016/j.cub.2014.03.012
+      \endverb
+      \verb{file}
+      \verb /Users/naketz/Zotero/storage/IHKSR9DG/HornerBurgess14.pdf
+      \endverb
+      \keyw{Association,Cues,Humans,Mental Recall,Memory; Episodic,Pattern Recognition; Visual}
+    \endentry
+    \entry{JonesWilson05}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=7698e7e2a343f7fe00ae6d322898c7d2}{%
+           family={Jones},
+           family_i={J\bibinitperiod},
+           given={Matthew\bibnamedelima W},
+           given_i={M\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{uniquename=0,hash=a7a905dc67a58a6eba76c31c479c748e}{%
+           family={Wilson},
+           family_i={W\bibinitperiod},
+           given={Matthew\bibnamedelima A},
+           given_i={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{ac636249d685cd1f53efe90cf4f8f1f8}
+      \strng{fullhash}{ac636249d685cd1f53efe90cf4f8f1f8}
+      \field{sortinit}{J}
+      \field{sortinithash}{ec3950a647c092421b9fcca6d819504a}
+      \field{labelyear}{2005}
+      \field{labelmonth}{12}
+      \field{datelabelsource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{PLoS biology}
+      \field{month}{12}
+      \field{title}{Theta Rhythms Coordinate Hippocampal-Prefrontal Interactions in a Spatial Memory Task.}
+      \field{volume}{3}
+      \field{year}{2005}
+    \endentry
+    \entry{JutrasFriesBuffalo13}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,hash=adce18a6d75a93aa6eb5f0a2ec399d24}{%
+           family={Jutras},
+           family_i={J\bibinitperiod},
+           given={Michael\bibnamedelima J},
+           given_i={M\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{uniquename=0,hash=f8061505ccdcf46f6f9e115f95ce7778}{%
+           family={Fries},
+           family_i={F\bibinitperiod},
+           given={Pascal},
+           given_i={P\bibinitperiod}}}%
+        {{uniquename=0,hash=9f7c3059fb4dd50329c22d93f4660bf4}{%
+           family={Buffalo},
+           family_i={B\bibinitperiod},
+           given={Elizabeth\bibnamedelima A},
+           given_i={E\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{297e093abbc9cbb9f0b7df7f9c826dc7}
+      \strng{fullhash}{657014b299d264851cb284a9a130b53b}
+      \field{sortinit}{J}
+      \field{sortinithash}{ec3950a647c092421b9fcca6d819504a}
+      \field{labelyear}{2013}
+      \field{labelmonth}{08}
+      \field{datelabelsource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings of the National Academy of Sciences of the United States of America}
+      \field{month}{08}
+      \field{title}{Oscillatory Activity in the Monkey Hippocampus during Visual Exploration and Memory Formation.}
+      \field{volume}{110}
+      \field{year}{2013}
+      \field{pages}{13144\bibrangedash 9}
+      \range{pages}{6}
+      \verb{file}
+      \verb /Users/naketz/Zotero/storage/777HP79N/JutrasFriesBuffalo13.pdf
+      \endverb
+    \endentry
+    \entry{KetzJensenOReilly15}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=1,hash=5f8b0369f5ec1f64642b83e98a981e38}{%
+           family={Ketz},
+           family_i={K\bibinitperiod},
+           given={Nicholas\bibnamedelima A},
+           given_i={N\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{uniquename=0,hash=02c18dff9e41427516fb47ea1e213c66}{%
+           family={Jensen},
+           family_i={J\bibinitperiod},
+           given={Ole},
+           given_i={O\bibinitperiod}}}%
+        {{uniquename=0,hash=a6447655d7793945cf1146a23c3dd56a}{%
+           family={O'Reilly},
+           family_i={O\bibinitperiod},
+           given={Randall\bibnamedelima C},
+           given_i={R\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \strng{namehash}{e6984e34d7e6cf1fe5d22aef11deee2b}
+      \strng{fullhash}{ad49502f9d47725000d6367f5aea9000}
+      \field{sortinit}{K}
+      \field{sortinithash}{a7d5b3aec5a0890aae7baf85a209abfc}
+      \field{labelyear}{2015}
+      \field{labelmonth}{01}
+      \field{datelabelsource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Trends in neurosciences}
+      \field{month}{01}
+      \field{title}{Thalamic Pathways Underlying Prefrontal Cortex-Medial Temporal Lobe Oscillatory Interactions.}
+      \field{volume}{38}
+      \field{year}{2015}
+      \field{pages}{3\bibrangedash 12}
+      \range{pages}{10}
+    \endentry
+    \entry{KetzMorkondaOReilly13}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=1,hash=d23169881777a057eaa73140fb5e195c}{%
+           family={Ketz},
+           family_i={K\bibinitperiod},
+           given={Nicholas},
+           given_i={N\bibinitperiod}}}%
+        {{uniquename=0,hash=ead499d937961cf848db319278d7c6d2}{%
+           family={Morkonda},
+           family_i={M\bibinitperiod},
+           given={Srinimisha\bibnamedelima G},
+           given_i={S\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{uniquename=0,hash=a6447655d7793945cf1146a23c3dd56a}{%
+           family={O'Reilly},
+           family_i={O\bibinitperiod},
+           given={Randall\bibnamedelima C},
+           given_i={R\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \strng{namehash}{d991d06ff87330f6943226935de21ee6}
+      \strng{fullhash}{afe82cf3560790dcb9362f8e547f3c72}
+      \field{sortinit}{K}
+      \field{sortinithash}{a7d5b3aec5a0890aae7baf85a209abfc}
+      \field{labelyear}{2013}
+      \field{labelmonth}{06}
+      \field{datelabelsource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{PLoS Computational Biology}
+      \field{month}{06}
+      \field{title}{Theta Coordinated Error-Driven Learning in the Hippocampus.}
+      \field{volume}{9}
+      \field{year}{2013}
+      \field{pages}{e1003067}
+      \range{pages}{-1}
+      \verb{file}
+      \verb /Users/naketz/Zotero/storage/FAGDQTQZ/KetzMorkondaOReilly13.pdf
+      \endverb
+    \endentry
+    \entry{KievitKuypers77}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=870822a1ce46f4e6e81114a7f3f71243}{%
+           family={Kievit},
+           family_i={K\bibinitperiod},
+           given={J},
+           given_i={J\bibinitperiod}}}%
+        {{uniquename=0,hash=99f7c43e68ea88ac6c6c46a1f51d58e3}{%
+           family={Kuypers},
+           family_i={K\bibinitperiod},
+           given={H\bibnamedelima G},
+           given_i={H\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+      }
+      \strng{namehash}{1d57806116b8f05e51a0399a94d71913}
+      \strng{fullhash}{1d57806116b8f05e51a0399a94d71913}
+      \field{sortinit}{K}
+      \field{sortinithash}{a7d5b3aec5a0890aae7baf85a209abfc}
+      \field{labelyear}{1977}
+      \field{labelmonth}{09}
+      \field{datelabelsource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Experimental brain research}
+      \field{month}{09}
+      \field{title}{Organization of the Thalamo-Cortical Connexions to the Frontal Lobe in the Rhesus Monkey.}
+      \field{volume}{29}
+      \field{year}{1977}
+      \field{pages}{299\bibrangedash 322}
+      \range{pages}{24}
+    \endentry
+    \entry{Klimesch12}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=b24f5e33b28e7072a28272a4fc6374d9}{%
+           family={Klimesch},
+           family_i={K\bibinitperiod},
+           given={Wolfgang},
+           given_i={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{b24f5e33b28e7072a28272a4fc6374d9}
+      \strng{fullhash}{b24f5e33b28e7072a28272a4fc6374d9}
+      \field{sortinit}{K}
+      \field{sortinithash}{a7d5b3aec5a0890aae7baf85a209abfc}
+      \field{labelyear}{2012}
+      \field{labelmonth}{12}
+      \field{datelabelsource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Trends in cognitive sciences}
+      \field{month}{12}
+      \field{title}{Alpha-Band Oscillations, Attention, and Controlled Access to Stored Information.}
+      \field{volume}{16}
+      \field{year}{2012}
+      \field{pages}{606\bibrangedash 17}
+      \range{pages}{12}
+    \endentry
+    \entry{KriegeskorteMurBandettini08}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,hash=d994ee9a00ec4dcc000b2c91ac22ede1}{%
+           family={Kriegeskorte},
+           family_i={K\bibinitperiod},
+           given={Nikolaus},
+           given_i={N\bibinitperiod}}}%
+        {{uniquename=0,hash=ebc8ad42c4e4036a7cb54e92bdfb89cd}{%
+           family={Mur},
+           family_i={M\bibinitperiod},
+           given={Marieke},
+           given_i={M\bibinitperiod}}}%
+        {{uniquename=0,hash=7e44f57cab215f7774b57b1f6b6cb620}{%
+           family={Bandettini},
+           family_i={B\bibinitperiod},
+           given={Peter},
+           given_i={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{9ff161159b5e1d85cd45ef2527bc2478}
+      \strng{fullhash}{257d85d2bf04cad273507d380ac5b0b5}
+      \field{sortinit}{K}
+      \field{sortinithash}{a7d5b3aec5a0890aae7baf85a209abfc}
+      \field{labelyear}{2008}
+      \field{datelabelsource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Frontiers in Systems Neuroscience}
+      \field{number}{4}
+      \field{title}{Representational Similarity Analysis –{} Connecting the Branches of Systems Neuroscience.}
+      \field{volume}{2}
+      \field{year}{2008}
+    \endentry
+    \entry{LeeWhittingtonKopell13}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,hash=bd29699475637273fa9ac398d15f4661}{%
+           family={Lee},
+           family_i={L\bibinitperiod},
+           given={Jung\bibnamedelima H.},
+           given_i={J\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{uniquename=0,hash=3793664b9b37c2d780e2d061b30db532}{%
+           family={Whittington},
+           family_i={W\bibinitperiod},
+           given={Miles\bibnamedelima A.},
+           given_i={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{uniquename=0,hash=f5d2cd061a839f01c2d3ec1a8b6e3e9b}{%
+           family={Kopell},
+           family_i={K\bibinitperiod},
+           given={Nancy\bibnamedelima J.},
+           given_i={N\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{6a2b9a56afbf26980c7ce5e346947461}
+      \strng{fullhash}{ea9bc1b8bc5f0ccaadf55eac4c4bd48d}
+      \field{sortinit}{L}
+      \field{sortinithash}{872351f18d0f736066eda0bf18bfa4f7}
+      \field{labelyear}{2013}
+      \field{datelabelsource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{PLoS Computational Biology}
+      \field{title}{Top-down Beta Rhythms Support Selective Attention via Interlaminar Interaction: A Model}
+      \field{volume}{9}
+      \field{year}{2013}
+      \verb{file}
+      \verb /Users/naketz/Zotero/storage/X4HMRI6G/LeeWhittingtonKopell13.pdf
+      \endverb
+    \endentry
+    \entry{LerescheLightowlerSolteszEtAl91}{article}{}
+      \name{author}{5}{}{%
+        {{uniquename=0,hash=2b583726686496b9231fd198c47159e0}{%
+           family={Leresche},
+           family_i={L\bibinitperiod},
+           given={N},
+           given_i={N\bibinitperiod}}}%
+        {{uniquename=0,hash=791522eb43edc764ff83b34e306913c5}{%
+           family={Lightowler},
+           family_i={L\bibinitperiod},
+           given={S},
+           given_i={S\bibinitperiod}}}%
+        {{uniquename=0,hash=2adef09b3dd0b95700d832b69a37bd3a}{%
+           family={Soltesz},
+           family_i={S\bibinitperiod},
+           given={I},
+           given_i={I\bibinitperiod}}}%
+        {{uniquename=0,hash=d371fc33858b9601e0946de860700b02}{%
+           family={{Jassik-Gerschenfeld}},
+           family_i={J\bibinitperiod},
+           given={D},
+           given_i={D\bibinitperiod}}}%
+        {{uniquename=0,hash=533c07a006a795921b3c63577c0f64b6}{%
+           family={Crunelli},
+           family_i={C\bibinitperiod},
+           given={V},
+           given_i={V\bibinitperiod}}}%
+      }
+      \strng{namehash}{2eceaee559d85daefd7b34b3249d71d7}
+      \strng{fullhash}{97c07a63dd3175d7a6be9740bd8061ae}
+      \field{sortinit}{L}
+      \field{sortinithash}{872351f18d0f736066eda0bf18bfa4f7}
+      \field{labelyear}{1991}
+      \field{labelmonth}{09}
+      \field{datelabelsource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Journal of physiology}
+      \field{month}{09}
+      \field{title}{Low-Frequency Oscillatory Activities Intrinsic to Rat and Cat Thalamocortical Cells.}
+      \field{volume}{441}
+      \field{year}{1991}
+      \field{pages}{155\bibrangedash 74}
+      \range{pages}{20}
+    \endentry
+    \entry{LopesdaSilva91}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=d28f219ac9dd031f92139f835fd40694}{%
+           family={{Lopes da Silva}},
+           family_i={L\bibinitperiod},
+           given={F},
+           given_i={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{d28f219ac9dd031f92139f835fd40694}
+      \strng{fullhash}{d28f219ac9dd031f92139f835fd40694}
+      \field{sortinit}{L}
+      \field{sortinithash}{872351f18d0f736066eda0bf18bfa4f7}
+      \field{labelyear}{1991}
+      \field{labelmonth}{08}
+      \field{datelabelsource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Electroencephalography and Clinical Neurophysiology}
+      \field{month}{08}
+      \field{number}{2}
+      \field{title}{Neural Mechanisms Underlying Brain Waves: {{From}} Neural Membranes to Networks.}
+      \field{volume}{79}
+      \field{year}{1991}
+      \field{pages}{81\bibrangedash 93}
+      \range{pages}{13}
+    \endentry
+    \entry{MarisOostenveld07}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=f99b84e96dc66c57bedfc7ca8f2ee295}{%
+           family={Maris},
+           family_i={M\bibinitperiod},
+           given={Eric},
+           given_i={E\bibinitperiod}}}%
+        {{uniquename=0,hash=05b1c01a0a7d7078ddff198775251440}{%
+           family={Oostenveld},
+           family_i={O\bibinitperiod},
+           given={Robert},
+           given_i={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{07ce04a486da67c882db5a059038abff}
+      \strng{fullhash}{07ce04a486da67c882db5a059038abff}
+      \field{sortinit}{M}
+      \field{sortinithash}{2684bec41e9697b92699b46491061da2}
+      \field{labelyear}{2007}
+      \field{labelmonth}{08}
+      \field{datelabelsource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Neuroscience Methods}
+      \field{month}{08}
+      \field{number}{1}
+      \field{title}{Nonparametric Statistical Testing of {{EEG}}- and {{MEG}}-Data.}
+      \field{volume}{164}
+      \field{year}{2007}
+      \field{pages}{177\bibrangedash 90}
+      \range{pages}{21}
+    \endentry
+    \entry{McClellandMcNaughtonOReilly95}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,hash=064f1be3fa67f2c61831d98bd9be5e60}{%
+           family={McClelland},
+           family_i={M\bibinitperiod},
+           given={J.\bibnamedelimi L.},
+           given_i={J\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{uniquename=0,hash=9686ce79a3f60f50d5c20719d9e824cc}{%
+           family={McNaughton},
+           family_i={M\bibinitperiod},
+           given={B.\bibnamedelimi L.},
+           given_i={B\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{uniquename=0,hash=ec793934568a50a3ac9d6cad61a6ab7b}{%
+           family={O'Reilly},
+           family_i={O\bibinitperiod},
+           given={R.\bibnamedelimi C.},
+           given_i={R\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \strng{namehash}{ec3b3ea399f2859c6be15e81c0911515}
+      \strng{fullhash}{b24fbcda062e14e89ab0560c2f44c522}
+      \field{sortinit}{M}
+      \field{sortinithash}{2684bec41e9697b92699b46491061da2}
+      \field{labelyear}{1995}
+      \field{labelmonth}{08}
+      \field{datelabelsource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Psychological Review}
+      \field{month}{08}
+      \field{number}{3}
+      \field{title}{Why {{There Are Complementary Learning Systems}} in the {{Hippocampus}} and {{Neocortex}}: {{Insights}} from the {{Successes}} and {{Failures}} of {{Connectionist Models}} of {{Learning}} and {{Memory}}.}
+      \field{volume}{102}
+      \field{year}{1995}
+      \field{pages}{419\bibrangedash 457}
+      \range{pages}{39}
+      \verb{file}
+      \verb /Users/naketz/Zotero/storage/RL8LYBXP/McClellandMcNaughtonOReilly95.pdf
+      \endverb
+    \endentry
+    \entry{NormanOReilly03}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=ea95e61c00d15da644308b2ca0f9cad9}{%
+           family={Norman},
+           family_i={N\bibinitperiod},
+           given={Kenneth\bibnamedelima A.},
+           given_i={K\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{uniquename=0,hash=91fa3c824cb9bda379093c0277f9bc96}{%
+           family={O'Reilly},
+           family_i={O\bibinitperiod},
+           given={Randall\bibnamedelima C.},
+           given_i={R\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \strng{namehash}{83c58fbdebca159dcd18ab402c4901be}
+      \strng{fullhash}{83c58fbdebca159dcd18ab402c4901be}
+      \field{sortinit}{N}
+      \field{sortinithash}{925374ca63e7594de7fafdb83e64d41d}
+      \field{labelyear}{2003}
+      \field{labelmonth}{11}
+      \field{datelabelsource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Psychological Review}
+      \field{month}{11}
+      \field{number}{4}
+      \field{title}{Modeling Hippocampal and Neocortical Contributions to Recognition Memory: A Complementary-Learning-Systems Approach.}
+      \field{volume}{110}
+      \field{year}{2003}
+      \field{pages}{611\bibrangedash 646}
+      \range{pages}{36}
+      \verb{file}
+      \verb /Users/naketz/Zotero/storage/ZTX8AWF8/NormanOReilly03.pdf
+      \endverb
+    \endentry
+    \entry{NyhusCurran10}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=f09e5cf4f03fdc23324066cf856dd82d}{%
+           family={Nyhus},
+           family_i={N\bibinitperiod},
+           given={Erika},
+           given_i={E\bibinitperiod}}}%
+        {{uniquename=0,hash=a378995c86fae03ad4ff51df8e166ab5}{%
+           family={Curran},
+           family_i={C\bibinitperiod},
+           given={Tim},
+           given_i={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{de971a5841eba277110fde87c5b50214}
+      \strng{fullhash}{de971a5841eba277110fde87c5b50214}
+      \field{sortinit}{N}
+      \field{sortinithash}{925374ca63e7594de7fafdb83e64d41d}
+      \field{labelyear}{2010}
+      \field{labelmonth}{06}
+      \field{datelabelsource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Neuroscience and biobehavioral reviews}
+      \field{month}{06}
+      \field{number}{7}
+      \field{title}{Functional Role of Gamma and Theta Oscillations in Episodic Memory.}
+      \field{volume}{34}
+      \field{year}{2010}
+      \field{pages}{1023\bibrangedash 1035}
+      \range{pages}{13}
+      \verb{file}
+      \verb /Users/naketz/Zotero/storage/4W768SXX/NyhusCurran10.pdf
+      \endverb
+    \endentry
+    \entry{OostenveldFriesMarisEtAl11}{article}{}
+      \name{author}{4}{}{%
+        {{uniquename=0,hash=05b1c01a0a7d7078ddff198775251440}{%
+           family={Oostenveld},
+           family_i={O\bibinitperiod},
+           given={Robert},
+           given_i={R\bibinitperiod}}}%
+        {{uniquename=0,hash=f8061505ccdcf46f6f9e115f95ce7778}{%
+           family={Fries},
+           family_i={F\bibinitperiod},
+           given={Pascal},
+           given_i={P\bibinitperiod}}}%
+        {{uniquename=0,hash=f99b84e96dc66c57bedfc7ca8f2ee295}{%
+           family={Maris},
+           family_i={M\bibinitperiod},
+           given={Eric},
+           given_i={E\bibinitperiod}}}%
+        {{uniquename=0,hash=eb5477779e4e54ef17ae649411c088eb}{%
+           family={Schoffelen},
+           family_i={S\bibinitperiod},
+           given={Jan-Mathijs},
+           given_i={J\bibinithyphendelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{e8a1280a518cb27dcffdddefd414529c}
+      \strng{fullhash}{7c06b0dda63ee069b2f98f0b55507df4}
+      \field{sortinit}{O}
+      \field{sortinithash}{7803d2715d5e795e70382b084ab8d00e}
+      \field{labelyear}{2011}
+      \field{datelabelsource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Computational Intelligence and Neuroscience}
+      \field{title}{{{FieldTrip}}: {{Open}} Source Software for Advanced Analysis of {{MEG}}, {{EEG}}, and Invasive Electrophysiological Data.}
+      \field{volume}{2011}
+      \field{year}{2011}
+    \endentry
+    \entry{OReillyBhattacharyyaHowardEtAl14}{article}{}
+      \name{author}{4}{}{%
+        {{uniquename=0,hash=91fa3c824cb9bda379093c0277f9bc96}{%
+           family={O'Reilly},
+           family_i={O\bibinitperiod},
+           given={Randall\bibnamedelima C.},
+           given_i={R\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{uniquename=0,hash=25da6691c1e4e969cb29629fcb1ce796}{%
+           family={Bhattacharyya},
+           family_i={B\bibinitperiod},
+           given={Rajan},
+           given_i={R\bibinitperiod}}}%
+        {{uniquename=0,hash=6eb90b34053b10e1aa1587bc70192d93}{%
+           family={Howard},
+           family_i={H\bibinitperiod},
+           given={Michael\bibnamedelima D.},
+           given_i={M\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{uniquename=0,hash=d23169881777a057eaa73140fb5e195c}{%
+           family={Ketz},
+           family_i={K\bibinitperiod},
+           given={Nicholas},
+           given_i={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{d098799655695476167308e0aa355211}
+      \strng{fullhash}{64d3966755310faf99cb02c1235d6e7c}
+      \field{sortinit}{O}
+      \field{sortinithash}{7803d2715d5e795e70382b084ab8d00e}
+      \field{labelyear}{2014}
+      \field{labelmonth}{12}
+      \field{datelabelsource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Cognitive Science}
+      \field{month}{12}
+      \field{number}{6}
+      \field{title}{Complementary {{Learning Systems}}.}
+      \field{volume}{38}
+      \field{year}{2014}
+      \field{pages}{1229\bibrangedash 1248}
+      \range{pages}{20}
+    \endentry
+    \entry{ParishHanslmayrBowman18}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,hash=e3dc6acb47b94950b73c6e97f74c5195}{%
+           family={Parish},
+           family_i={P\bibinitperiod},
+           given={George},
+           given_i={G\bibinitperiod}}}%
+        {{uniquename=0,hash=cd3d6d4f319afa12301ab1537ae2d5e9}{%
+           family={Hanslmayr},
+           family_i={H\bibinitperiod},
+           given={Simon},
+           given_i={S\bibinitperiod}}}%
+        {{uniquename=0,hash=906dbd4c811afa1403515435beaefda9}{%
+           family={Bowman},
+           family_i={B\bibinitperiod},
+           given={Howard},
+           given_i={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{220cf07fb77858bfed3fdafa76d13859}
+      \strng{fullhash}{f06abe24ff0ae0a5c9233be5410ec4d2}
+      \field{sortinit}{P}
+      \field{sortinithash}{c0a4896d0e424f9ca4d7f14f2b3428e7}
+      \field{labelyear}{2018}
+      \field{datelabelsource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{journaltitle}{Journal of Neuroscience}
+      \field{number}{14}
+      \field{shorttitle}{The {{Sync}}/{{deSync}} Model}
+      \field{title}{The {{Sync}}/{{deSync}} Model: How a Synchronized Hippocampus and a Desynchronized Neocortex Code Memories}
+      \field{volume}{38}
+      \field{year}{2018}
+      \field{pages}{3428\bibrangedash 3440}
+      \range{pages}{13}
+      \verb{file}
+      \verb /Users/naketz/Zotero/storage/VNYMQXW7/Parish et al. - 2018 - The SyncdeSync model how a synchronized hippocam.pdf;/Users/naketz/Zotero/storage/GAU5A3H6/3428.html
+      \endverb
+    \endentry
+    \entry{ParkLeeKangEtAl14}{article}{}
+      \name{author}{8}{}{%
+        {{uniquename=0,hash=2e3a7db199fc657b0a18b5e00e5d6ca5}{%
+           family={Park},
+           family_i={P\bibinitperiod},
+           given={Hyojin},
+           given_i={H\bibinitperiod}}}%
+        {{uniquename=0,hash=8c291f006dbcca174a33e03fa8f3944d}{%
+           family={Lee},
+           family_i={L\bibinitperiod},
+           given={Dong\bibnamedelima Soo},
+           given_i={D\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{uniquename=0,hash=75eb933c3b6308ab6237b73766aa7bc2}{%
+           family={Kang},
+           family_i={K\bibinitperiod},
+           given={Eunjoo},
+           given_i={E\bibinitperiod}}}%
+        {{uniquename=0,hash=ef372335f810d3ced82820412533d950}{%
+           family={Kang},
+           family_i={K\bibinitperiod},
+           given={Hyejin},
+           given_i={H\bibinitperiod}}}%
+        {{uniquename=0,hash=a6e7efe4c5908f1fd6215ef10d0ed382}{%
+           family={Hahm},
+           family_i={H\bibinitperiod},
+           given={Jarang},
+           given_i={J\bibinitperiod}}}%
+        {{uniquename=0,hash=8ac47fc9cbde677682463a1de8c76ffa}{%
+           family={Kim},
+           family_i={K\bibinitperiod},
+           given={June\bibnamedelima Sic},
+           given_i={J\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{uniquename=0,hash=097bcd924ef536a96317d8a3f80557cb}{%
+           family={Chung},
+           family_i={C\bibinitperiod},
+           given={Chun\bibnamedelima Kee},
+           given_i={C\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{uniquename=0,hash=02c18dff9e41427516fb47ea1e213c66}{%
+           family={Jensen},
+           family_i={J\bibinitperiod},
+           given={Ole},
+           given_i={O\bibinitperiod}}}%
+      }
+      \strng{namehash}{9ce66ee7ed64e2c8dff1271916a465cf}
+      \strng{fullhash}{1a745fae55d03b8d4153f8c4fcac44e3}
+      \field{sortinit}{P}
+      \field{sortinithash}{c0a4896d0e424f9ca4d7f14f2b3428e7}
+      \field{labelyear}{2014}
+      \field{labelmonth}{02}
+      \field{datelabelsource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Human brain mapping}
+      \field{month}{02}
+      \field{title}{Blocking of Irrelevant Memories by Posterior Alpha Activity Boosts Memory Encoding.}
+      \field{year}{2014}
+    \endentry
+    \entry{PrinceDaselaarCabeza05}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,hash=e0dc880852424d7e257a7663ca3926da}{%
+           family={Prince},
+           family_i={P\bibinitperiod},
+           given={Steven\bibnamedelima E},
+           given_i={S\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{uniquename=0,hash=40dd9cf06798681d33716643b81c4c53}{%
+           family={Daselaar},
+           family_i={D\bibinitperiod},
+           given={Sander\bibnamedelima M},
+           given_i={S\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{uniquename=0,hash=492c50d14ec1f93d3002554deabaad52}{%
+           family={Cabeza},
+           family_i={C\bibinitperiod},
+           given={Roberto},
+           given_i={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{8911f8c1cf2383614d9291900dfc52c7}
+      \strng{fullhash}{9832d7d706cf4bab3965430899290777}
+      \field{sortinit}{P}
+      \field{sortinithash}{c0a4896d0e424f9ca4d7f14f2b3428e7}
+      \field{labelyear}{2005}
+      \field{labelmonth}{02}
+      \field{datelabelsource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Journal of neuroscience}
+      \field{month}{02}
+      \field{title}{Neural Correlates of Relational Memory: Successful Encoding and Retrieval of Semantic and Perceptual Associations.}
+      \field{volume}{25}
+      \field{year}{2005}
+      \field{pages}{1203\bibrangedash 1210}
+      \range{pages}{8}
+    \endentry
+    \entry{SaalmannKastner11}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=6af98bc7f712aa51cb56dad1439fd006}{%
+           family={Saalmann},
+           family_i={S\bibinitperiod},
+           given={Yuri\bibnamedelima B.},
+           given_i={Y\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{uniquename=0,hash=a111ffcc09dcef30bd33be05e8169c7a}{%
+           family={Kastner},
+           family_i={K\bibinitperiod},
+           given={Sabine},
+           given_i={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{efae1b56d5a189cb066788046d5ab651}
+      \strng{fullhash}{efae1b56d5a189cb066788046d5ab651}
+      \field{sortinit}{S}
+      \field{sortinithash}{fd1e7c5ab79596b13dbbb67f8d70fb5a}
+      \field{labelyear}{2011}
+      \field{labelmonth}{07}
+      \field{datelabelsource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Neuron}
+      \field{month}{07}
+      \field{number}{2}
+      \field{title}{Cognitive and Perceptual Functions of the Visual Thalamus.}
+      \field{volume}{71}
+      \field{year}{2011}
+      \field{pages}{209\bibrangedash 223}
+      \range{pages}{15}
+      \verb{file}
+      \verb /Users/naketz/Zotero/storage/IIPRHSAA/SaalmannKastner11.pdf
+      \endverb
+    \endentry
+    \entry{ShermanGuillery06}{book}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=739f21f5bbb70d4d81540bbc97b97282}{%
+           family={Sherman},
+           family_i={S\bibinitperiod},
+           given={S.Murray},
+           given_i={S\bibinitperiod}}}%
+        {{uniquename=0,hash=3245a1f3b0dcb97e6772e925db65aef7}{%
+           family={Guillery},
+           family_i={G\bibinitperiod},
+           given={R.W.},
+           given_i={R\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Cambridge, MA}%
+      }
+      \list{publisher}{1}{%
+        {MIT Press}%
+      }
+      \strng{namehash}{c77226ace2b3a6d036b27735454465b0}
+      \strng{fullhash}{c77226ace2b3a6d036b27735454465b0}
+      \field{sortinit}{S}
+      \field{sortinithash}{fd1e7c5ab79596b13dbbb67f8d70fb5a}
+      \field{labelyear}{2006}
+      \field{datelabelsource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Exploring the {{Thalamus}} and {{Its Role}} in {{Cortical Function}}}
+      \field{year}{2006}
+    \endentry
+    \entry{StaresinaMichelmannBonnefondEtAl16}{article}{}
+      \name{author}{6}{}{%
+        {{uniquename=0,hash=a72fcba65e31718230b312c6b3e2782f}{%
+           family={Staresina},
+           family_i={S\bibinitperiod},
+           given={Bernhard\bibnamedelima P.},
+           given_i={B\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{uniquename=0,hash=e9695c39090dab8b129a91815a69d1bd}{%
+           family={Michelmann},
+           family_i={M\bibinitperiod},
+           given={Sebastian},
+           given_i={S\bibinitperiod}}}%
+        {{uniquename=0,hash=03603da53a090d7ed08f256d7a56cf6d}{%
+           family={Bonnefond},
+           family_i={B\bibinitperiod},
+           given={Mathilde},
+           given_i={M\bibinitperiod}}}%
+        {{uniquename=0,hash=02c18dff9e41427516fb47ea1e213c66}{%
+           family={Jensen},
+           family_i={J\bibinitperiod},
+           given={Ole},
+           given_i={O\bibinitperiod}}}%
+        {{uniquename=0,hash=b3bd83c49038cfd84c387b5f213d772f}{%
+           family={Axmacher},
+           family_i={A\bibinitperiod},
+           given={Nikolai},
+           given_i={N\bibinitperiod}}}%
+        {{uniquename=0,hash=6c82d5689891d8892bd382b925c26713}{%
+           family={Fell},
+           family_i={F\bibinitperiod},
+           given={Juergen},
+           given_i={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{e20ce524e40d5a6a2f4169277d5956bd}
+      \strng{fullhash}{171fae1ade4529c226a2398d513d2b5d}
+      \field{sortinit}{S}
+      \field{sortinithash}{fd1e7c5ab79596b13dbbb67f8d70fb5a}
+      \field{labelyear}{2016}
+      \field{datelabelsource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Elife}
+      \field{title}{Hippocampal Pattern Completion Is Linked to Gamma Power Increases and Alpha Power Decreases during Recollection}
+      \field{volume}{5}
+      \field{year}{2016}
+      \field{pages}{e17397}
+      \range{pages}{-1}
+      \verb{file}
+      \verb /Users/naketz/Zotero/storage/GGUZA7C3/Staresina et al. - 2016 - Hippocampal pattern completion is linked to gamma .pdf
+      \endverb
+    \endentry
+    \entry{VanderWerfJollesWitterEtAl03}{article}{}
+      \name{author}{4}{}{%
+        {{uniquename=0,hash=c337fc4e403b5ad71556b4ab4e7f2d41}{%
+           family={{Van der Werf}},
+           family_i={V\bibinitperiod},
+           given={Ysbrand\bibnamedelima D},
+           given_i={Y\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{uniquename=0,hash=a46187ba21ebe044446908f26e2ec161}{%
+           family={Jolles},
+           family_i={J\bibinitperiod},
+           given={Jelle},
+           given_i={J\bibinitperiod}}}%
+        {{uniquename=0,hash=de1c7016c3f80c6586f34edf404b8123}{%
+           family={Witter},
+           family_i={W\bibinitperiod},
+           given={Menno\bibnamedelima P.},
+           given_i={M\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{uniquename=0,hash=bb6a211da080da6d8125e126497e601c}{%
+           family={Uylings},
+           family_i={U\bibinitperiod},
+           given={Harry\bibnamedelimb B.\bibnamedelimi M.},
+           given_i={H\bibinitperiod\bibinitdelim B\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{a49d77c2f4eb9152884a36f234d90d0a}
+      \strng{fullhash}{eba8648d6a05b742b4926edd98274f5b}
+      \field{sortinit}{V}
+      \field{sortinithash}{d18f5ce25ce0b5ca7f924e3f6c04870e}
+      \field{labelyear}{2003}
+      \field{labelmonth}{10}
+      \field{datelabelsource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Cortex}
+      \field{month}{10}
+      \field{title}{Contributions of Thalamic Nuclei to Declarative Memory Functioning.}
+      \field{volume}{39}
+      \field{year}{2003}
+      \field{pages}{1047\bibrangedash 1062}
+      \range{pages}{16}
+    \endentry
+    \entry{VijayanKopell12}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=e9861d65934500b6ea700737e96666da}{%
+           family={Vijayan},
+           family_i={V\bibinitperiod},
+           given={Sujith},
+           given_i={S\bibinitperiod}}}%
+        {{uniquename=0,hash=f5d2cd061a839f01c2d3ec1a8b6e3e9b}{%
+           family={Kopell},
+           family_i={K\bibinitperiod},
+           given={Nancy\bibnamedelima J.},
+           given_i={N\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{b6e24993a7204a5284116ef8a81dd22d}
+      \strng{fullhash}{b6e24993a7204a5284116ef8a81dd22d}
+      \field{sortinit}{V}
+      \field{sortinithash}{d18f5ce25ce0b5ca7f924e3f6c04870e}
+      \field{labelyear}{2012}
+      \field{labelmonth}{06}
+      \field{datelabelsource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We describe a unique conductance-based model of awake thalamic alpha and some of its implications for function. The full model includes a model for a specialized class of high-threshold thalamocortical cells (HTC cells), which burst at the alpha frequency at depolarized membrane potentials ({$\sim{}-$}56 mV). Our model generates alpha activity when the actions of either muscarinic acetylcholine receptor (mAChR) or metabotropic glutamate receptor 1 (mGluR1) agonists on thalamic reticular (RE), thalamocortical (TC), and HTC cells are mimicked. In our model of mGluR1-induced alpha, TC cells are equally likely to fire during any phase of alpha, consistent with in vitro experiments. By contrast, in our model of mAChR-induced alpha, TC cells tend to fire either at the peak or the trough of alpha, depending on conditions. Our modeling suggests that low levels of mGluR1 activation on a background of mAChR agonists may be able to initiate alpha activity that biases TC cells to fire at certain phases of alpha, offering a pathway for cortical control. If we introduce a strong stimulus by increasing the frequency of excitatory postsynaptic potentials (EPSPs) to TC cells, an increase in alpha power is needed to mimic the level of phasing of TC cells observed in vivo. This increased alpha power reduces the probability that TC cells spike near the trough of alpha. We suggest that mAChR-induced alpha may contribute to grouping TC activity into discrete perceptual units for processing, whereas mGluR1-induced alpha may serve the purpose of blocking unwanted stimuli from reaching the cortex.}
+      \field{issn}{0027-8424, 1091-6490}
+      \field{journaltitle}{Proceedings of the National Academy of Sciences}
+      \field{month}{06}
+      \field{number}{45}
+      \field{title}{Thalamic Model of Awake Alpha Oscillations and Implications for Stimulus Processing}
+      \field{volume}{109}
+      \field{year}{2012}
+      \field{pages}{18553\bibrangedash 18558}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1073/pnas.1215385109
+      \endverb
+      \verb{file}
+      \verb /Users/naketz/Zotero/storage/6GI6D4RN/VijayanKopell12.pdf;/Users/naketz/Zotero/storage/CRAG5AB2/18553.html
+      \endverb
+    \endentry
+    \entry{Witter10}{incollection}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=de1c7016c3f80c6586f34edf404b8123}{%
+           family={Witter},
+           family_i={W\bibinitperiod},
+           given={Menno\bibnamedelima P.},
+           given_i={M\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \name{editor}{4}{}{%
+        {{hash=822520f4fa5b25bb47a2f349058babd3}{%
+           family={Cutsuridis},
+           family_i={C\bibinitperiod},
+           given={Vassilis},
+           given_i={V\bibinitperiod}}}%
+        {{hash=36dfc6b7db0e2f7336d3a238e6d895c9}{%
+           family={Graham},
+           family_i={G\bibinitperiod},
+           given={Bruce},
+           given_i={B\bibinitperiod}}}%
+        {{hash=ce710871f1397ceb110786d24648aedd}{%
+           family={Cobb},
+           family_i={C\bibinitperiod},
+           given={Stuart},
+           given_i={S\bibinitperiod}}}%
+        {{hash=69c0ef6bc4c64bec25a0ca8a85fd3560}{%
+           family={Vida},
+           family_i={V\bibinitperiod},
+           given={Imre},
+           given_i={I\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Medical-Technical Research Centre, Norwegian University of Science and Technology Kavli Institute for Systems Neuroscience and Centre for the Biology of Memory Trondheim Norway}%
+      }
+      \strng{namehash}{de1c7016c3f80c6586f34edf404b8123}
+      \strng{fullhash}{de1c7016c3f80c6586f34edf404b8123}
+      \field{sortinit}{W}
+      \field{sortinithash}{99e3ba1b3f78bb6f073e7fa7ac11636b}
+      \field{labelyear}{2010}
+      \field{datelabelsource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Connectivity of the {{Hippocampus}}}
+      \field{series}{Springer {{Series}} in {{Computational Neuroscience}}}
+      \field{title}{Hippocampal {{Microcircuits}}}
+      \field{volume}{5}
+      \field{year}{2010}
+      \field{pages}{5\bibrangedash 26}
+      \range{pages}{22}
+    \endentry
+  \endsortlist
+\endrefsection
 \endinput
+

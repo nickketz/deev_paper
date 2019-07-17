@@ -44,34 +44,33 @@
   <internal package="biblatex" priority="9" active="0">
     <generic>latex</generic>
     <provides type="dynamic">
-      <file>manuscript.aux</file>
-      <file>manuscript-blx.bib</file>
+      <file>manuscript.bcf</file>
     </provides>
     <requires type="dynamic">
       <file>manuscript.bbl</file>
     </requires>
     <requires type="static">
       <file>blx-dm.def</file>
+      <file>apa.dbx</file>
       <file>blx-compat.def</file>
-      <file>blx-bibtex.def</file>
       <file>biblatex.def</file>
-      <file>numeric.bbx</file>
+      <file>apa.bbx</file>
       <file>standard.bbx</file>
-      <file>numeric.cbx</file>
+      <file>apa.cbx</file>
       <file>biblatex.cfg</file>
+      <file>british-apa.lbx</file>
+      <file>british.lbx</file>
       <file>english.lbx</file>
     </requires>
   </internal>
   <external package="biblatex" priority="5" active="0">
-    <generic>bibtex</generic>
+    <generic>biber</generic>
     <cmdline>
-      <binary>bibtex8</binary>
-      <option>--wolfgang</option>
-      <option>--min_crossrefs 2</option>
+      <binary>biber</binary>
       <infile>manuscript</infile>
     </cmdline>
     <input>
-      <file>manuscript.aux</file>
+      <file>manuscript.bcf</file>
     </input>
     <output>
       <file>manuscript.bbl</file>
@@ -80,14 +79,10 @@
       <file>manuscript.bbl</file>
     </provides>
     <requires type="dynamic">
-      <file>manuscript.aux</file>
-      <file>manuscript-blx.bib</file>
+      <file>manuscript.bcf</file>
     </requires>
     <requires type="editable">
       <file>references.bib</file>
-    </requires>
-    <requires type="static">
-      <file>biblatex.bst</file>
     </requires>
   </external>
 </requests>

@@ -16,6 +16,7 @@
 %Michael Hasselmo
 %and Ehren Newman
 
+
 \documentclass[11pt, titlepage, twoside]{article}
 \usepackage[top=20mm, bottom=20mm, left=20mm, right=20mm]{geometry}
 \geometry{a4paper}
@@ -41,7 +42,14 @@
 \usepackage{textcomp}
 \usepackage{textgreek}
 
-\usepackage{subcaption}\usepackage[style=numeric,backend=bibtex8]{biblatex}
+\usepackage{subcaption}
+
+% !BIB TS-program = biber
+\usepackage[british]{babel}
+\usepackage{csquotes}
+\usepackage[style=apa]{biblatex}
+\DeclareLanguageMapping{british}{british-apa}
+
 \addbibresource{references.bib}
 \usepackage{longtable}
 \usepackage{csvsimple}				% for reading cvs files into tables
