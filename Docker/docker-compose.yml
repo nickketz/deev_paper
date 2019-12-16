@@ -1,0 +1,11 @@
+version: "3.0"
+services:
+  emergent:
+    build: .
+    image: nickketz/emergent:8.0
+    ports:
+      - 5900:5900
+    volumes:
+      - ./projs:/deev/projs
+    #command: "emergent --nogui -ni -p /deev/projs/hipp_deev_submission.proj"
+
