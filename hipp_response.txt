@@ -11,9 +11,8 @@ Major:
 
 1. The biggest question in my mind after reading this paper is whether the attentional mechanisms the authors have added to the model (relative to prior versions of this model without a TRC) are required in order to see the behavioral effects of closed vs. open loops. If they are required, it must be demonstrated / explained very clearly exactly why that is true.
 
-* Indeed this is a large issue we struggled with when writing the original manuscript. We had done a preliminary analysis convincing ourselves that augmenting the original model with thalamic attentional modulation improved performance within the dependent events paradigm, however (as is the case with much of this paradigm) the differences are subtle and complex.  We have integrated those results into the manuscript and thank the reviewer for pushing us to include this analysis.  We this adds a much more detailed understanding of what these mechanisms contribute, and how they might be manipulated to generate novel hypothesis.  
-
-See additional text in the results section on pages ??, and in discussion on ?? 
+* Indeed this is a large issue we struggled with when writing the original manuscript. We had done a preliminary analysis convincing ourselves that augmenting the original model with thalamic attentional modulation improved performance within the dependent events paradigm, however (as is the case with much of this paradigm) the differences are subtle and complex.  We have integrated those results into the manuscript and thank the reviewer for pushing us to include this analysis.  We this adds a much more detailed understanding of what these mechanisms contribute, and how they might be manipulated to generate novel hypothesis.
+See additional text in the results section 4.4, and in discussion section 5.1
 
 
 
@@ -23,15 +22,15 @@ See additional text in the results section on pages ??, and in discussion on ??
 
 3. What is the structure of the stimulus input? What does the model know about objects and animals? Why does it make sense that these categories would show similar effects in the model and behavioral data?
 
-* We assume these stimulus categories are relatively arbitrary.  The model itself has no prior knowledge about these categories, however the fact that there are separate categories of patterns within a given input pattern is made explicit through the unit group architecture.  This is suggested to be conceptually similar to cortical inputs into entorhinal cortex that represent loosely distinct aspects of the current stimulus.  It is indeed an interesting question to attempt to build in some pre-trained associations between input patterns that might reflect some prior knowledge, however to simplify this work we choose to learn them de-novo.   
+* We assume these stimulus categories are relatively arbitrary.  The model itself has no prior knowledge about these categories, however the fact that there are separate categories of patterns within a given input pattern is made explicit through the unit group architecture.  This is suggested to be conceptually similar to cortical inputs into entorhinal cortex that represent loosely distinct aspects of the current stimulus.  It is indeed an interesting question to attempt to build in some pre-trained associations between input patterns that might reflect some prior knowledge, however to simplify this work we choose to learn them de-novo.
 
 4. Why are each of the four orderings only run on two random weight initializations? Why not do 100 and get a clearer picture of how the model behaves?
 
-* Sorry for the confusion on this point, there were in fact 8 random weight initializations used.  Each of the four orderings were run twice under different initializations, however each run had its own unique random initialization.   The four orderings is a reflection of the protocol in behavioral version of the Dependent Events paradigm and training two runs on any given ordering was just a arbitrary choice.  In general we feel an over abundance of weight initializations when doing simulations can lead to an inflation of the statistical effects (i.e. with a large enough N, any test will be significant).  To try and illustrate the most powerful effects we chose to stop at a relatively small sample size. 
+* Sorry for the confusion on this point, there were in fact 8 random weight initializations used.  Each of the four orderings were run twice under different initializations, however each run had its own unique random initialization.   The four orderings is a reflection of the protocol in behavioral version of the Dependent Events paradigm and training two runs on any given ordering was just a arbitrary choice.  In general we feel an over abundance of weight initializations when doing simulations can lead to an inflation of the statistical effects (i.e. with a large enough N, any test will be significant).  To try and illustrate the most powerful effects we chose to stop at a relatively small sample size.
 
 5. I don’t understand the argument in section 4.2 about the low dependency being due to low number of training epochs.
 
-* We performed subsequent analyses to support this effect and to try and illustrate it more completely, however we were unable to come up with clear evidence and supporting narrative to prove this point.  We find that while accuracy does increase with training epochs, the overall pattern in accuracy is similar across epochs.  Changes in dependency measures over epochs does not, however, show consistent patterns across training epochs.  Similarly, the pattern of non-target accuracy can vary widely.  What is clear from these analyses, however, is that the interaction between accuracy and dependency can be very nuanced and hard to interpret in such a direct fashion as we speculated in the original manuscript.  We have chosen to remove this statement in the absence of clear evidence to support it.  
+* We performed subsequent analyses to support this effect and to try and illustrate it more completely, however we were unable to come up with clear evidence and supporting narrative to prove this point.  We find that while accuracy does increase with training epochs, the overall pattern in accuracy is similar across epochs.  Changes in dependency measures over epochs does not, however, show consistent patterns across training epochs.  Similarly, the pattern of non-target accuracy can vary widely.  What is clear from these analyses, however, is that the interaction between accuracy and dependency can be very nuanced and hard to interpret in such a direct fashion as we speculated in the original manuscript.  We have chosen to remove this statement in the absence of clear evidence to support it.
 
 
 6. The Horner paper had a computational model. How does this one relate to theirs?
@@ -41,7 +40,7 @@ Indeed Horner et al 2015 had a computational model that illustrated the principl
 
 7. Why not post the model somewhere online to facilitate development and re-use?
 
-* This is indeed possible, and was done with the original Theta-Phase model which this current work was developed from.  The updated model and analysis code can be found here: 
+* This is indeed possible, and was done with the original Theta-Phase model which this current work was developed from.  The updated model and analysis code can be found here:
 TODO:We have added a link in the paper.
 
 
@@ -52,7 +51,7 @@ TODO:We have added a link in the paper.
 
 9. I wasn’t able to follow how the mechanisms in the first paragraph of the discussion related to the model function. This seems an especially important target for clarification.
 
-We appreciate the need for clarity on such a central issue.  We have rewritten the start of the discussion, and tried to add clarifying comments through-out the manuscript to try and emphasize the key attentional mechanisms and how they function. 
+We appreciate the need for clarity on such a central issue.  We have rewritten the start of the discussion, and tried to add clarifying comments through-out the manuscript to try and emphasize the key attentional mechanisms and how they function.
 
 
 
@@ -69,12 +68,12 @@ Minor:
 
 12. The Horner paper had data, independent model, and dependent model plotted for their data. Why not match that here, with similar figure layout to facilitate comparison?
 
-* We appreciate the desire to try and mimic the original Horner et al 2015 format, however the core empirical difference was between the data and independent models.  While comparisons with the theoretical dependent model are useful in illustrating the ideas behind the motivating the paradigm, ultimately, for this work, we are really interested in the comparison of raw behavior (data) and the assumptions that there is no underlying event structure.  Comparisons with the dependent model could prove useful in future work that might try to understand why humans or simulations mimic the exact theoretical dependency structure predicted, but this is current out of scope for this work. 
+* We appreciate the desire to try and mimic the original Horner et al 2015 format, however the core empirical difference was between the data and independent models.  While comparisons with the theoretical dependent model are useful in illustrating the ideas behind the motivating the paradigm, ultimately, for this work, we are really interested in the comparison of raw behavior (data) and the assumptions that there is no underlying event structure.  Comparisons with the dependent model could prove useful in future work that might try to understand why humans or simulations mimic the exact theoretical dependency structure predicted, but this is current out of scope for this work.
 
 
 13. What do the EEG results for incorrect trials look like? It would be interesting to see if the closed vs open difference goes away.
 
-* Although this is an interesting question, the potential explanations for how the subject ultimately arrives at an incorrect response are too varied to provide much insight.  Without a strong hypothesis about what is leading to the incorrect response we are choosing to omit further analysis to try and reduce the burden on readers from this already complex and lengthy manuscript.  
+* Although this is an interesting question, the potential explanations for how the subject ultimately arrives at an incorrect response are too varied to provide much insight.  Without a strong hypothesis about what is leading to the incorrect response we are choosing to omit further analysis to try and reduce the burden on readers from this already complex and lengthy manuscript.
 
 
 14. Bottom of page 6: Isn’t the tri-synaptic pathway also doing encoding?
@@ -115,7 +114,7 @@ Specific comments:
 
 1.5. It is stated that with more training epochs, differences in dependency disappear whilst accuracy increases. It might be interesting to see this relationship.
 
-* We agree entirely, and have devoted substantial effort in understanding this relationship, however we were unable to come to any cohesive set of results that would sufficiently illustrate this point.  As mentioned in our response to reviewer 1, we find that while accuracy does increase with training epochs, the overall pattern in accuracy is similar across epochs.  Changes in dependency measures over epochs does not, however, show consistent patterns across total training epochs.  Similarly, the pattern of non-target accuracy can vary widely.  What is clear from these analyses, however, is that the interaction between accuracy and dependency can be very nuanced and hard to interpret in such a direct fashion as we speculated in the original manuscript.  We have chosen to remove this statement in the absence of clear evidence to support it.  
+* We agree entirely, and have devoted substantial effort in understanding this relationship, however we were unable to come to any cohesive set of results that would sufficiently illustrate this point.  As mentioned in our response to reviewer 1, we find that while accuracy does increase with training epochs, the overall pattern in accuracy is similar across epochs.  Changes in dependency measures over epochs does not, however, show consistent patterns across total training epochs.  Similarly, the pattern of non-target accuracy can vary widely.  What is clear from these analyses, however, is that the interaction between accuracy and dependency can be very nuanced and hard to interpret in such a direct fashion as we speculated in the original manuscript.  We have chosen to remove this statement in the absence of clear evidence to support it.
 
 
 
@@ -125,15 +124,15 @@ Specific comments:
 
 1.7. Is there a reason training orders were only run with randomised weights twice each, rather than many more times? Would this then increase reliability of confidence intervals in the computational results?
 
-* As mentioned in our response to reviewer 1, there was understandable confusion on this point from the poorly worded manuscript.  There were in fact 8 random weight initializations used.  Each of the four orderings were run twice under different initializations, however each run had its own unique random initialization.   This can be seen in figure 4B, 8 individual 'subject numbers' that correspond to model weight initializations.  The four orderings is a reflection of the protocol in behavioral version of the Dependent Events paradigm and training two runs on any given ordering was just a arbitrary choice.  In general we feel an over abundance of weight initializations when doing simulations can lead to an inflation of the statistical effects (i.e. with a large enough N, any test will be significant).  To try and illustrate the most powerful effects we chose to stop at a relatively small sample size. 
+* As mentioned in our response to reviewer 1, there was understandable confusion on this point from the poorly worded manuscript.  There were in fact 8 random weight initializations used.  Each of the four orderings were run twice under different initializations, however each run had its own unique random initialization.   This can be seen in figure 4B, 8 individual 'subject numbers' that correspond to model weight initializations.  The four orderings is a reflection of the protocol in behavioral version of the Dependent Events paradigm and training two runs on any given ordering was just a arbitrary choice.  In general we feel an over abundance of weight initializations when doing simulations can lead to an inflation of the statistical effects (i.e. with a large enough N, any test will be significant).  To try and illustrate the most powerful effects we chose to stop at a relatively small sample size.
 
 
 1.8. The activation plots in Figure 5B in the main paper is hard to understand and it is a bit a like very challenging “spot the difference” task between open and closed loop. This is because (a) the differences are fairly subtle and (b) no color codes are provided (i.e. what does a red vs orange bar mean?). The authors should modify the figure to point the reader to the relevant difference. Also, perhaps adding directional arrows will aid understanding of information flow & attentional modulation.
 
-* We have amended this figure as suggested to highlight the attentional modulation and how it relates to anticipated theta and alpha power. 
+* We have amended this figure as suggested to highlight the attentional modulation and how it relates to anticipated theta and alpha power.
 
 
 2. RSA analysis in lines 31 – 43 on page 14: This needs more explanation, as I cannot quite understand how the RSA analysis was done with the information provided. In particular I did not understand over which features variance was calculated? Are time x frequency x electrode values concatenated similarly as in the above analysis but only for ROIs? How were values aggregated to deliver different frequencies? Maybe an illustration would be helpful here to understand what has been done.
 
-* We amended the text to try and clarify this point.  
+* We amended the text to try and clarify this point.
 
