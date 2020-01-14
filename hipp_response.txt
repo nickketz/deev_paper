@@ -1,138 +1,141 @@
-
-Reviewing: 1
-
-Comments to the Author
-
-This paper explores the Dependent Events paradigm, which compares tightly vs. loosely interconnected cluster of associations, using a computational model of the hippocampus and a behavioral/EEG experiment. The model makes contact with learning and attentional features that are related to theta and alpha oscillations, respectively, allowing comparison to these frequency bands as observed in EEG during the task. The behavioral and EEG results appear qualitatively consistent with the proposed model.
-
-While I find this paper to be ambitious and promising — the attempt to integrate, model, behavior, and EEG is important and rare — I have to admit that I struggled to review it. The writing is quite unclear, both in terms of its content and grammar (and myriad typos). I was left with some basic questions about the function of the model that prevent me from reviewing at the detailed level that I would have liked. I am listing my current thoughts and concerns below, and if I received a clarified revision, I will do a deeper dive.
-
-Major:
-
-1. The biggest question in my mind after reading this paper is whether the attentional mechanisms the authors have added to the model (relative to prior versions of this model without a TRC) are required in order to see the behavioral effects of closed vs. open loops. If they are required, it must be demonstrated / explained very clearly exactly why that is true.
-
-* Indeed this is a large issue we struggled with when writing the original manuscript. We had done a preliminary analysis convincing ourselves that augmenting the original model with thalamic attentional modulation improved performance within the dependent events paradigm, however (as is the case with much of this paradigm) the differences are subtle and complex.  We have integrated those results into the manuscript and thank the reviewer for pushing us to include this analysis.  We this adds a much more detailed understanding of what these mechanisms contribute, and how they might be manipulated to generate novel hypothesis.
-See additional text in the results section 4.4, and in discussion section 5.1
+All responses to reviewer concerns are prefixed with an ‘*’
 
 
-
-2. The role of posterior cortex in the model needs clarification. It is discussed as a part of the model, but I believe it was not implemented as actual layers in the model?
-
-* That is correct, the 'posterior cortex' is conceptualized as input into the entorhinal cortex layers of the model and are not actively simulated.  We have tried to clarify this point through out the manuscript and in the updated figures.
-
-3. What is the structure of the stimulus input? What does the model know about objects and animals? Why does it make sense that these categories would show similar effects in the model and behavioral data?
-
-* We assume these stimulus categories are relatively arbitrary.  The model itself has no prior knowledge about these categories, however the fact that there are separate categories of patterns within a given input pattern is made explicit through the unit group architecture.  This is suggested to be conceptually similar to cortical inputs into entorhinal cortex that represent loosely distinct aspects of the current stimulus.  It is indeed an interesting question to attempt to build in some pre-trained associations between input patterns that might reflect some prior knowledge, however to simplify this work we choose to learn them de-novo.
-
-4. Why are each of the four orderings only run on two random weight initializations? Why not do 100 and get a clearer picture of how the model behaves?
-
-* Sorry for the confusion on this point, there were in fact 8 random weight initializations used.  Each of the four orderings were run twice under different initializations, however each run had its own unique random initialization.   The four orderings is a reflection of the protocol in behavioral version of the Dependent Events paradigm and training two runs on any given ordering was just a arbitrary choice.  In general we feel an over abundance of weight initializations when doing simulations can lead to an inflation of the statistical effects (i.e. with a large enough N, any test will be significant).  To try and illustrate the most powerful effects we chose to stop at a relatively small sample size.
-
-5. I don’t understand the argument in section 4.2 about the low dependency being due to low number of training epochs.
-
-* We performed subsequent analyses to support this effect and to try and illustrate it more completely, however we were unable to come up with clear evidence and supporting narrative to prove this point.  We find that while accuracy does increase with training epochs, the overall pattern in accuracy is similar across epochs.  Changes in dependency measures over epochs does not, however, show consistent patterns across training epochs.  Similarly, the pattern of non-target accuracy can vary widely.  What is clear from these analyses, however, is that the interaction between accuracy and dependency can be very nuanced and hard to interpret in such a direct fashion as we speculated in the original manuscript.  We have chosen to remove this statement in the absence of clear evidence to support it.
-
-
-6. The Horner paper had a computational model. How does this one relate to theirs?
-
-Indeed Horner et al 2015 had a computational model that illustrated the principles of the dependent events paradigm for the purposes of their original work.  The major difference is one of biological plausibility, as their original model was built on relatively simple architecture and single unit representations.  We chose to extend their work here with a more biological plausible framework and to provide a computational mechanism for explaining the relationship between theta and alpha oscillations in memory retrieval.   We hesitate to make a direct comparison between our model and theirs as the intended scope of the two approaches are very different, however we have more or less replicated their results which ultimately reiterate the dependence differences in open-loop and closed-loop stimuli as those seen in human subjects.
-
-
-7. Why not post the model somewhere online to facilitate development and re-use?
-
-* This is indeed possible, and was done with the original Theta-Phase model which this current work was developed from.  The updated model and analysis code can be found here:
-TODO:We have added a link in the paper.
-
-
-8. In the EEG figures, the full time courses should be plotted instead of only the significant portions.
-
-* We appreciate the reviewers desire to show the full time course, however due to the nature of the cluster statistics it is difficult to do this outside of the significant time window. The problem is that its unclear what electrodes to plot from outside the significant window as there is not a single set of significant electrodes that define the cluster, but rather a set of electrodes for each significant time-point which is not necessarily the same over all significant time-points. To try and illustrate this point we have added plots of the significant electrodes within a cluster as a function of time to Figures 8 and 9.
-
-
-9. I wasn’t able to follow how the mechanisms in the first paragraph of the discussion related to the model function. This seems an especially important target for clarification.
-
-We appreciate the need for clarity on such a central issue.  We have rewritten the start of the discussion, and tried to add clarifying comments through-out the manuscript to try and emphasize the key attentional mechanisms and how they function.
-
-
-
-Minor:
-
-10. It would be better to have the figures for the model and empirical data be in the same format.
-
-* We have adjusted Figure 4 to show averages over model in bar format similar to Figure 7.
-
-11. Figure 6B and C are missing y axis labels.
-
-* This has been fixed.
-
-
-12. The Horner paper had data, independent model, and dependent model plotted for their data. Why not match that here, with similar figure layout to facilitate comparison?
-
-* We appreciate the desire to try and mimic the original Horner et al 2015 format, however the core empirical difference was between the data and independent models.  While comparisons with the theoretical dependent model are useful in illustrating the ideas behind the motivating the paradigm, ultimately, for this work, we are really interested in the comparison of raw behavior (data) and the assumptions that there is no underlying event structure.  Comparisons with the dependent model could prove useful in future work that might try to understand why humans or simulations mimic the exact theoretical dependency structure predicted, but this is current out of scope for this work.
-
-
-13. What do the EEG results for incorrect trials look like? It would be interesting to see if the closed vs open difference goes away.
-
+Reviewer: 1
+
+Comments to the Author
+
+This paper explores the Dependent Events paradigm, which compares tightly vs. loosely interconnected cluster of associations, using a computational model of the hippocampus and a behavioral/EEG experiment. The model makes contact with learning and attentional features that are related to theta and alpha oscillations, respectively, allowing comparison to these frequency bands as observed in EEG during the task. The behavioral and EEG results appear qualitatively consistent with the proposed model.
+
+While I find this paper to be ambitious and promising — the attempt to integrate, model, behavior, and EEG is important and rare — I have to admit that I struggled to review it. The writing is quite unclear, both in terms of its content and grammar (and myriad typos). I was left with some basic questions about the function of the model that prevent me from reviewing at the detailed level that I would have liked. I am listing my current thoughts and concerns below, and if I received a clarified revision, I will do a deeper dive.
+
+Major:
+
+1. The biggest question in my mind after reading this paper is whether the attentional mechanisms the authors have added to the model (relative to prior versions of this model without a TRC) are required in order to see the behavioral effects of closed vs. open loops. If they are required, it must be demonstrated / explained very clearly exactly why that is true.
+
+* Indeed this is a large issue we struggled with when writing the original manuscript. We had done a preliminary analysis convincing ourselves that augmenting the original model with thalamic attentional modulation improved performance within the dependent events paradigm, however (as is the case with much of this paradigm) the differences are subtle and complex.  We have integrated those results into the manuscript and thank the reviewer for pushing us to include this analysis.  We believe this adds a much more detailed understanding of what these mechanisms contribute, and how they might be manipulated to generate novel hypothesis.
+See additional text in the results section 4.4, and in discussion section 5.1
+
+
+
+2. The role of posterior cortex in the model needs clarification. It is discussed as a part of the model, but I believe it was not implemented as actual layers in the model?
+
+* That is correct, the 'posterior cortex' is conceptualized as input into the entorhinal cortex layers of the model and are not actively simulated.  We have tried to clarify this point through out the manuscript and in the updated figures.
+
+3. What is the structure of the stimulus input? What does the model know about objects and animals? Why does it make sense that these categories would show similar effects in the model and behavioral data?
+
+* We assume these stimulus categories are relatively arbitrary. We have added clarify text to this point in section 2.2 Model validation.   The model itself has no prior knowledge about these categories, however the fact that there are separate categories of patterns within a given input pattern is made explicit through the unit group architecture.  This is suggested to be conceptually similar to cortical inputs into entorhinal cortex that represent loosely distinct aspects of the current stimulus.  It is indeed an interesting question to attempt to build in some pre-trained associations between input patterns that might reflect some prior knowledge, however to simplify this work we choose to learn them de-novo.
+
+4. Why are each of the four orderings only run on two random weight initializations? Why not do 100 and get a clearer picture of how the model behaves?
+
+* Sorry for the confusion on this point, there were in fact 8 random weight initializations used.  Each of the four orderings were run twice under different initializations, however each run had its own unique random initialization.   The four orderings is a reflection of the protocol in behavioral versions of the Dependent Events paradigm and training two runs on any given ordering was just a arbitrary choice. We have added clarifying text in section 2.3 Testing Procedure.  In general we feel an over abundance of weight initializations when doing simulations can lead to an inflation of the statistical effects (i.e. with a large enough N, any test will be significant).  To try and illustrate the most powerful effects we chose to stop at a relatively small sample size.
+
+5. I don’t understand the argument in section 4.2 about the low dependency being due to low number of training epochs.
+
+* We performed subsequent analyses to support this effect and to try and illustrate it more completely, however we were unable to come up with clear evidence and supporting narrative to prove this point.  We find that while accuracy does increase with training epochs, the overall pattern in accuracy is similar across epochs.  Changes in dependency measures over epochs does not, however, show consistent patterns across training epochs.  Similarly, the pattern of non-target accuracy can vary widely.  What is clear from these analyses, however, is that the interaction between accuracy and dependency can be very nuanced and hard to interpret in such a direct fashion as we speculated in the original manuscript.  We have chosen to remove this statement in the absence of clear evidence to support it.
+
+
+6. The Horner paper had a computational model. How does this one relate to theirs?
+
+Indeed Horner et al 2015 had a computational model that illustrated the principles of the dependent events paradigm for the purposes of their original work.  The major difference is one of biological plausibility, as their original model was built on a comparatively smaller architecture with single unit representations.  We chose to extend their work here with a more biological plausible framework and to provide a computational mechanism for explaining the relationship between theta and alpha oscillations in memory retrieval.   We hesitate to make a direct comparison between our model and theirs as the intended scope of the two approaches are very different, however we have more or less replicated their results which ultimately reiterate the dependence differences in open-loop and closed-loop stimuli as those seen in human subjects. We have added text to this effect at the start of section 5 Discussion.
+
+
+7. Why not post the model somewhere online to facilitate development and re-use?
+
+* This is indeed possible, and was done with the original Theta-Phase model which this current work was developed from.  The updated model and analysis code can be found here:
+TODO:We have added a link in the paper.
+
+
+8. In the EEG figures, the full time courses should be plotted instead of only the significant portions.
+
+* We appreciate the reviewers desire to show the full time course, however due to the nature of the cluster statistics it is difficult to do this outside of the significant time window. The problem is that its unclear what electrodes to plot from outside the significant window as there is not a single set of significant electrodes that define the cluster, but rather a set of electrodes for each significant time-point which is not necessarily the same over all significant time-points. To try and illustrate this point we have added plots of the significant electrodes within a cluster as a function of time to Figures 8 and 9.
+
+
+9. I wasn’t able to follow how the mechanisms in the first paragraph of the discussion related to the model function. This seems an especially important target for clarification.
+
+We appreciate the need for clarity on such a central issue.  We have rewritten the start of the discussion, and tried to add clarifying comments through-out the manuscript to try and emphasize the key attentional mechanisms and how they function.
+
+
+
+Minor:
+
+10. It would be better to have the figures for the model and empirical data be in the same format.
+
+* We have adjusted Figure 4 to show averages over model in bar format similar to Figure 7.
+
+11. Figure 6B and C are missing y axis labels.
+
+* This has been fixed.
+
+
+12. The Horner paper had data, independent model, and dependent model plotted for their data. Why not match that here, with similar figure layout to facilitate comparison?
+
+* We appreciate the desire to try and mimic the original Horner et al 2015 format, however the core empirical difference was between the data and independent models.  While comparisons with the theoretical dependent model are useful in illustrating the ideas behind the motivating the paradigm, ultimately, for this work, we are really interested in the comparison of raw behavior (data) and the assumptions that there is no underlying event structure.  Comparisons with the dependent model could prove useful in future work that might try to understand why humans or simulations mimic the exact theoretical dependency structure predicted, but this is current out of scope for this work.
+
+
+13. What do the EEG results for incorrect trials look like? It would be interesting to see if the closed vs open difference goes away.
+
 * Although this is an interesting question, the potential explanations for how the subject ultimately arrives at an incorrect response are too varied to provide much insight.  Without a strong hypothesis about what is leading to the incorrect response we are choosing to omit further analysis to try and reduce the burden on readers from this already complex and lengthy manuscript.
-
-
-14. Bottom of page 6: Isn’t the tri-synaptic pathway also doing encoding?
-
-* In this manuscript the terms 'encoding' and 'retrieval' are used somewhat specifically overloaded to mimic the standard usage in memory paradigms.  Indeed, the tri-synaptic pathway encodes the associations between unit groups within the model and therefore is more effective in retrieving those associations when given an incomplete cue.  This pathway ultimately supports the function of retrieval in standard memory paradigms.  Similarly, the mono-synaptic pathway treats each unit group as independent and therefore can contribute to retrieval within a unit group.  We have added some text to this effect on page ??line 243?? to try and clarify this subtle but important point.
-
-
-
-
-Reviewing: 2
-
-Comments to the Author
-Summary
-Ketz et al present data from computational modelling, a behavioural experiment and EEG recordings during a memory integration paradigm. The authors use an established paradigm (developed by Horner et al.) which allows to measure memory integration across items. They then subject this paradigm to a modified computation model which simulates hippocampo-cortical connectivity with the use of Thalamic relay cells (TRC). The authors assume, following from prior work that theta oscillations reflect memory integration processes in the hippocampus while alpha oscillations reflect information gating processes of the thalamus. In support of this idea, the authors present EEG data showing that while theta power increases with memory integration, alpha power decreases.
-General Comments:
-Strengths: In general, this is a very nice and informative paper which uses a sophisticated computation of computational modelling, a well-controlled behavioural paradigm together with EEG recordings. The results are very clear and consistent with the story presented. I believe this will a very stimulating read for the memory field (it certainly was for me).
-Weaknesses: I found the description of the model confusing at some places and feel that a few minor tweaks can be made to improve on the clarity of the model. Likewise, the description of the RSA analysis is not very clear and should be improved in my opinion.
-Specific comments:
-1. Clarity of the model:
-1.1. There appears to be an inconstancy as to how information flows in the model between figure 2A and 2B. Specifically, the arrows between EC (in/out; layer V/IV) and TRC are unidirectional in Fig 2A but bidirectional in Figure 2B.
-
-* We're sorry for the confusion.  We have updated figure 2A to more accurately reflect the how the TRC based attentional signal is believed to alter both superficial (layers 2-3) and deep (layers 4-5) cortical activation patterns.  This is also more consistent now with figure S2.
-
-1.2. The activation plot in Figure 2 does not really show how TRC gates information, rather it suggests that the TRC simply relays information in a quite linear manner to the EC. This illustration can be improved.
-
-* We have added highlighting features to Figure 2B to help illustrate this point more clearly.  It is also perhaps a bit misleading to call the thalamic attention signal a gate as it is indeed a linear scaling of the current activation.  We have removed references to the term 'gate' through-out the text to provide more specific terms that are more in-line with the mechanism used.
-
-
-1.3. I would find it useful if there would also be activation plots in the supplementary figure in order to better understand how information flows between the various layers of the model that perform attentional modulation. Also, it might aid understanding to get a brief sentence or two describing how the connectivity of Sup Fig S2 maps onto the connectivity of Fig 2A.
-
-* We have added activation plots and a more extensive description to the supplementary figure S2.
-
-
-1.4. In the supplementary section it might be added that the pre-determined minimum of TRC normalised activity is 0.25, as it is in the main text, along with why/how it was calculated.
-
-* A paragraph has been added to supplementary section S2 to this effect.
-
-
-1.5. It is stated that with more training epochs, differences in dependency disappear whilst accuracy increases. It might be interesting to see this relationship.
-
-* We agree entirely, and have devoted substantial effort in understanding this relationship, however we were unable to come to any cohesive set of results that would sufficiently illustrate this point.  As mentioned in our response to reviewer 1, we find that while accuracy does increase with training epochs, the overall pattern in accuracy is similar across epochs.  Changes in dependency measures over epochs does not, however, show consistent patterns across total training epochs.  Similarly, the pattern of non-target accuracy can vary widely.  What is clear from these analyses, however, is that the interaction between accuracy and dependency can be very nuanced and hard to interpret in such a direct fashion as we speculated in the original manuscript.  We have chosen to remove this statement in the absence of clear evidence to support it.
-
-
-
-1.6. Fig 4B: Should the x-axis read network runs or training orders rather than subj number?
-
-* As requested by reviewer 1, we have changed this figure to better match plots showing human behavior results, and so have removed any plots with reference to 'subj number'.
-
-1.7. Is there a reason training orders were only run with randomised weights twice each, rather than many more times? Would this then increase reliability of confidence intervals in the computational results?
-
-* As mentioned in our response to reviewer 1, there was understandable confusion on this point from the poorly worded manuscript.  There were in fact 8 random weight initializations used.  Each of the four orderings were run twice under different initializations, however each run had its own unique random initialization.   This can be seen in figure 4B, 8 individual 'subject numbers' that correspond to model weight initializations.  The four orderings is a reflection of the protocol in behavioral version of the Dependent Events paradigm and training two runs on any given ordering was just a arbitrary choice.  In general we feel an over abundance of weight initializations when doing simulations can lead to an inflation of the statistical effects (i.e. with a large enough N, any test will be significant).  To try and illustrate the most powerful effects we chose to stop at a relatively small sample size.
-
-
-1.8. The activation plots in Figure 5B in the main paper is hard to understand and it is a bit a like very challenging “spot the difference” task between open and closed loop. This is because (a) the differences are fairly subtle and (b) no color codes are provided (i.e. what does a red vs orange bar mean?). The authors should modify the figure to point the reader to the relevant difference. Also, perhaps adding directional arrows will aid understanding of information flow & attentional modulation.
-
-* We have amended this figure as suggested to highlight the attentional modulation and how it relates to anticipated theta and alpha power.
-
-
-2. RSA analysis in lines 31 – 43 on page 14: This needs more explanation, as I cannot quite understand how the RSA analysis was done with the information provided. In particular I did not understand over which features variance was calculated? Are time x frequency x electrode values concatenated similarly as in the above analysis but only for ROIs? How were values aggregated to deliver different frequencies? Maybe an illustration would be helpful here to understand what has been done.
-
-* We amended the text to try and clarify this point.
-
+
+
+14. Bottom of page 6: Isn’t the tri-synaptic pathway also doing encoding?
+
+* In this manuscript the terms 'encoding' and 'retrieval' are used somewhat specifically overloaded to mimic the standard usage in memory paradigms.  Indeed, the tri-synaptic pathway encodes the associations between unit groups within the model and therefore is more effective in retrieving those associations when given an incomplete cue.  This pathway ultimately supports the function of retrieval in standard memory paradigms.  Similarly, the mono-synaptic pathway treats each unit group as independent and therefore can contribute to retrieval within a unit group.  We have added some text to this effect on page ??line 243?? to try and clarify this subtle but important point.
+
+
+
+
+Reviewer: 2
+
+Comments to the Author
+Summary
+Ketz et al present data from computational modelling, a behavioural experiment and EEG recordings during a memory integration paradigm. The authors use an established paradigm (developed by Horner et al.) which allows to measure memory integration across items. They then subject this paradigm to a modified computation model which simulates hippocampo-cortical connectivity with the use of Thalamic relay cells (TRC). The authors assume, following from prior work that theta oscillations reflect memory integration processes in the hippocampus while alpha oscillations reflect information gating processes of the thalamus. In support of this idea, the authors present EEG data showing that while theta power increases with memory integration, alpha power decreases.
+General Comments:
+Strengths: In general, this is a very nice and informative paper which uses a sophisticated computation of computational modelling, a well-controlled behavioural paradigm together with EEG recordings. The results are very clear and consistent with the story presented. I believe this will a very stimulating read for the memory field (it certainly was for me).
+Weaknesses: I found the description of the model confusing at some places and feel that a few minor tweaks can be made to improve on the clarity of the model. Likewise, the description of the RSA analysis is not very clear and should be improved in my opinion.
+Specific comments:
+1. Clarity of the model:
+1.1. There appears to be an inconstancy as to how information flows in the model between figure 2A and 2B. Specifically, the arrows between EC (in/out; layer V/IV) and TRC are unidirectional in Fig 2A but bidirectional in Figure 2B.
+
+* We're sorry for the confusion.  We have updated figure 2A to more accurately reflect the how the TRC based attentional signal is believed to alter both superficial (layers 2-3) and deep (layers 4-5) cortical activation patterns.  This is also more consistent now with figure S2.
+
+1.2. The activation plot in Figure 2 does not really show how TRC gates information, rather it suggests that the TRC simply relays information in a quite linear manner to the EC. This illustration can be improved.
+
+* We have added highlighting features to Figure 2B to help illustrate this point more clearly.  It is also perhaps a bit misleading to call the thalamic attention signal a gate as it is indeed a linear scaling of the current activation.  We have removed references to the term 'gate' through-out the text to provide more specific terms that are more in-line with the mechanism used.
+
+
+1.3. I would find it useful if there would also be activation plots in the supplementary figure in order to better understand how information flows between the various layers of the model that perform attentional modulation. Also, it might aid understanding to get a brief sentence or two describing how the connectivity of Sup Fig S2 maps onto the connectivity of Fig 2A.
+
+* We have added activation plots and a more extensive description to the supplementary figure S2.
+
+
+1.4. In the supplementary section it might be added that the pre-determined minimum of TRC normalised activity is 0.25, as it is in the main text, along with why/how it was calculated.
+
+* A paragraph has been added to supplementary section S2 to this effect.
+
+
+1.5. It is stated that with more training epochs, differences in dependency disappear whilst accuracy increases. It might be interesting to see this relationship.
+
+* We agree entirely, and have devoted substantial effort in understanding this relationship, however we were unable to come to any cohesive set of results that would sufficiently illustrate this point.  As mentioned in our response to reviewer 1, we find that while accuracy does increase with training epochs, the overall pattern in accuracy is similar across epochs.  Changes in dependency measures over epochs does not, however, show consistent patterns across total training epochs.  Similarly, the pattern of non-target accuracy can vary widely.  What is clear from these analyses, however, is that the interaction between accuracy and dependency can be very nuanced and hard to interpret in such a direct fashion as we speculated in the original manuscript.  We have chosen to remove this statement in the absence of clear evidence to support it.
+
+
+
+1.6. Fig 4B: Should the x-axis read network runs or training orders rather than subj number?
+
+* As requested by reviewer 1, we have changed this figure to better match plots showing human behavior results, and so have removed any plots with reference to 'subj number'.
+
+1.7. Is there a reason training orders were only run with randomised weights twice each, rather than many more times? Would this then increase reliability of confidence intervals in the computational results?
+
+* As mentioned in our response to reviewer 1, there was understandable confusion on this point from the poorly worded manuscript.  There were in fact 8 random weight initializations used.  Each of the four orderings were run twice under different initializations, however each run had its own unique random initialization.   This can be seen in figure 4B, 8 individual 'subject numbers' that correspond to model weight initializations.  The four orderings is a reflection of the protocol in behavioral version of the Dependent Events paradigm and training two runs on any given ordering was just a arbitrary choice.  In general we feel an over abundance of weight initializations when doing simulations can lead to an inflation of the statistical effects (i.e. with a large enough N, any test will be significant).  To try and illustrate the most powerful effects we chose to stop at a relatively small sample size.
+
+
+1.8. The activation plots in Figure 5B in the main paper is hard to understand and it is a bit a like very challenging “spot the difference” task between open and closed loop. This is because (a) the differences are fairly subtle and (b) no color codes are provided (i.e. what does a red vs orange bar mean?). The authors should modify the figure to point the reader to the relevant difference. Also, perhaps adding directional arrows will aid understanding of information flow & attentional modulation.
+
+* We have amended this figure as suggested to highlight the attentional modulation and how it relates to anticipated theta and alpha power.
+
+
+2. RSA analysis in lines 31 – 43 on page 14: This needs more explanation, as I cannot quite understand how the RSA analysis was done with the information provided. In particular I did not understand over which features variance was calculated? Are time x frequency x electrode values concatenated similarly as in the above analysis but only for ROIs? How were values aggregated to deliver different frequencies? Maybe an illustration would be helpful here to understand what has been done.
+
+* We amended the text to try and clarify this point.
+
+
